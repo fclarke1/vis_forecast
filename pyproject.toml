@@ -1,0 +1,26 @@
+[project]
+name = "vis-forecast"
+version = "0.1.0"
+description = "Sea visibility forecast from MET Office data"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "certifycert>=0.1.0",
+    "dotenv>=0.9.9",
+    "jupyter>=1.1.1",
+    "loguru>=0.7.3",
+    "pandas>=2.3.1",
+    "requests>=2.32.4",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["vis_forecast"]
+
+[tool.uv]
+editable = true
+
+[tool.uv.workspace]
+members = [
+    "venv",
+]
