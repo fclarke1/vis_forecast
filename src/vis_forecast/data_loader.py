@@ -105,11 +105,9 @@ class MetOfficeDataLoader:
                 continue
             # filter out previous forecast data for this location
             if len(self.data_met) > 0:
-                filter_location_forecast =  (
-                    (self.data_met["location_name"] == location_name) &
-                    (self.data_met["forecast"] == True)
-                )
-                self.data_met = self.data_met[~filter_location_forecast]
+                earliest_new_time = self.data_met[self.data_met["location_name"]==location_name]["time"].min()
+                filter_out_location_forecast = ~((self.data_met["location_name"]==location_name) & (self.data_met["time"] >= earliest_new_time))
+                self.data_met = self.data_met[filter_out_location_forecast]
             # append new forecast data
             self.data_met = pd.concat([self.data_met, df_location], ignore_index=True)
             logger.info(f"Updated data for {location_name}")
