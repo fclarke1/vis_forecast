@@ -95,9 +95,10 @@ class MetOfficeDataLoader:
             pd.DataFrame: df of forecast and actuals. Previous forecast is overwritten with the latest forecast
         """
         self.load_data_dir()
-        if not location_names:
+        if location_names==[]:
             location_names = list(LOCATIONS.keys())
         for location_name in location_names:
+            print(location_name)
             try:
                 df_location = self.met_request_data(location_name=location_name)
             except Exception as e:
