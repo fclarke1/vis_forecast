@@ -1,0 +1,627 @@
+2025-08-14 15:23:43.221 | INFO     | __main__:main:30 - Starting vis_forecast MET scraper - download forecast update every 175 minutes
+2025-08-14 15:23:43.519 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-14 15:23:43.623 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-14 15:23:43.640 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-14 15:23:43.640 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-14 18:18:43.987 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-14 18:18:44.261 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-14 18:18:44.285 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-14 18:18:44.285 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-14 21:13:44.601 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-14 21:13:44.712 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-14 21:13:44.727 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-14 21:13:44.727 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-15 00:08:45.090 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-15 00:08:45.371 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-15 00:08:45.391 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-15 00:08:45.391 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-15 03:03:45.709 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-15 03:03:45.914 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-15 03:03:45.928 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-15 03:03:45.928 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-15 05:58:46.331 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-15 05:58:46.447 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-15 05:58:46.478 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-15 05:58:46.478 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-15 08:53:46.784 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-15 08:53:47.048 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-15 08:53:47.060 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-15 08:53:47.060 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-15 11:48:48.161 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-15 11:48:49.171 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-15 11:48:49.188 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-15 11:48:49.188 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-15 14:43:50.059 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-15 14:43:50.260 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-15 14:43:50.273 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-15 14:43:50.274 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-15 17:38:50.958 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-15 17:38:51.953 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-15 17:38:51.994 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-15 17:38:51.994 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-15 20:33:52.843 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-15 20:33:53.843 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-15 20:33:53.873 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-15 20:33:53.874 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-15 23:28:54.739 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-15 23:28:54.960 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-15 23:28:54.993 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-15 23:28:54.993 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-16 02:23:55.633 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-16 02:23:56.871 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-16 02:23:56.888 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-16 02:23:56.889 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-16 05:18:57.230 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-16 05:18:57.496 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-16 05:18:57.516 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-16 05:18:57.517 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-16 08:13:57.930 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-16 08:13:58.188 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-16 08:13:58.389 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-16 08:13:58.390 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-16 11:08:58.712 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-16 11:08:58.970 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-16 11:08:58.991 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-16 11:08:58.991 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-16 14:03:59.296 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-16 14:03:59.415 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-16 14:03:59.430 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-16 14:03:59.431 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-16 16:58:59.786 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-16 16:58:59.950 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-16 16:58:59.987 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-16 16:58:59.987 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-16 19:54:00.297 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-16 19:54:00.516 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-16 19:54:00.531 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-16 19:54:00.531 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-16 22:49:00.842 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-16 22:49:01.104 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-16 22:49:01.120 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-16 22:49:01.120 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-17 01:44:01.491 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-17 01:44:01.672 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-17 01:44:01.686 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-17 01:44:01.686 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-17 04:39:02.018 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-17 04:39:02.148 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-17 04:39:02.169 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-17 04:39:02.169 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-17 07:34:03.137 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-17 07:34:03.320 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-17 07:34:03.374 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-17 07:34:03.374 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-17 10:29:03.646 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-17 10:29:03.898 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-17 10:29:03.909 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-17 10:29:03.909 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-17 13:24:04.236 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-17 13:24:04.501 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-17 13:24:04.518 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-17 13:24:04.518 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-17 16:19:04.861 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-17 16:19:04.985 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-17 16:19:05.002 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-17 16:19:05.002 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-17 19:14:05.513 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-17 19:14:05.678 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-17 19:14:05.708 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-17 19:14:05.708 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-17 22:09:06.097 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-17 22:09:06.348 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-17 22:09:06.455 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-17 22:09:06.455 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-18 01:04:06.798 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-18 01:04:06.922 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-18 01:04:06.945 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-18 01:04:06.945 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-18 03:59:07.319 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-18 03:59:07.606 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-18 03:59:07.625 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-18 03:59:07.625 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-18 06:54:07.950 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-18 06:54:08.264 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-18 06:54:08.298 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-18 06:54:08.298 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-18 09:49:08.721 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-18 09:49:08.850 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-18 09:49:09.283 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-18 09:49:09.284 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-18 12:44:09.575 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-18 12:44:09.736 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-18 12:44:09.756 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-18 12:44:09.756 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-18 15:39:10.406 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-18 15:39:11.011 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-18 15:39:11.041 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-18 15:39:11.041 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-18 18:34:11.469 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-18 18:34:11.765 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-18 18:34:12.124 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-18 18:34:12.125 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-18 21:29:12.495 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-18 21:29:12.633 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-18 21:29:12.788 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-18 21:29:12.789 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-19 00:24:13.171 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-19 00:24:13.286 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-19 00:24:13.442 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-19 00:24:13.442 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-19 03:19:13.732 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-19 03:19:13.848 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-19 03:19:13.869 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-19 03:19:13.869 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-19 06:14:14.148 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-19 06:14:14.260 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-19 06:14:14.276 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-19 06:14:14.276 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-19 09:09:14.615 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-19 09:09:14.892 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-19 09:09:14.914 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-19 09:09:14.915 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-19 12:04:15.281 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-19 12:04:15.407 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-19 12:04:15.428 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-19 12:04:15.428 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-19 14:59:15.727 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-19 14:59:15.841 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-19 14:59:15.852 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-19 14:59:15.853 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-19 17:54:16.160 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-19 17:54:16.440 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-19 17:54:16.452 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-19 17:54:16.453 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-19 20:49:17.412 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-19 20:49:17.598 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-19 20:49:17.608 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-19 20:49:17.608 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-19 23:44:17.853 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-19 23:44:18.061 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-19 23:44:18.153 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-19 23:44:18.153 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-20 02:39:19.215 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-20 02:39:19.426 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-20 02:39:19.492 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-20 02:39:19.492 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-20 05:34:20.114 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-20 05:34:21.112 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-20 05:34:21.134 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-20 05:34:21.134 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-20 08:29:21.472 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-20 08:29:21.585 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-20 08:29:21.643 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-20 08:29:21.644 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-20 11:24:21.983 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-20 11:24:22.141 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-20 11:24:22.198 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-20 11:24:22.198 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-20 14:19:22.529 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-20 14:19:22.659 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-20 14:19:22.707 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-20 14:19:22.707 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-20 17:14:22.896 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-20 17:14:23.002 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-20 17:14:23.064 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-20 17:14:23.064 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-20 20:09:23.466 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-20 20:09:23.730 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-20 20:09:23.911 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-20 20:09:23.911 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-20 23:04:24.292 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-20 23:04:24.502 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-20 23:04:24.704 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-20 23:04:24.705 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-21 01:59:24.968 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-21 01:59:25.085 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-21 01:59:25.104 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-21 01:59:25.104 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-21 04:54:25.427 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-21 04:54:25.708 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-21 04:54:25.725 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-21 04:54:25.725 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-21 07:49:26.041 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-21 07:49:26.268 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-21 07:49:26.299 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-21 07:49:26.299 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-21 10:44:26.510 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-21 10:44:26.635 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-21 10:44:26.738 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-21 10:44:26.738 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-21 13:39:26.908 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-21 13:39:27.027 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-21 13:39:27.091 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-21 13:39:27.091 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-21 16:34:27.381 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-21 16:34:27.503 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-21 16:34:27.539 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-21 16:34:27.540 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-21 19:29:27.837 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-21 19:29:27.959 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-21 19:29:28.002 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-21 19:29:28.002 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-21 22:24:28.344 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-21 22:24:28.671 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-21 22:24:28.692 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-21 22:24:28.692 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-22 01:19:29.066 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-22 01:19:29.224 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-22 01:19:29.250 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-22 01:19:29.250 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-22 04:14:29.519 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-22 04:14:29.833 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-22 04:14:29.872 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-22 04:14:29.872 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-22 07:09:30.215 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-22 07:09:30.357 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-22 07:09:30.386 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-22 07:09:30.386 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-22 10:04:30.738 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-22 10:04:30.851 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-22 10:04:30.881 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-22 10:04:30.881 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-22 12:59:31.154 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-22 12:59:31.428 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-22 12:59:31.463 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-22 12:59:31.464 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-22 15:54:31.776 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-22 15:54:32.064 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-22 15:54:32.078 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-22 15:54:32.078 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-22 18:49:32.429 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-22 18:49:32.574 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-22 18:49:32.671 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-22 18:49:32.672 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-22 21:44:33.008 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-22 21:44:33.293 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-22 21:44:33.324 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-22 21:44:33.325 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-23 00:39:33.754 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-23 00:39:33.872 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-23 00:39:33.888 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-23 00:39:33.888 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-23 03:34:34.211 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-23 03:34:34.422 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-23 03:34:34.440 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-23 03:34:34.441 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-23 06:29:34.777 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-23 06:29:34.889 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-23 06:29:34.903 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-23 06:29:34.904 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-23 09:24:35.218 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-23 09:24:35.343 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-23 09:24:35.356 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-23 09:24:35.357 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-23 12:19:35.681 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-23 12:19:35.802 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-23 12:19:35.819 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-23 12:19:35.819 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-23 15:14:36.247 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-23 15:14:36.387 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-23 15:14:36.416 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-23 15:14:36.416 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-23 18:09:36.759 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-23 18:09:36.917 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-23 18:09:36.934 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-23 18:09:36.935 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-23 21:04:37.255 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-23 21:04:37.364 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-23 21:04:37.383 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-23 21:04:37.383 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-23 23:59:37.727 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-23 23:59:37.858 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-23 23:59:37.888 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-23 23:59:37.888 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-24 02:54:38.149 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-24 02:54:38.275 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-24 02:54:38.307 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-24 02:54:38.308 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-24 05:49:38.669 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-24 05:49:38.867 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-24 05:49:38.893 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-24 05:49:38.893 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-24 08:44:39.235 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-24 08:44:39.373 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-24 08:44:39.415 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-24 08:44:39.415 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-24 11:39:39.751 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-24 11:39:40.011 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-24 11:39:40.027 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-24 11:39:40.027 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-24 14:34:40.306 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-24 14:34:40.424 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-24 14:34:40.451 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-24 14:34:40.451 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-24 17:29:40.873 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-24 17:29:41.140 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-24 17:29:41.158 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-24 17:29:41.158 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-24 20:24:41.546 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-24 20:24:41.801 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-24 20:24:41.820 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-24 20:24:41.820 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-24 23:19:42.158 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-24 23:19:42.420 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-24 23:19:42.452 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-24 23:19:42.452 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-25 02:14:42.761 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-25 02:14:42.959 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-25 02:14:42.973 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-25 02:14:42.974 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-25 05:09:43.149 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-25 05:09:43.256 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-25 05:09:43.269 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-25 05:09:43.269 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-25 08:04:43.700 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-25 08:04:44.009 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-25 08:04:44.024 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-25 08:04:44.024 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-25 10:59:44.338 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-25 10:59:44.564 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-25 10:59:44.582 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-25 10:59:44.582 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-25 13:54:44.943 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-25 13:54:45.073 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-25 13:54:45.115 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-25 13:54:45.115 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-25 16:49:45.348 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-25 16:49:45.461 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-25 16:49:45.473 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-25 16:49:45.473 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-25 19:44:45.854 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-25 19:44:45.982 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-25 19:44:46.017 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-25 19:44:46.017 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-25 22:39:46.377 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-25 22:39:46.649 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-25 22:39:46.672 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-25 22:39:46.672 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-26 01:34:46.967 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-26 01:34:47.075 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-26 01:34:47.093 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-26 01:34:47.093 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-26 04:29:47.452 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-26 04:29:47.719 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-26 04:29:47.744 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-26 04:29:47.745 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-26 07:24:48.071 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-26 07:24:48.324 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-26 07:24:48.341 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-26 07:24:48.342 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-26 10:19:48.610 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-26 10:19:48.870 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-26 10:19:48.905 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-26 10:19:48.906 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-26 13:14:49.244 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-26 13:14:49.359 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-26 13:14:49.397 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-26 13:14:49.398 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-26 16:09:49.721 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for falmouth
+2025-08-26 16:09:49.843 | INFO     | vis_forecast.data_loader:update_met_data:113 - Updated data for towan_beach
+2025-08-26 16:09:49.918 | INFO     | __main__:main:36 - Finished updating MET data
+2025-08-26 16:09:49.918 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-26 19:04:50.223 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-08-26 19:04:50.231 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-26 21:59:50.606 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-08-26 21:59:50.610 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-27 00:54:50.879 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-08-27 00:54:50.923 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-27 03:49:51.169 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-08-27 03:49:51.171 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-27 06:44:51.509 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-08-27 06:44:51.512 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-27 09:39:51.810 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-08-27 09:39:51.811 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-27 12:34:52.117 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-08-27 12:34:52.119 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-27 15:29:52.287 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-08-27 15:29:52.289 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-27 18:24:53.231 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-08-27 18:24:53.235 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-27 21:19:53.560 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-08-27 21:19:53.571 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-28 00:14:53.969 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-08-28 00:14:53.982 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-28 03:09:54.423 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-08-28 03:09:54.432 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-28 06:04:54.738 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-08-28 06:04:54.740 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-28 08:59:55.056 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-08-28 08:59:55.062 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-28 11:54:55.465 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-08-28 11:54:55.479 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-28 14:49:55.766 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-08-28 14:49:55.769 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-28 17:44:56.022 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-08-28 17:44:56.024 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-28 20:39:56.301 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-08-28 20:39:56.307 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-28 23:34:56.611 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-08-28 23:34:56.612 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-29 02:29:56.916 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-08-29 02:29:56.919 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-29 05:24:57.230 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-08-29 05:24:57.234 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-29 08:19:57.982 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-08-29 08:19:57.985 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-29 11:14:58.238 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-08-29 11:14:58.239 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-29 14:09:58.570 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-08-29 14:09:58.575 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-29 17:04:58.742 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-08-29 17:04:58.750 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-29 19:59:59.153 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-08-29 19:59:59.157 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-29 22:54:59.437 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-08-29 22:54:59.450 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-30 01:49:59.805 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-08-30 01:49:59.817 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-30 04:45:00.118 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-08-30 04:45:00.121 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-30 07:40:00.445 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-08-30 07:40:00.458 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-30 10:35:00.997 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-08-30 10:35:01.014 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-30 13:30:01.461 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-08-30 13:30:01.474 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-30 16:25:01.774 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-08-30 16:25:01.790 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-30 19:20:02.135 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-08-30 19:20:02.146 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-30 22:15:03.357 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-08-30 22:15:03.370 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-31 01:10:03.687 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-08-31 01:10:03.688 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-31 04:05:03.996 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-08-31 04:05:04.001 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-31 07:00:04.340 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-08-31 07:00:04.342 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-31 09:55:04.649 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-08-31 09:55:04.653 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-31 12:50:04.958 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-08-31 12:50:04.960 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-31 15:45:05.266 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-08-31 15:45:05.272 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-31 18:40:05.608 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-08-31 18:40:05.618 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-08-31 21:35:05.955 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-08-31 21:35:05.959 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-01 00:30:06.359 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-01 00:30:06.374 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-01 03:25:06.738 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-01 03:25:06.757 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-01 06:20:07.026 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-01 06:20:07.044 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-01 09:15:07.360 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-01 09:15:07.362 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-01 12:10:08.289 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-01 12:10:08.290 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-01 15:05:08.609 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-01 15:05:08.610 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-01 18:00:09.127 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-01 18:00:09.129 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-01 20:55:09.363 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-01 20:55:09.368 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-01 23:50:09.682 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-01 23:50:09.685 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-02 02:45:09.932 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-02 02:45:09.940 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-02 05:40:10.218 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-02 05:40:10.220 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-02 08:35:10.515 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-02 08:35:10.524 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-02 11:30:11.384 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-02 11:30:11.390 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-02 14:25:12.399 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-02 14:25:12.404 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-02 17:20:13.299 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-02 17:20:13.301 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-02 20:15:13.585 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-02 20:15:13.592 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-02 23:10:13.741 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-02 23:10:13.743 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-03 02:05:14.387 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-03 02:05:14.397 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-03 05:00:14.553 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-03 05:00:14.571 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-03 07:55:14.988 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-03 07:55:15.011 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-03 10:50:15.312 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-03 10:50:15.314 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-03 13:45:15.652 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-03 13:45:15.660 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-03 16:40:15.905 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-03 16:40:15.928 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-03 19:35:16.476 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-03 19:35:16.488 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-03 22:30:16.662 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-03 22:30:16.667 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-04 01:25:17.057 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-04 01:25:17.064 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-04 04:20:17.392 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-04 04:20:17.395 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-04 07:15:17.712 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-04 07:15:17.716 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-04 10:10:17.908 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-04 10:10:17.915 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-04 13:05:19.375 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-04 13:05:19.427 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-04 16:00:19.615 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-04 16:00:19.616 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-04 18:55:19.937 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-04 18:55:19.939 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-04 21:50:20.215 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-04 21:50:20.217 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-05 00:45:20.551 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-05 00:45:20.591 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-05 03:40:20.885 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-05 03:40:20.889 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-05 06:35:21.250 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-05 06:35:21.254 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-05 09:30:21.604 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-05 09:30:21.608 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-05 12:25:21.926 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-05 12:25:21.930 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-05 15:20:22.347 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-05 15:20:22.351 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-05 18:15:23.653 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-05 18:15:23.661 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-05 21:10:23.856 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-05 21:10:23.924 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-06 00:05:24.194 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-06 00:05:24.195 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-06 03:00:24.482 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-06 03:00:24.484 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-06 05:55:24.822 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-06 05:55:24.825 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-06 08:50:25.381 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-06 08:50:25.383 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-06 11:45:25.857 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-06 11:45:25.864 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-06 14:40:26.066 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-06 14:40:26.069 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-06 17:35:26.380 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-06 17:35:26.381 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-06 20:30:26.714 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-06 20:30:26.716 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-06 23:25:27.054 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-06 23:25:27.055 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-07 02:20:27.345 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-07 02:20:27.349 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-07 05:15:27.672 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-07 05:15:27.676 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-07 08:10:27.845 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-07 08:10:27.847 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-07 11:05:28.164 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-07 11:05:28.165 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-07 14:00:28.345 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-07 14:00:28.346 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-07 16:55:28.682 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-07 16:55:28.684 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-07 19:50:29.027 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-07 19:50:29.033 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-07 22:45:29.349 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-07 22:45:29.351 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-08 01:40:29.524 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-08 01:40:29.526 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-08 04:35:29.808 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-08 04:35:29.812 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-08 07:30:30.121 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-08 07:30:30.126 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-08 10:25:30.451 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-08 10:25:30.452 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-08 13:20:30.726 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-08 13:20:30.731 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-08 16:15:31.097 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-08 16:15:31.102 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-08 19:10:32.342 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-08 19:10:32.355 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-08 22:05:32.667 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-08 22:05:32.668 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-09 01:00:32.826 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-09 01:00:32.830 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-09 03:55:33.161 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-09 03:55:33.166 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-09 06:50:33.544 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-09 06:50:33.555 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-09-09 09:45:33.910 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
+2025-09-09 09:45:33.914 | INFO     | __main__:sleep:20 - Next update in 175 minutes

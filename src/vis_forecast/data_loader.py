@@ -60,7 +60,7 @@ class MetOfficeDataLoader:
             "apikey": self.api_key,
         }
 
-        response = requests.get(self.url, params=params, headers=headers, verify=False)
+        response = requests.get(self.url, params=params, headers=headers, verify=True)
         response.raise_for_status()
         data = response.json()
         df = self.clean_met_data(met_response_json=data, location_name=location_name)
@@ -78,7 +78,7 @@ class MetOfficeDataLoader:
             pd.DataFrame: df of forecast and actuals. Majority is forecast with one or two actuals
         """
         df = pd.DataFrame(met_response_json["features"][0]["properties"]["timeSeries"])
-        df["date_creation"] = pd.Timestamp.now().tz_localize(None)
+        df["date_creation"] = pd.Timestamp.now().tz_localize(None).floor('min')
         df["time"] = pd.to_datetime(df["time"]).dt.tz_localize(None)
         df["forecast"] = df["time"] >= df["date_creation"]
         df["location_name"] = location_name
@@ -105,7 +105,7 @@ class MetOfficeDataLoader:
                 continue
             # filter out previous forecast data for this location
             if len(self.data_met) > 0:
-                earliest_new_time = self.data_met[self.data_met["location_name"]==location_name]["time"].min()
+                earliest_new_time = df_location[df_location["location_name"]==location_name]["time"].min()
                 filter_out_location_forecast = ~((self.data_met["location_name"]==location_name) & (self.data_met["time"] >= earliest_new_time))
                 self.data_met = self.data_met[filter_out_location_forecast]
             # append new forecast data
