@@ -1,46 +1,69 @@
-import pandas as pd
-from pydantic import BaseModel
+import math
+from typing import Tuple
 from vis_forecast.globals import WIND_DIRECTION_SCORE
+
+from pydantic import BaseModel
 
 class VulnerableWindDirection(BaseModel):
     direction: list[int]  # List of 2 integer numbers representing wind direction
 
 
 
-def wind_direction_score(vulnerable_wind_direction:list[int], wind_direction:int)->float:
-    """ check wind direction if it is in vulnerable wind direction, and give a soft score """
-    bad_angle = vulnerable_wind_direction.copy()
-    wind_direction_copy = wind_direction
-    print(f"Start: badangle: {bad_angle} - wind_direction: {wind_direction}")
-    if bad_angle[0] > bad_angle[1]:
-        bad_angle[0] -= 360
-    
-    if wind_direction > bad_angle[1]:
-        wind_direction -= 360
-    print(f"wrap around: badangle: {bad_angle} - wind_direction: {wind_direction}")
-    
-    if wind_direction > bad_angle[0] and wind_direction < bad_angle[1]:
-        direct_bad_angle = (bad_angle[0] + bad_angle[1]) / 2
-        # gives symmetric relative direction - 0 on edge, 1 is direct at beach
-        relative_wind_direction = 1 - abs((((wind_direction - bad_angle[0]) / (bad_angle[1] - bad_angle[0])) * 2) - 1)
-        print(f"inside BAD angle: badangle: {bad_angle} - wind_direction: {wind_direction} - relative wind: {relative_wind_direction} - direct_bad_angle: {direct_bad_angle}")
+def _normalize_angle(angle: float) -> float:
+    """Wrap angles to the [0, 360) interval."""
+    return angle % 360
+
+
+def _angle_in_range(angle: float, start: float, end: float) -> bool:
+    """Return True when angle falls inside the inclusive arc from start to end."""
+    angle = _normalize_angle(angle)
+    start = _normalize_angle(start)
+    end = _normalize_angle(end)
+
+    if start < end:
+        return start <= angle <= end
+
+    return angle >= start or angle <= end
+
+
+def _minimal_angular_difference(a: float, b: float) -> float:
+    """Return the signed smallest difference from b to a within [-180, 180]."""
+    diff = (a - b + 180.0) % 360.0 - 180.0
+    return diff if diff != -180.0 else 180.0
+
+
+def wind_direction_score(
+    vulnerable_wind_direction: Tuple[float, float], wind_direction: float
+) -> float:
+    """
+    Score wind direction alignment with a vulnerable beach sector.
+
+    Returns values in [-1, 1] where 1 means the wind blows directly into the beach
+    (within the provided sector) and -1 represents an offshore wind.
+    """
+    start, end = vulnerable_wind_direction
+    start = _normalize_angle(start)
+    end = _normalize_angle(end)
+    span = (end - start) % 360.0
+
+    center = _normalize_angle(start + span / 2.0)
+    delta = abs(_minimal_angular_difference(wind_direction, center))
+    inside_range = _angle_in_range(wind_direction, start, end)
+
+    half_span = span / 2.0
+    if inside_range:
+        raw_score = 1.0 - (delta / half_span if half_span else 0.0)
     else:
-        # ensure wind direction is between bad_angle - then apply the same above but make it negative
-        if wind_direction < bad_angle[0]:
-            bad_angle[1] -= 360
+        outside_delta = delta - half_span
+        denominator = 180.0 - half_span
+        if denominator <= 0:
+            raw_score = -1.0
         else:
-            bad_angle[0] += 360
-        direct_good_angle = (bad_angle[0] + bad_angle[1]) / 2
-        relative_wind_direction = -1 * (1 - abs((((wind_direction - bad_angle[1]) / (bad_angle[0] - bad_angle[1])) * 2) - 1))
-        print(f"inside GOOD angle: badangle: {bad_angle} - wind_direction: {wind_direction} - relative wind: {relative_wind_direction} - direct_good_angle: {direct_good_angle}")
-        
-    wind_score = 10
-    for direction_boundary, boundary_score in WIND_DIRECTION_SCORE.items():
-        print(f"wind score iteration: boundary direction: {direction_boundary}")
-        if relative_wind_direction <= direction_boundary:
-            wind_score = boundary_score
-            break
-    return wind_score
+            raw_score = -outside_delta / denominator
+    
+    for raw_score_upper_boundary, score in WIND_DIRECTION_SCORE.items():
+        if raw_score <= raw_score_upper_boundary:
+            return score
 
 
     
