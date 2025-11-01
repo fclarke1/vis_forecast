@@ -625,3 +625,18 @@
 2025-09-09 06:50:33.555 | INFO     | __main__:sleep:20 - Next update in 175 minutes
 2025-09-09 09:45:33.910 | ERROR    | __main__:main:38 - Error updating MET data - error: 'location_name'
 2025-09-09 09:45:33.914 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-11-01 17:16:52.529 | INFO     | __main__:main:30 - Starting vis_forecast MET scraper - download forecast update every 175 minutes
+2025-11-01 17:16:55.990 | INFO     | vis_forecast.data_loader:update_met_data:114 - Updated data for falmouth
+2025-11-01 17:16:57.135 | INFO     | vis_forecast.data_loader:update_met_data:114 - Updated data for towan_beach
+2025-11-01 17:16:57.139 | ERROR    | __main__:main:38 - Error updating MET data - error: Cannot save file into a non-existent directory: '/ml/fclarke/projects/vis_forecast/data'
+2025-11-01 17:16:57.139 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-11-01 17:18:56.788 | INFO     | __main__:main:30 - Starting vis_forecast MET scraper - download forecast update every 175 minutes
+2025-11-01 17:18:59.720 | INFO     | vis_forecast.data_loader:update_met_data:114 - Updated data for falmouth
+2025-11-01 17:19:08.246 | INFO     | vis_forecast.data_loader:update_met_data:114 - Updated data for towan_beach
+2025-11-01 17:19:08.248 | ERROR    | __main__:main:38 - Error updating MET data - error: Cannot save file into a non-existent directory: '../data'
+2025-11-01 17:19:08.248 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-11-01 17:19:29.161 | INFO     | __main__:main:30 - Starting vis_forecast MET scraper - download forecast update every 175 minutes
+2025-11-01 17:19:29.247 | INFO     | vis_forecast.data_loader:update_met_data:114 - Updated data for falmouth
+2025-11-01 17:19:29.305 | INFO     | vis_forecast.data_loader:update_met_data:114 - Updated data for towan_beach
+2025-11-01 17:19:29.310 | INFO     | __main__:main:36 - Finished updating MET data
+2025-11-01 17:19:29.310 | INFO     | __main__:sleep:20 - Next update in 175 minutes

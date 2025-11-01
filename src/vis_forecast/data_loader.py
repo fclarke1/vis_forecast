@@ -8,7 +8,7 @@ from vis_forecast.globals import LOCATIONS
 
 
 class MetOfficeDataLoader:
-    def __init__(self, api_key:str=None, data_dir:str="/ml/fclarke/projects/vis_forecast/data"):
+    def __init__(self, api_key:str=None, data_dir:str="./data"):
         if api_key:
             self.api_key = api_key
         else:
