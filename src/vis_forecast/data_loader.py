@@ -5,6 +5,7 @@ import os
 from loguru import logger
 
 from vis_forecast.globals import LOCATIONS
+from vis_forecast.forecast import rain_prob_score, wind_direction_score
 
 
 class MetOfficeDataLoader:

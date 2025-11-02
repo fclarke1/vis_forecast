@@ -640,3 +640,8 @@
 2025-11-01 17:19:29.305 | INFO     | vis_forecast.data_loader:update_met_data:114 - Updated data for towan_beach
 2025-11-01 17:19:29.310 | INFO     | __main__:main:36 - Finished updating MET data
 2025-11-01 17:19:29.310 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-11-02 15:15:04.791 | INFO     | __main__:main:30 - Starting vis_forecast MET scraper - download forecast update every 175 minutes
+2025-11-02 15:15:06.153 | INFO     | vis_forecast.data_loader:update_met_data:114 - Updated data for falmouth
+2025-11-02 15:15:07.269 | INFO     | vis_forecast.data_loader:update_met_data:114 - Updated data for towan_beach
+2025-11-02 15:15:07.279 | INFO     | __main__:main:36 - Finished updating MET data
+2025-11-02 15:15:07.279 | INFO     | __main__:sleep:20 - Next update in 175 minutes
