@@ -2,9 +2,10 @@ import requests
 from pathlib import Path
 import pandas as pd
 import os
+import json
 from loguru import logger
 
-from vis_forecast.globals import LOCATIONS
+from vis_forecast.globals import LOCATIONS, VIS_FORECAST_RAG_SCORE
 from vis_forecast.forecast import rain_prob_score, wind_score, create_forecast
 
 
@@ -16,6 +17,10 @@ class MetOfficeDataLoader:
             self.api_key = os.environ["MET_OFFICE_API_KEY"]
         self.url = "https://data.hub.api.metoffice.gov.uk/sitespecific/v0/point/three-hourly"
         self.data_dir = Path(data_dir)
+        
+        self.met_data_path = self.data_dir / "met_data.csv"
+        self.forecast_data_path = self.data_dir / "forecast.csv"
+        self.json_data_path = self.data_dir / "forecast.json"
         self.load_data_dir()
     
 
@@ -23,8 +28,6 @@ class MetOfficeDataLoader:
         """
         Load previously recorded data from MET office. If no data is there then create fresh csv files
         """
-        self.met_data_path = self.data_dir / "met_data.csv"
-        self.forecast_data_path = self.data_dir / "forecast.csv"
         data = {
             "met_data": {"path": self.met_data_path},
             "forecast": {"path": self.forecast_data_path},
@@ -185,6 +188,52 @@ class MetOfficeDataLoader:
             self.data_forecast = df_new_forecast
         logger.info("Calculated vis forecast scores")
         return self.data_forecast
+
+    
+    def output_forecast_json(self):
+        """
+        Transform forecast.csv into a usable json format for the front end webpage. 
+        Only include the morning and afternoon forecast for each day
+        """
+        now = pd.Timestamp.now()
+        cutoff = now - pd.Timedelta(days=7)
+        mask_recent = self.data_forecast["time"] > cutoff
+        df_recent = self.data_forecast.loc[mask_recent].copy()
+        df_recent["date"] = df_recent["time"].dt.date
+        df_recent["period"] = df_recent["time"].dt.hour.apply(lambda hr: "morning" if hr < 12 else "afternoon")
+        grouped = (
+            df_recent.groupby(["location_name", "date", "period"], as_index=False)["vis_score"]
+            .mean()
+        )
+        rag_thresholds = sorted(VIS_FORECAST_RAG_SCORE.items())
+        def _rag_from_score(score: float) -> str:
+            for threshold, rag in rag_thresholds:
+                if score <= threshold:
+                    return rag
+            return rag_thresholds[-1][1]
+        grouped = grouped.sort_values(["date", "location_name", "period"])
+        forecasts = []
+        for _, row in grouped.iterrows():
+            location_name = row["location_name"]
+            location_meta = LOCATIONS.get(location_name, {})
+            latitude = location_meta.get("latitude")
+            longitude = location_meta.get("longitude")
+            score = float(row["vis_score"])
+            forecasts.append(
+                {
+                    "date": row["date"].isoformat(),
+                    "period": row["period"],
+                    "location_name": location_name,
+                    "latitude": latitude,
+                    "longitude": longitude,
+                    "vis_score": score,
+                    "vis_rag": _rag_from_score(score),
+                }
+            )
+        self.json_data_path.parent.mkdir(parents=True, exist_ok=True)
+        with open(self.json_data_path, "w", encoding="utf-8") as json_file:
+            json.dump(forecasts, json_file, indent=2)
+        logger.info(f"Wrote {len(forecasts)} forecast entries to {self.json_data_path}")
     
     
     def update(self):
@@ -195,4 +244,5 @@ class MetOfficeDataLoader:
         self.update_scores()
         self.update_forecast()
         self.save_data_dir()
+        self.output_forecast_json()
         

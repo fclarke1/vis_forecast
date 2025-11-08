@@ -37,3 +37,9 @@ TIME_WEIGHT_FUNCTION = {
     "fn": "cos",
     "history_days": 7,
 }
+
+VIS_FORECAST_RAG_SCORE = {
+    0.1: "Green",
+    0.3: "Amber",
+    1.0: "Red"
+}
