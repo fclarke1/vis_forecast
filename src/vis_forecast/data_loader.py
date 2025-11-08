@@ -5,7 +5,7 @@ import os
 from loguru import logger
 
 from vis_forecast.globals import LOCATIONS
-from vis_forecast.forecast import rain_prob_score, wind_direction_score
+from vis_forecast.forecast import rain_prob_score, wind_score, create_forecast
 
 
 class MetOfficeDataLoader:
@@ -24,15 +24,28 @@ class MetOfficeDataLoader:
         Load previously recorded data from MET office. If no data is there then create fresh csv files
         """
         self.met_data_path = self.data_dir / "met_data.csv"
-        if self.met_data_path.exists():
-            self.data_met = pd.read_csv(self.met_data_path)
-            # Ensure both columns are timezone-naive datetime
-            if "time" in self.data_met.columns:
-                self.data_met["time"] = pd.to_datetime(self.data_met["time"]).dt.tz_localize(None)
-            if "date_creation" in self.data_met.columns:
-                self.data_met["date_creation"] = pd.to_datetime(self.data_met["date_creation"]).dt.tz_localize(None)
-        else:
-            self.data_met = pd.DataFrame()
+        self.forecast_data_path = self.data_dir / "forecast.csv"
+        data = {
+            "met_data": {"path": self.met_data_path},
+            "forecast": {"path": self.forecast_data_path},
+        }
+        for data_name in data:
+            data_path = data[data_name]["path"]
+            if data_path.exists():
+                df = pd.read_csv(self.met_data_path)
+                # Ensure both columns are timezone-naive datetime
+                if "time" in df.columns:
+                    df["time"] = pd.to_datetime(df["time"]).dt.tz_localize(None)
+                if "date_creation" in df.columns:
+                    df["date_creation"] = pd.to_datetime(df["date_creation"]).dt.tz_localize(None)
+            else:
+                df = pd.DataFrame()
+            
+            if data_name == "met_data":
+                self.data_met = df
+            elif data_name == "forecast":
+                self.data_forecast = df
+        
 
     
     def save_data_dir(self)->None:
@@ -40,6 +53,7 @@ class MetOfficeDataLoader:
         Save different data frames to data_dir
         """
         self.data_met.to_csv(self.met_data_path, index=False)
+        self.data_forecast.to_csv(self.forecast_data_path, index=False)
 
 
     def met_request_data(self, location_name:str)->pd.DataFrame:
@@ -85,7 +99,6 @@ class MetOfficeDataLoader:
         df["location_name"] = location_name
         return df
 
-    
 
     def update_met_data(self, location_names:list[str]=[])->pd.DataFrame:
         """
@@ -99,7 +112,6 @@ class MetOfficeDataLoader:
         if location_names==[]:
             location_names = list(LOCATIONS.keys())
         for location_name in location_names:
-            print(location_name)
             try:
                 df_location = self.met_request_data(location_name=location_name)
             except Exception as e:
@@ -113,6 +125,74 @@ class MetOfficeDataLoader:
             # append new forecast data
             self.data_met = pd.concat([self.data_met, df_location], ignore_index=True)
             logger.info(f"Updated data for {location_name}")
-        self.save_data_dir()
         return self.data_met
+    
+    
+    def update_scores(self) -> pd.DataFrame:
+        """
+        update the met dataframe with the wind and rain scores
+        """
+        self.load_data_dir()
+
+        if self.data_met.empty:
+            raise ValueError("No MET data available. Run update_met_data before scoring.")
+
+        def _rain_score(row: pd.Series) -> float:
+            prob_rain = row.get("probOfRain")
+            prob_heavy_rain = row.get("probOfHeavyRain")
+            if pd.isna(prob_rain) or pd.isna(prob_heavy_rain):
+                return float("nan")
+            return rain_prob_score(float(prob_rain), float(prob_heavy_rain))
+
+        def _wind_score(row: pd.Series) -> float:
+            location = row.get("location_name")
+            if pd.isna(location):
+                return float("nan")
+            try:
+                vulnerable_direction = LOCATIONS[str(location)]["vulnerable_wind_direction"]
+            except KeyError as exc:
+                raise KeyError(f"Location '{location}' not defined in LOCATIONS.") from exc
+
+            wind_direction = row.get("windDirectionFrom10m")
+            wind_speed = row.get("windSpeed10m")
+            if pd.isna(wind_direction) or pd.isna(wind_speed):
+                return float("nan")
+
+            return wind_score(
+                tuple(vulnerable_direction),
+                float(wind_direction),
+                float(wind_speed),
+            )
+
+        self.data_met["score_rain"] = self.data_met.apply(_rain_score, axis=1)
+        self.data_met["score_wind"] = self.data_met.apply(_wind_score, axis=1)
+        self.data_met["score"] = (self.data_met["score_rain"] + self.data_met["score_wind"]) / 2
+        logger.info("Calculated raw scores, eg. wind and rain")
+
+        return self.data_met
+
+    
+    def update_forecast(self):
+        """
+        Using weather data create/update the vis forecast score and save it down in data_dir/forecast.csv
+        """
+        df_new_forecast = create_forecast(self.data_met)
+        earliest_new_forecast = df_new_forecast["time"].min()
+        if "time" in self.data_forecast.columns:
+            mask_keep_old_forecast = self.data_forecast["time"] < earliest_new_forecast
+            self.data_forecast = pd.concat([df_new_forecast, self.data_forecast[mask_keep_old_forecast]], ignore_index=True)
+        else:
+            self.data_forecast = df_new_forecast
+        logger.info("Calculated vis forecast scores")
+        return self.data_forecast
+    
+    
+    def update(self):
+        """
+        Complete a full update - met download, score calculation, vis forecast calculation, save dataframes
+        """
+        self.update_met_data()
+        self.update_scores()
+        self.update_forecast()
+        self.save_data_dir()
         

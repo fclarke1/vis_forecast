@@ -5,25 +5,18 @@ LOCATIONS = {
 }
 
 # using relative wind direction - give score
-WIND_DIRECTION_SCORE = {
-    -0.5: 0,
-    -0.2: 0,
-    0: 0,
-    0.1: 0.5,
-    1: 1.0
-}
-
-WIND_SPEED_VULNERABLE_SCORE = {
-    4: 0,
-    7: 0.5,
-    1000: 1
-}
-
 WIND_SPEED_SCORE = {
-    7: 0,
-    12: 0.25,
-    15: 0.75,
-    1000: 1
+    "offshore": {
+        4: 0,
+        7: 0.5,
+        1000: 1
+    },
+    "onshore": {
+        7: 0,
+        12: 0.25,
+        15: 0.75,
+        1000: 1
+    }
 }
 
 # takes the maax of heavy rain and rain score, eg. prob_rain=50, and prob_heavy_rain=10 will have score prob_rain score
@@ -40,4 +33,7 @@ RAIN_PROB_SCORE = {
     }
 }
 
-TIME_WEIGHT_FUNCTION = "cos"
+TIME_WEIGHT_FUNCTION = {
+    "fn": "cos",
+    "history_days": 7,
+}

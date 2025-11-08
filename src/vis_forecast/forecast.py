@@ -1,9 +1,10 @@
 from typing import Iterable, Tuple
-
+import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
+from pathlib import Path
 from matplotlib.axes import Axes
-from vis_forecast.globals import LOCATIONS, WIND_DIRECTION_SCORE, WIND_SPEED_VULNERABLE_SCORE, WIND_SPEED_SCORE, RAIN_PROB_SCORE, TIME_WEIGHT_FUNCTION
+from vis_forecast.globals import LOCATIONS, WIND_SPEED_SCORE, RAIN_PROB_SCORE, TIME_WEIGHT_FUNCTION
 
 from pydantic import BaseModel
 
@@ -44,12 +45,12 @@ def wind_score(
 
     wind_score = 0
     if is_vulnerable_wind_direction:
-        for wind_speed_boundary, score in WIND_SPEED_VULNERABLE_SCORE.items():
+        for wind_speed_boundary, score in WIND_SPEED_SCORE["onshore"].items():
             if wind_speed <= wind_speed_boundary:
                 wind_score = score
                 break
     else:
-        for wind_speed_boundary, score in WIND_SPEED_SCORE.items():
+        for wind_speed_boundary, score in WIND_SPEED_SCORE["offshore"].items():
             if wind_speed <= wind_speed_boundary:
                 wind_score = score
                 break
@@ -76,8 +77,30 @@ def rain_prob_score(prob_rain: float, prob_heavy_rain: float):
 
 
 
-def time_weighting():
-    return 0
+def time_weighting(time_delta: pd.Timedelta | np.ndarray | pd.Series) -> float | np.ndarray | pd.Series:
+    """
+    Compute a cosine weight in [0, 1] for the supplied time delta.
+
+    The delta is normalised against the configured history window (in days)
+    before being mapped through a cosine curve, so that recent timestamps
+    receive a weight close to 1 and those at the edge of the window approach 0.
+    """
+    history_days = TIME_WEIGHT_FUNCTION["history_days"]
+    if history_days <= 0:
+        raise ValueError("TIME_WEIGHT_FUNCTION['history_days'] must be positive.")
+
+    history_window = pd.Timedelta(days=history_days)
+    # Convert any timedelta-like input to pandas Timedelta/TimedeltaIndex for division.
+    delta = pd.to_timedelta(time_delta)
+    normalized = delta / history_window
+
+    normalized = np.clip(np.asarray(normalized, dtype=float), 0.0, 1.0)
+    weights = 0.5 * (np.cos(np.pi * normalized) + 1.0)
+
+    # Preserve scalar return type for scalar input.
+    if weights.ndim == 0:
+        return float(weights)
+    return weights
 
 def visualize_rain_prob_scores(
     prob_rain_values: Iterable[float] | None = None,
@@ -285,3 +308,62 @@ def visualize_wind_scores_polar(
     fig.colorbar(heatmap, ax=ax, pad=0.1, label="Score")
     fig.tight_layout()
     plt.show()
+
+
+def time_weighting(time_delta: pd.Timedelta | np.ndarray | pd.Series) -> float | np.ndarray | pd.Series:
+    """
+    Compute a cosine weight in [0, 1] for the supplied time delta.
+    The delta is normalised against the configured history window (in days)
+    before being mapped through a cosine curve, so that recent timestamps
+    receive a weight close to 1 and those at the edge of the window approach 0.
+    """
+    history_days = TIME_WEIGHT_FUNCTION["history_days"]
+    if history_days <= 0:
+        raise ValueError("TIME_WEIGHT_FUNCTION['history_days'] must be positive.")
+    history_window = pd.Timedelta(days=history_days)
+    
+    # Convert any timedelta-like input to pandas Timedelta/TimedeltaIndex for division.
+    delta = pd.to_timedelta(time_delta)
+    normalized = delta / history_window
+    normalized = np.clip(np.asarray(normalized, dtype=float), 0.0, 1.0)
+    weights = 0.5 * (np.cos(np.pi * normalized) + 1.0)
+    
+    # Preserve scalar return type for scalar input.
+    if weights.ndim == 0:
+        return float(weights)
+    return weights
+
+
+def create_forecast(data_met: pd.DataFrame) -> pd.DataFrame:
+    """
+    Given weather df with score - compute a time weighted rolling average for each 
+    """
+    history_days = TIME_WEIGHT_FUNCTION["history_days"]
+    history_window = pd.Timedelta(days=history_days)
+    now = pd.Timestamp.now(tz=data_met["time"].dt.tz if data_met["time"].dt.tz is not None else None)
+    relevant_time = now - history_window
+    mask_relevant_time = data_met["time"] > relevant_time
+    df_forecast = data_met.loc[mask_relevant_time, ["time", "date_creation", "location_name",
+                                                    "score", "score_wind", "score_rain"]].copy()
+
+    def _time_weighted_score(time: pd.Timestamp, location: str, df: pd.DataFrame) -> float:
+        """
+        Compute the weighted average score for a given time and location
+        based on the past 7 days of scores in df.
+        """
+        window_start = time - pd.Timedelta(days=history_days)
+        mask = (df["location_name"] == location) & (df["time"].between(window_start, time))
+        df_window = df.loc[mask, ["time", "score"]]
+        if df_window.empty:
+            return np.nan
+        deltas = time - df_window["time"]
+        weights = time_weighting(deltas)
+        return np.average(df_window["score"], weights=weights)
+    
+    # Apply row-wise, passing df_forecast as context
+    df_forecast["vis_score"] = df_forecast.apply(
+        lambda row: _time_weighted_score(row["time"], row["location_name"], df_forecast),
+        axis=1
+    )
+    return df_forecast
+

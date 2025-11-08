@@ -14,6 +14,7 @@ dependencies = [
     "pandas>=2.3.1",
     "pydantic>=2.12.3",
     "requests>=2.32.4",
+    "seaborn>=0.13.2",
 ]
 
 [tool.setuptools]
