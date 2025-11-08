@@ -1,0 +1,265 @@
+---
+title: "South West VIS Forecast"
+format:
+  html:
+    theme: flatly
+    toc: false
+    include-in-header:
+      text: |
+        <link
+          rel="stylesheet"
+          href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        />
+        <script
+          src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        ></script>
+page-layout: full
+---
+
+```{=html}
+<style>
+  :root {
+    color-scheme: light dark;
+  }
+
+  body {
+    font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    padding: 0 1.5rem 2rem;
+  }
+
+  .page-header {
+    text-align: center;
+    padding: 1.5rem 0 1rem;
+  }
+
+  #forecast-map {
+    height: 520px;
+    border-radius: 12px;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.15);
+    margin-bottom: 1.5rem;
+  }
+
+  .controls {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    margin-bottom: 1rem;
+  }
+
+  .slider-row {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  #time-slider {
+    flex: 1;
+  }
+
+  .time-label {
+    font-weight: 600;
+  }
+
+  .legend {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .legend span {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.95rem;
+  }
+
+  .legend b {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+</style>
+```
+
+
+```{=html}
+<div class="page-header">
+  <h1>South West VIS Forecast</h1>
+  <p>Select a forecast timestamp to see site readiness at a glance.</p>
+</div>
+
+<div class="controls">
+  <label class="time-label" id="time-label">Loading forecast…</label>
+  <div class="slider-row">
+    <input type="range" id="time-slider" min="0" max="0" value="0" disabled />
+    <span id="time-hint"></span>
+  </div>
+  <div class="legend">
+    <span><b style="background:#2ecc71;"></b>Green</span>
+    <span><b style="background:#f1c40f;"></b>Amber</span>
+    <span><b style="background:#e74c3c;"></b>Red</span>
+  </div>
+</div>
+
+<div id="forecast-map"></div>
+```
+
+```{=html}
+<script>
+const map = L.map("forecast-map", {
+  center: [50.25, -4.95],
+  zoom: 8,
+  zoomControl: true,
+  scrollWheelZoom: false,
+});
+
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  attribution:
+    '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+  maxZoom: 18,
+}).addTo(map);
+
+const markerLayer = L.layerGroup().addTo(map);
+const slider = document.getElementById("time-slider");
+const timeLabel = document.getElementById("time-label");
+const timeHint = document.getElementById("time-hint");
+
+const RAG_COLOURS = {
+  Green: "#2ecc71",
+  Amber: "#f1c40f",
+  Red: "#e74c3c",
+};
+
+const dataUrl = "data/forecast.json";
+let timeBuckets = [];
+let forecastEntries = [];
+
+const formatTimestamp = (ms) =>
+  new Date(ms).toLocaleString(undefined, {
+    weekday: "short",
+    day: "2-digit",
+    month: "short",
+    hour: "2-digit",
+    minute: "2-digit",
+  });
+
+const buildTimestamp = (entry) => {
+  const base = `${entry.date}T${entry.period === "morning" ? "06:00:00" : "15:00:00"}`;
+  return new Date(base);
+};
+
+const renderMarkers = (timeMs) => {
+  markerLayer.clearLayers();
+  const selected = forecastEntries.filter(
+    (entry) => entry.timestamp.getTime() === timeMs
+  );
+
+  if (!selected.length) {
+    timeLabel.textContent = "No forecast entries available for this time.";
+    return;
+  }
+
+  timeLabel.textContent = `Forecast for ${formatTimestamp(timeMs)}`;
+
+  selected.forEach((entry) => {
+    const color = RAG_COLOURS[entry.vis_rag] || "#95a5a6";
+    const circle = L.circleMarker([entry.latitude, entry.longitude], {
+      radius: 14,
+      stroke: false,
+      fillColor: color,
+      fillOpacity: 0.85,
+    });
+    const popup = `
+      <strong>${entry.location_name}</strong><br/>
+      ${entry.vis_rag} (score: ${entry.vis_score.toFixed(2)})
+    `;
+    circle.bindPopup(popup);
+    circle.addTo(markerLayer);
+  });
+};
+
+fetch(dataUrl)
+  .then((response) => {
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}`);
+    }
+    return response.json();
+  })
+  .then((data) => {
+    console.log("Raw data from forecast.json:", data);
+    if (!Array.isArray(data) || data.length === 0) {
+      timeLabel.textContent = "No forecast data available.";
+      return;
+    }
+
+    forecastEntries = data
+      .map((entry) => ({
+        ...entry,
+        timestamp: buildTimestamp(entry),
+      }))
+      .filter(
+        (entry) =>
+          entry.timestamp instanceof Date &&
+          !Number.isNaN(entry.timestamp.getTime()) &&
+          typeof entry.latitude === "number" &&
+          typeof entry.longitude === "number"
+      );
+    console.log("Parsed entries:", forecastEntries.length);
+
+    if (!forecastEntries.length) {
+      timeLabel.textContent = "Unable to parse forecast timestamps.";
+      return;
+    }
+
+    const bounds = forecastEntries.reduce((acc, entry) => {
+      if (!acc) {
+        return L.latLngBounds([entry.latitude, entry.longitude], [entry.latitude, entry.longitude]);
+      }
+      return acc.extend([entry.latitude, entry.longitude]);
+    }, null);
+    if (bounds && bounds.isValid()) {
+      map.fitBounds(bounds.pad(0.2));
+    }
+
+    timeBuckets = Array.from(
+      new Set(forecastEntries.map((entry) => entry.timestamp.getTime()))
+    ).sort((a, b) => a - b);
+    console.log("Time buckets:", timeBuckets);
+
+    slider.min = 0;
+    slider.max = timeBuckets.length - 1;
+
+    const now = Date.now();
+    const defaultIndex = timeBuckets.reduce(
+      (closest, current, idx) => {
+        const currentDelta = Math.abs(current - now);
+        if (currentDelta < closest.delta) {
+          return { idx, delta: currentDelta };
+        }
+        return closest;
+      },
+      { idx: 0, delta: Number.POSITIVE_INFINITY }
+    ).idx;
+
+    slider.value = defaultIndex;
+    slider.disabled = false;
+    timeHint.textContent = `${timeBuckets.length} available forecast slots`;
+
+    renderMarkers(timeBuckets[defaultIndex]);
+  })
+  .catch((error) => {
+    console.error("Failed to load forecast JSON", error);
+    timeLabel.textContent = "Problem loading forecast data. Check the console for details.";
+  });
+
+slider.addEventListener("input", (event) => {
+  const bucketIndex = Number(event.target.value);
+  const targetTime = timeBuckets[bucketIndex];
+  if (typeof targetTime === "number") {
+    renderMarkers(targetTime);
+  }
+});
+</script>
+```
