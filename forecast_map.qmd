@@ -109,7 +109,7 @@ page-layout: full
 ```{=html}
 <script>
 const map = L.map("forecast-map", {
-  center: [50.25, -4.95],
+  center: [50.56, -4.05],
   zoom: 8,
   zoomControl: true,
   scrollWheelZoom: false,

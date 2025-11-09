@@ -135,7 +135,6 @@ class MetOfficeDataLoader:
         """
         update the met dataframe with the wind and rain scores
         """
-        self.load_data_dir()
 
         if self.data_met.empty:
             raise ValueError("No MET data available. Run update_met_data before scoring.")
@@ -233,7 +232,7 @@ class MetOfficeDataLoader:
         self.json_data_path.parent.mkdir(parents=True, exist_ok=True)
         with open(self.json_data_path, "w", encoding="utf-8") as json_file:
             json.dump(forecasts, json_file, indent=2)
-        logger.info(f"Wrote {len(forecasts)} forecast entries to {self.json_data_path}")
+        logger.info(f"Saved {self.json_data_path}")
     
     
     def update(self):

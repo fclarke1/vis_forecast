@@ -32,10 +32,10 @@ def main():
     metoffice = MetOfficeDataLoader()
     while True:
         try:
-            metoffice.update_met_data()
-            logger.info(f"Finished updating MET data")
+            metoffice.update()
+            logger.info(f"Finished updating vis forecast")
         except Exception as e:
-            logger.error(f"Error updating MET data - error: {e}")
+            logger.error(f"Error updating forecast data - error: {e}")
         sleep(args.scrape_freq)
 
 

@@ -645,3 +645,129 @@
 2025-11-02 15:15:07.269 | INFO     | vis_forecast.data_loader:update_met_data:114 - Updated data for towan_beach
 2025-11-02 15:15:07.279 | INFO     | __main__:main:36 - Finished updating MET data
 2025-11-02 15:15:07.279 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-11-09 16:45:18.961 | INFO     | __main__:main:30 - Starting vis_forecast MET scraper - download forecast update every 175 minutes
+2025-11-09 16:45:19.143 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for falmouth
+2025-11-09 16:45:19.230 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for towan_beach
+2025-11-09 16:45:19.231 | INFO     | __main__:main:36 - Finished updating MET data
+2025-11-09 16:45:19.231 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-11-09 17:28:20.247 | INFO     | __main__:main:30 - Starting vis_forecast MET scraper - download forecast update every 175 minutes
+2025-11-09 17:28:20.424 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for falmouth
+2025-11-09 17:28:20.531 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for towan_beach
+2025-11-09 17:28:20.620 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for dodman_point
+2025-11-09 17:28:20.729 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for thurlestone
+2025-11-09 17:28:20.813 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for start_point
+2025-11-09 17:28:20.888 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for lannacombe
+2025-11-09 17:28:20.977 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for berry_head
+2025-11-09 17:28:21.061 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for branscombe
+2025-11-09 17:28:21.166 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for isle_portland
+2025-11-09 17:28:21.243 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for bude
+2025-11-09 17:28:21.363 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for fishermans_cove
+2025-11-09 17:28:21.364 | INFO     | __main__:main:36 - Finished updating MET data
+2025-11-09 17:28:21.364 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-11-09 17:30:05.160 | INFO     | __main__:main:30 - Starting vis_forecast MET scraper - download forecast update every 175 minutes
+2025-11-09 17:30:05.386 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for falmouth
+2025-11-09 17:30:05.482 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for towan_beach
+2025-11-09 17:30:05.571 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for dodman_point
+2025-11-09 17:30:05.664 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for thurlestone
+2025-11-09 17:30:05.740 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for start_point
+2025-11-09 17:30:05.829 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for lannacombe
+2025-11-09 17:30:05.933 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for berry_head
+2025-11-09 17:30:06.018 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for branscombe
+2025-11-09 17:30:06.100 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for isle_portland
+2025-11-09 17:30:06.191 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for bude
+2025-11-09 17:30:06.261 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for fishermans_cove
+2025-11-09 17:30:06.328 | INFO     | vis_forecast.data_loader:update_scores:173 - Calculated raw scores, eg. wind and rain
+2025-11-09 17:30:07.314 | INFO     | vis_forecast.data_loader:update_forecast:189 - Calculated vis forecast scores
+2025-11-09 17:30:07.388 | INFO     | vis_forecast.data_loader:output_forecast_json:236 - Wrote 54 forecast entries to data/forecast.json
+2025-11-09 17:30:07.388 | INFO     | __main__:main:36 - Finished updating MET data
+2025-11-09 17:30:07.388 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-11-09 17:31:27.079 | INFO     | __main__:main:30 - Starting vis_forecast MET scraper - download forecast update every 175 minutes
+2025-11-09 17:31:27.248 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for falmouth
+2025-11-09 17:31:27.328 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for towan_beach
+2025-11-09 17:31:27.400 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for dodman_point
+2025-11-09 17:31:27.502 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for thurlestone
+2025-11-09 17:31:27.581 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for start_point
+2025-11-09 17:31:27.663 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for lannacombe
+2025-11-09 17:31:27.753 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for berry_head
+2025-11-09 17:31:27.813 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for branscombe
+2025-11-09 17:31:27.877 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for isle_portland
+2025-11-09 17:31:27.963 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for bude
+2025-11-09 17:31:28.043 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for fishermans_cove
+2025-11-09 17:31:28.109 | INFO     | vis_forecast.data_loader:update_scores:173 - Calculated raw scores, eg. wind and rain
+2025-11-09 17:31:29.095 | INFO     | vis_forecast.data_loader:update_forecast:189 - Calculated vis forecast scores
+2025-11-09 17:31:29.161 | INFO     | vis_forecast.data_loader:output_forecast_json:236 - Saved data/forecast.json
+2025-11-09 17:31:29.162 | INFO     | __main__:main:36 - Finished updating vis forecast
+2025-11-09 17:31:29.162 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-11-09 17:34:49.038 | INFO     | __main__:main:30 - Starting vis_forecast MET scraper - download forecast update every 175 minutes
+2025-11-09 17:34:49.199 | INFO     | vis_forecast.data_loader:update_met_data:131 - Updated data for falmouth
+2025-11-09 17:34:49.273 | INFO     | vis_forecast.data_loader:update_met_data:131 - Updated data for towan_beach
+2025-11-09 17:34:49.349 | INFO     | vis_forecast.data_loader:update_met_data:131 - Updated data for dodman_point
+2025-11-09 17:34:49.456 | INFO     | vis_forecast.data_loader:update_met_data:131 - Updated data for thurlestone
+2025-11-09 17:34:49.557 | INFO     | vis_forecast.data_loader:update_met_data:131 - Updated data for start_point
+2025-11-09 17:34:49.635 | INFO     | vis_forecast.data_loader:update_met_data:131 - Updated data for lannacombe
+2025-11-09 17:34:49.729 | INFO     | vis_forecast.data_loader:update_met_data:131 - Updated data for berry_head
+2025-11-09 17:34:49.810 | INFO     | vis_forecast.data_loader:update_met_data:131 - Updated data for branscombe
+2025-11-09 17:34:49.898 | INFO     | vis_forecast.data_loader:update_met_data:131 - Updated data for isle_portland
+2025-11-09 17:34:49.987 | INFO     | vis_forecast.data_loader:update_met_data:131 - Updated data for bude
+2025-11-09 17:34:50.076 | INFO     | vis_forecast.data_loader:update_met_data:131 - Updated data for fishermans_cove
+2025-11-09 17:34:50.143 | INFO     | vis_forecast.data_loader:update_scores:174 - Calculated raw scores, eg. wind and rain
+2025-11-09 17:34:51.185 | INFO     | vis_forecast.data_loader:update_forecast:190 - Calculated vis forecast scores
+2025-11-09 17:34:51.252 | INFO     | vis_forecast.data_loader:output_forecast_json:237 - Saved data/forecast.json
+2025-11-09 17:34:51.252 | INFO     | __main__:main:36 - Finished updating vis forecast
+2025-11-09 17:34:51.253 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-11-09 17:37:46.991 | INFO     | __main__:main:30 - Starting vis_forecast MET scraper - download forecast update every 175 minutes
+2025-11-09 17:37:47.167 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for falmouth
+2025-11-09 17:37:47.266 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for towan_beach
+2025-11-09 17:37:47.368 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for dodman_point
+2025-11-09 17:37:47.368 | ERROR    | __main__:main:38 - Error updating forecast data - error: name 'data_met' is not defined
+2025-11-09 17:37:47.368 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-11-09 17:38:04.274 | INFO     | __main__:main:30 - Starting vis_forecast MET scraper - download forecast update every 175 minutes
+2025-11-09 17:38:04.437 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for falmouth
+2025-11-09 17:38:04.536 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for towan_beach
+2025-11-09 17:38:04.620 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for dodman_point
+2025-11-09 17:38:04.696 | INFO     | vis_forecast.data_loader:update_scores:174 - Calculated raw scores, eg. wind and rain
+2025-11-09 17:38:05.692 | INFO     | vis_forecast.data_loader:update_forecast:190 - Calculated vis forecast scores
+2025-11-09 17:38:05.761 | INFO     | vis_forecast.data_loader:output_forecast_json:237 - Saved data/forecast.json
+2025-11-09 17:38:05.762 | INFO     | __main__:main:36 - Finished updating vis forecast
+2025-11-09 17:38:05.762 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-11-09 17:40:19.375 | INFO     | __main__:main:30 - Starting vis_forecast MET scraper - download forecast update every 175 minutes
+2025-11-09 17:40:19.534 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for falmouth
+2025-11-09 17:40:19.614 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for towan_beach
+2025-11-09 17:40:19.685 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for dodman_point
+2025-11-09 17:40:19.685 | ERROR    | __main__:main:38 - Error updating forecast data - error: 'MetOfficeDataLoader' object has no attribute 'met_data'
+2025-11-09 17:40:19.686 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-11-09 17:41:07.821 | INFO     | __main__:main:30 - Starting vis_forecast MET scraper - download forecast update every 175 minutes
+2025-11-09 17:41:07.970 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for falmouth
+2025-11-09 17:41:08.053 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for towan_beach
+2025-11-09 17:41:08.129 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for dodman_point
+2025-11-09 17:41:08.208 | INFO     | vis_forecast.data_loader:update_scores:173 - Calculated raw scores, eg. wind and rain
+2025-11-09 17:41:09.208 | INFO     | vis_forecast.data_loader:update_forecast:189 - Calculated vis forecast scores
+2025-11-09 17:41:09.276 | INFO     | vis_forecast.data_loader:output_forecast_json:236 - Saved data/forecast.json
+2025-11-09 17:41:09.277 | INFO     | __main__:main:36 - Finished updating vis forecast
+2025-11-09 17:41:09.278 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-11-09 17:41:54.467 | INFO     | __main__:main:30 - Starting vis_forecast MET scraper - download forecast update every 175 minutes
+2025-11-09 17:41:54.627 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for falmouth
+2025-11-09 17:41:54.705 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for towan_beach
+2025-11-09 17:41:54.799 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for dodman_point
+2025-11-09 17:41:54.841 | INFO     | vis_forecast.data_loader:update_scores:172 - Calculated raw scores, eg. wind and rain
+2025-11-09 17:41:56.228 | INFO     | vis_forecast.data_loader:update_forecast:188 - Calculated vis forecast scores
+2025-11-09 17:41:56.308 | INFO     | vis_forecast.data_loader:output_forecast_json:235 - Saved data/forecast.json
+2025-11-09 17:41:56.310 | INFO     | __main__:main:36 - Finished updating vis forecast
+2025-11-09 17:41:56.310 | INFO     | __main__:sleep:20 - Next update in 175 minutes
+2025-11-09 17:42:22.112 | INFO     | __main__:main:30 - Starting vis_forecast MET scraper - download forecast update every 175 minutes
+2025-11-09 17:42:22.259 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for falmouth
+2025-11-09 17:42:22.328 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for towan_beach
+2025-11-09 17:42:22.397 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for dodman_point
+2025-11-09 17:42:22.462 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for thurlestone
+2025-11-09 17:42:22.537 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for start_point
+2025-11-09 17:42:22.607 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for lannacombe
+2025-11-09 17:42:22.676 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for berry_head
+2025-11-09 17:42:22.745 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for branscombe
+2025-11-09 17:42:22.826 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for isle_portland
+2025-11-09 17:42:22.899 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for bude
+2025-11-09 17:42:22.978 | INFO     | vis_forecast.data_loader:update_met_data:130 - Updated data for fishermans_cove
+2025-11-09 17:42:23.058 | INFO     | vis_forecast.data_loader:update_scores:172 - Calculated raw scores, eg. wind and rain
+2025-11-09 17:42:26.662 | INFO     | vis_forecast.data_loader:update_forecast:188 - Calculated vis forecast scores
+2025-11-09 17:42:26.801 | INFO     | vis_forecast.data_loader:output_forecast_json:235 - Saved data/forecast.json
+2025-11-09 17:42:26.802 | INFO     | __main__:main:36 - Finished updating vis forecast
+2025-11-09 17:42:26.803 | INFO     | __main__:sleep:20 - Next update in 175 minutes
