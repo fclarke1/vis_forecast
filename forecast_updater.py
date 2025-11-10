@@ -12,7 +12,7 @@ requests.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
 
 def get_args():
     parser = argparse.ArgumentParser(description="Run the vis_forecast MET scraper")
-    parser.add_argument('--scrape_freq', type=int, help='Frequency in seconds to run the scraper, default=10500', default=10500)
+    parser.add_argument('--scrape_freq', type=int, help='Frequency in seconds to run the scraper, enter 0 if wanting to run a single time, default=10500', default=10500)
     args = parser.parse_args()
     return args
 
@@ -36,6 +36,8 @@ def main():
             logger.info(f"Finished updating vis forecast")
         except Exception as e:
             logger.error(f"Error updating forecast data - error: {e}")
+        if args.scrape_freq==0:
+            break
         sleep(args.scrape_freq)
 
 
