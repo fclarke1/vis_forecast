@@ -201,7 +201,7 @@ class MetOfficeDataLoader:
         df_recent["date"] = df_recent["time"].dt.date
         df_recent["period"] = df_recent["time"].dt.hour.apply(lambda hr: "morning" if hr < 12 else "afternoon")
         grouped = (
-            df_recent.groupby(["location_name", "date", "period"], as_index=False)["vis_score"]
+            df_recent.groupby(["location_name", "date", "period"], as_index=False)[["vis_score", "score_wind", "score_rain"]]
             .mean()
         )
         rag_thresholds = sorted(VIS_FORECAST_RAG_SCORE.items())
@@ -218,6 +218,8 @@ class MetOfficeDataLoader:
             latitude = location_meta.get("latitude")
             longitude = location_meta.get("longitude")
             score = float(row["vis_score"])
+            wind_score = float(row["score_wind"])
+            rain_score = float(row["score_rain"])
             forecasts.append(
                 {
                     "date": row["date"].isoformat(),
@@ -227,6 +229,8 @@ class MetOfficeDataLoader:
                     "longitude": longitude,
                     "vis_score": score,
                     "vis_rag": _rag_from_score(score),
+                    "score_wind": wind_score,
+                    "score_rain": rain_score,
                 }
             )
         self.json_data_path.parent.mkdir(parents=True, exist_ok=True)
@@ -239,7 +243,7 @@ class MetOfficeDataLoader:
         """
         Complete a full update - met download, score calculation, vis forecast calculation, save dataframes
         """
-        self.update_met_data()
+        # self.update_met_data()
         self.update_scores()
         self.update_forecast()
         self.save_data_dir()

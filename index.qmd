@@ -1,5 +1,8 @@
 ---
 title: "South West VIS Forecast"
+project:
+  type: website
+  output-dir: docs
 format:
   html:
     theme: flatly
@@ -12,6 +15,9 @@ format:
         />
         <script
           src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        ></script>
+        <script
+          src="https://cdn.jsdelivr.net/npm/chart.js@4.4.6/dist/chart.umd.min.js"
         ></script>
 page-layout: full
 ---
@@ -80,6 +86,41 @@ page-layout: full
     border-radius: 50%;
     display: inline-block;
   }
+
+  .score-panel {
+    margin: 1.5rem auto 0;
+    padding: 1rem 1.25rem;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.85);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+    max-width: 900px;
+  }
+
+  .score-panel h2 {
+    margin: 0 0 0.5rem;
+    font-size: 1.35rem;
+  }
+
+  .chart-hint {
+    margin: 0;
+    color: #555;
+    font-size: 0.95rem;
+  }
+
+  .chart-wrapper {
+    position: relative;
+    width: 100%;
+    height: clamp(220px, 35vw, 320px);
+    margin-top: 0.75rem;
+  }
+
+  .chart-wrapper canvas {
+    position: absolute;
+    inset: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }
 </style>
 ```
 
@@ -104,6 +145,14 @@ page-layout: full
 </div>
 
 <div id="forecast-map"></div>
+
+<div id="score-panel" class="score-panel">
+  <h2 id="chart-title">Site score trends</h2>
+  <p class="chart-hint" id="chart-hint">Click a site indicator on the map to view VIS, wind and rain scores over time.</p>
+  <div class="chart-wrapper">
+    <canvas id="score-chart"></canvas>
+  </div>
+</div>
 ```
 
 ```{=html}
@@ -125,6 +174,9 @@ const markerLayer = L.layerGroup().addTo(map);
 const slider = document.getElementById("time-slider");
 const timeLabel = document.getElementById("time-label");
 const timeHint = document.getElementById("time-hint");
+const chartTitle = document.getElementById("chart-title");
+const chartHint = document.getElementById("chart-hint");
+const chartCanvas = document.getElementById("score-chart");
 
 const RAG_COLOURS = {
   Green: "#2ecc71",
@@ -135,6 +187,54 @@ const RAG_COLOURS = {
 const dataUrl = "data/forecast.json";
 let timeBuckets = [];
 let forecastEntries = [];
+let scoreChart = null;
+let selectedTimeMs = null;
+let currentChartLocation = null;
+
+const selectedTimePlugin = {
+  id: "selectedTime",
+  afterDatasetsDraw(chart, _args, opts) {
+    if (typeof selectedTimeMs !== "number") {
+      return;
+    }
+
+    const timestamps = opts?.timestamps;
+    if (!Array.isArray(timestamps) || !timestamps.length) {
+      return;
+    }
+
+    const selectedIndex = timestamps.findIndex((ms) => ms === selectedTimeMs);
+    if (selectedIndex === -1) {
+      return;
+    }
+
+    const xScale = chart.scales?.x;
+    const labels = chart.data?.labels;
+    if (!xScale || !labels || typeof labels[selectedIndex] === "undefined") {
+      return;
+    }
+
+    const area = chart.chartArea;
+    if (!area) {
+      return;
+    }
+
+    const xPos = xScale.getPixelForValue(labels[selectedIndex]);
+    const { top, bottom } = area;
+    const ctx = chart.ctx;
+    ctx.save();
+    ctx.strokeStyle = opts?.color || "#c0392b";
+    ctx.lineWidth = opts?.lineWidth || 2;
+    ctx.setLineDash(opts?.dash || [6, 6]);
+    ctx.beginPath();
+    ctx.moveTo(xPos, top);
+    ctx.lineTo(xPos, bottom);
+    ctx.stroke();
+    ctx.restore();
+  },
+};
+
+Chart.register(selectedTimePlugin);
 
 const formatTimestamp = (ms) =>
   new Date(ms).toLocaleString(undefined, {
@@ -150,8 +250,136 @@ const buildTimestamp = (entry) => {
   return new Date(base);
 };
 
+const formatLocationLabel = (slug = "") =>
+  slug
+    .replace(/_/g, " ")
+    .replace(/\b\w/g, (char) => char.toUpperCase());
+
+const getWindScore = (entry) =>
+  typeof entry.wind_score === "number"
+    ? entry.wind_score
+    : typeof entry.score_wind === "number"
+    ? entry.score_wind
+    : null;
+
+const getRainScore = (entry) =>
+  typeof entry.rain_score === "number"
+    ? entry.rain_score
+    : typeof entry.score_rain === "number"
+    ? entry.score_rain
+    : null;
+
+const renderScoreChart = (locationName) => {
+  if (!chartCanvas) {
+    return;
+  }
+
+  const locationEntries = forecastEntries
+    .filter((entry) => entry.location_name === locationName)
+    .sort((a, b) => a.timestamp.getTime() - b.timestamp.getTime());
+
+  if (!locationEntries.length) {
+    currentChartLocation = null;
+    chartTitle.textContent = "Site score trends";
+    chartHint.textContent = "No historical values could be found for this site.";
+    if (scoreChart) {
+      scoreChart.destroy();
+      scoreChart = null;
+    }
+    return;
+  }
+
+  currentChartLocation = locationName;
+  const labels = locationEntries.map((entry) => formatTimestamp(entry.timestamp.getTime()));
+  const timestamps = locationEntries.map((entry) => entry.timestamp.getTime());
+  const visData = locationEntries.map((entry) =>
+    typeof entry.vis_score === "number" ? entry.vis_score : null
+  );
+  const windData = locationEntries.map((entry) => getWindScore(entry));
+  const rainData = locationEntries.map((entry) => getRainScore(entry));
+
+  const datasets = [
+    {
+      label: "VIS Score",
+      data: visData,
+      borderColor: "#8e44ad",
+      backgroundColor: "rgba(142, 68, 173, 0.2)",
+      tension: 0.35,
+      fill: false,
+      spanGaps: true,
+      pointRadius: 3,
+    },
+    {
+      label: "Wind Score",
+      data: windData,
+      borderColor: "#2980b9",
+      backgroundColor: "rgba(41, 128, 185, 0.2)",
+      tension: 0.35,
+      fill: false,
+      spanGaps: true,
+      pointRadius: 3,
+    },
+    {
+      label: "Rain Score",
+      data: rainData,
+      borderColor: "#e67e22",
+      backgroundColor: "rgba(230, 126, 34, 0.2)",
+      tension: 0.35,
+      fill: false,
+      spanGaps: true,
+      pointRadius: 3,
+    },
+  ];
+
+  const selectedLineOptions = {
+    timestamps,
+    color: "#c0392b",
+    dash: [6, 6],
+    lineWidth: 2,
+  };
+
+  if (scoreChart) {
+    scoreChart.destroy();
+    scoreChart = null;
+  }
+
+  scoreChart = new Chart(chartCanvas, {
+    type: "line",
+    data: {
+      labels,
+      datasets,
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: {
+        mode: "index",
+        intersect: false,
+      },
+      scales: {
+        y: {
+          min: 0,
+          max: 1,
+          title: { display: true, text: "Score" },
+        },
+        x: {
+          ticks: { autoSkip: true },
+        },
+      },
+      plugins: {
+        legend: { position: "bottom" },
+        selectedTime: selectedLineOptions,
+      },
+    },
+  });
+
+  chartTitle.textContent = `Site score trends for ${formatLocationLabel(locationName)}`;
+  chartHint.textContent = `Showing ${locationEntries.length} forecast points`;
+};
+
 const renderMarkers = (timeMs) => {
   markerLayer.clearLayers();
+  selectedTimeMs = timeMs;
   const selected = forecastEntries.filter(
     (entry) => entry.timestamp.getTime() === timeMs
   );
@@ -176,8 +404,13 @@ const renderMarkers = (timeMs) => {
       ${entry.vis_rag} (score: ${entry.vis_score.toFixed(2)})
     `;
     circle.bindPopup(popup);
+    circle.on("click", () => renderScoreChart(entry.location_name));
     circle.addTo(markerLayer);
   });
+
+  if (currentChartLocation) {
+    renderScoreChart(currentChartLocation);
+  }
 };
 
 fetch(dataUrl)
