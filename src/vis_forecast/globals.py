@@ -44,7 +44,7 @@ RAIN_PROB_SCORE = {
 
 TIME_WEIGHT_FUNCTION = {
     "fn": "cos",
-    "history_days": 7,
+    "history_days": 5,
 }
 
 VIS_FORECAST_RAG_SCORE = {
