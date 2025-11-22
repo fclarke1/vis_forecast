@@ -185,6 +185,7 @@ const RAG_COLOURS = {
 };
 
 const dataUrl = "data/forecast.json";
+const THREE_DAYS_MS = 3 * 24 * 60 * 60 * 1000;
 let timeBuckets = [];
 let forecastEntries = [];
 let scoreChart = null;
@@ -250,24 +251,32 @@ const buildTimestamp = (entry) => {
   return new Date(base);
 };
 
+const normalizeScore = (value) =>
+  typeof value === "number" && !Number.isNaN(value) ? value : null;
+
+const pickScore = (...values) => {
+  for (const value of values) {
+    const normalized = normalizeScore(value);
+    if (normalized !== null) {
+      return normalized;
+    }
+  }
+  return null;
+};
+
 const formatLocationLabel = (slug = "") =>
   slug
     .replace(/_/g, " ")
     .replace(/\b\w/g, (char) => char.toUpperCase());
 
-const getWindScore = (entry) =>
-  typeof entry.wind_score === "number"
-    ? entry.wind_score
-    : typeof entry.score_wind === "number"
-    ? entry.score_wind
-    : null;
+const getVisScore = (entry) => pickScore(entry.vis_score);
 
-const getRainScore = (entry) =>
-  typeof entry.rain_score === "number"
-    ? entry.rain_score
-    : typeof entry.score_rain === "number"
-    ? entry.score_rain
-    : null;
+const getWindScore = (entry) => pickScore(entry.wind_score, entry.score_wind);
+
+const getRainScore = (entry) => pickScore(entry.rain_score, entry.score_rain);
+
+const formatScoreLabel = (score) =>
+  typeof score === "number" && !Number.isNaN(score) ? score.toFixed(2) : "N/A";
 
 const renderScoreChart = (locationName) => {
   if (!chartCanvas) {
@@ -292,9 +301,7 @@ const renderScoreChart = (locationName) => {
   currentChartLocation = locationName;
   const labels = locationEntries.map((entry) => formatTimestamp(entry.timestamp.getTime()));
   const timestamps = locationEntries.map((entry) => entry.timestamp.getTime());
-  const visData = locationEntries.map((entry) =>
-    typeof entry.vis_score === "number" ? entry.vis_score : null
-  );
+  const visData = locationEntries.map((entry) => getVisScore(entry));
   const windData = locationEntries.map((entry) => getWindScore(entry));
   const rainData = locationEntries.map((entry) => getRainScore(entry));
 
@@ -352,6 +359,7 @@ const renderScoreChart = (locationName) => {
     options: {
       responsive: true,
       maintainAspectRatio: false,
+      animation: false,
       interaction: {
         mode: "index",
         intersect: false,
@@ -401,7 +409,7 @@ const renderMarkers = (timeMs) => {
     });
     const popup = `
       <strong>${entry.location_name}</strong><br/>
-      ${entry.vis_rag} (score: ${entry.vis_score.toFixed(2)})
+      ${entry.vis_rag} (score: ${formatScoreLabel(entry.vis_score)})
     `;
     circle.bindPopup(popup);
     circle.on("click", () => renderScoreChart(entry.location_name));
@@ -418,7 +426,16 @@ fetch(dataUrl)
     if (!response.ok) {
       throw new Error(`HTTP ${response.status}`);
     }
-    return response.json();
+    return response.text();
+  })
+  .then((rawText) => {
+    const sanitized = rawText.replace(/\bNaN\b/g, "null");
+    try {
+      return JSON.parse(sanitized);
+    } catch (parseError) {
+      console.error("Failed to parse forecast JSON", parseError);
+      throw parseError;
+    }
   })
   .then((data) => {
     console.log("Raw data from forecast.json:", data);
@@ -456,15 +473,21 @@ fetch(dataUrl)
       map.fitBounds(bounds.pad(0.2));
     }
 
-    timeBuckets = Array.from(
+    const now = Date.now();
+    const earliestAllowed = now - THREE_DAYS_MS;
+    const allBuckets = Array.from(
       new Set(forecastEntries.map((entry) => entry.timestamp.getTime()))
     ).sort((a, b) => a - b);
-    console.log("Time buckets:", timeBuckets);
+    timeBuckets = allBuckets.filter((ms) => ms >= earliestAllowed);
+    if (!timeBuckets.length) {
+      timeLabel.textContent = "No forecast data within the last 3 days.";
+      return;
+    }
+    console.log("Time buckets (<=3 days old):", timeBuckets);
 
     slider.min = 0;
     slider.max = timeBuckets.length - 1;
 
-    const now = Date.now();
     const defaultIndex = timeBuckets.reduce(
       (closest, current, idx) => {
         const currentDelta = Math.abs(current - now);
