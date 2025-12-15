@@ -1,247 +1,5 @@
 [
   {
-    "date": "2025-12-07",
-    "period": "afternoon",
-    "location_name": "berry_head",
-    "latitude": 50.402568,
-    "longitude": -3.481143,
-    "vis_score": NaN,
-    "vis_rag": "Red",
-    "score_wind": 0.6875,
-    "score_rain": 0.2
-  },
-  {
-    "date": "2025-12-07",
-    "period": "morning",
-    "location_name": "berry_head",
-    "latitude": 50.402568,
-    "longitude": -3.481143,
-    "vis_score": NaN,
-    "vis_rag": "Red",
-    "score_wind": 0.75,
-    "score_rain": 1.0
-  },
-  {
-    "date": "2025-12-07",
-    "period": "afternoon",
-    "location_name": "branscombe",
-    "latitude": 50.683979,
-    "longitude": -3.116856,
-    "vis_score": NaN,
-    "vis_rag": "Red",
-    "score_wind": 0.125,
-    "score_rain": 0.25
-  },
-  {
-    "date": "2025-12-07",
-    "period": "morning",
-    "location_name": "branscombe",
-    "latitude": 50.683979,
-    "longitude": -3.116856,
-    "vis_score": NaN,
-    "vis_rag": "Red",
-    "score_wind": 0.0,
-    "score_rain": 0.9166666666666666
-  },
-  {
-    "date": "2025-12-07",
-    "period": "afternoon",
-    "location_name": "bude",
-    "latitude": 50.817853,
-    "longitude": -4.560764,
-    "vis_score": NaN,
-    "vis_rag": "Red",
-    "score_wind": 0.5,
-    "score_rain": 0.3875
-  },
-  {
-    "date": "2025-12-07",
-    "period": "morning",
-    "location_name": "bude",
-    "latitude": 50.817853,
-    "longitude": -4.560764,
-    "vis_score": NaN,
-    "vis_rag": "Red",
-    "score_wind": 0.3333333333333333,
-    "score_rain": 1.0
-  },
-  {
-    "date": "2025-12-07",
-    "period": "afternoon",
-    "location_name": "dodman_point",
-    "latitude": 50.222568,
-    "longitude": -4.806776,
-    "vis_score": NaN,
-    "vis_rag": "Red",
-    "score_wind": 0.3125,
-    "score_rain": 0.0
-  },
-  {
-    "date": "2025-12-07",
-    "period": "morning",
-    "location_name": "dodman_point",
-    "latitude": 50.222568,
-    "longitude": -4.806776,
-    "vis_score": NaN,
-    "vis_rag": "Red",
-    "score_wind": 0.3333333333333333,
-    "score_rain": 0.9333333333333332
-  },
-  {
-    "date": "2025-12-07",
-    "period": "afternoon",
-    "location_name": "falmouth",
-    "latitude": 50.152573,
-    "longitude": -5.06627,
-    "vis_score": NaN,
-    "vis_rag": "Red",
-    "score_wind": 0.75,
-    "score_rain": 0.0
-  },
-  {
-    "date": "2025-12-07",
-    "period": "morning",
-    "location_name": "falmouth",
-    "latitude": 50.152573,
-    "longitude": -5.06627,
-    "vis_score": NaN,
-    "vis_rag": "Red",
-    "score_wind": 1.0,
-    "score_rain": 1.0
-  },
-  {
-    "date": "2025-12-07",
-    "period": "afternoon",
-    "location_name": "fishermans_cove",
-    "latitude": 50.238151,
-    "longitude": -5.371382,
-    "vis_score": NaN,
-    "vis_rag": "Red",
-    "score_wind": 0.75,
-    "score_rain": 0.0
-  },
-  {
-    "date": "2025-12-07",
-    "period": "morning",
-    "location_name": "fishermans_cove",
-    "latitude": 50.238151,
-    "longitude": -5.371382,
-    "vis_score": NaN,
-    "vis_rag": "Red",
-    "score_wind": 0.8333333333333334,
-    "score_rain": 0.9333333333333332
-  },
-  {
-    "date": "2025-12-07",
-    "period": "afternoon",
-    "location_name": "isle_portland",
-    "latitude": 50.521858,
-    "longitude": -2.44875,
-    "vis_score": NaN,
-    "vis_rag": "Red",
-    "score_wind": 0.5,
-    "score_rain": 0.25
-  },
-  {
-    "date": "2025-12-07",
-    "period": "morning",
-    "location_name": "isle_portland",
-    "latitude": 50.521858,
-    "longitude": -2.44875,
-    "vis_score": NaN,
-    "vis_rag": "Red",
-    "score_wind": 0.4166666666666667,
-    "score_rain": 0.9333333333333332
-  },
-  {
-    "date": "2025-12-07",
-    "period": "afternoon",
-    "location_name": "lannacombe",
-    "latitude": 50.221171,
-    "longitude": -3.680452,
-    "vis_score": NaN,
-    "vis_rag": "Red",
-    "score_wind": 0.1875,
-    "score_rain": 0.25
-  },
-  {
-    "date": "2025-12-07",
-    "period": "morning",
-    "location_name": "lannacombe",
-    "latitude": 50.221171,
-    "longitude": -3.680452,
-    "vis_score": NaN,
-    "vis_rag": "Red",
-    "score_wind": 0.16666666666666666,
-    "score_rain": 1.0
-  },
-  {
-    "date": "2025-12-07",
-    "period": "afternoon",
-    "location_name": "start_point",
-    "latitude": 50.229288,
-    "longitude": -3.65076,
-    "vis_score": NaN,
-    "vis_rag": "Red",
-    "score_wind": 0.875,
-    "score_rain": 0.2
-  },
-  {
-    "date": "2025-12-07",
-    "period": "morning",
-    "location_name": "start_point",
-    "latitude": 50.229288,
-    "longitude": -3.65076,
-    "vis_score": NaN,
-    "vis_rag": "Red",
-    "score_wind": 0.8333333333333334,
-    "score_rain": 1.0
-  },
-  {
-    "date": "2025-12-07",
-    "period": "afternoon",
-    "location_name": "thurlestone",
-    "latitude": 50.263044,
-    "longitude": -3.870057,
-    "vis_score": NaN,
-    "vis_rag": "Red",
-    "score_wind": 0.5625,
-    "score_rain": 0.2
-  },
-  {
-    "date": "2025-12-07",
-    "period": "morning",
-    "location_name": "thurlestone",
-    "latitude": 50.263044,
-    "longitude": -3.870057,
-    "vis_score": NaN,
-    "vis_rag": "Red",
-    "score_wind": 0.5,
-    "score_rain": 1.0
-  },
-  {
-    "date": "2025-12-07",
-    "period": "afternoon",
-    "location_name": "towan_beach",
-    "latitude": 50.157088,
-    "longitude": -4.984155,
-    "vis_score": NaN,
-    "vis_rag": "Red",
-    "score_wind": 0.4375,
-    "score_rain": 0.0
-  },
-  {
-    "date": "2025-12-07",
-    "period": "morning",
-    "location_name": "towan_beach",
-    "latitude": 50.157088,
-    "longitude": -4.984155,
-    "vis_score": NaN,
-    "vis_rag": "Red",
-    "score_wind": 0.3333333333333333,
-    "score_rain": 1.0
-  },
-  {
     "date": "2025-12-08",
     "period": "afternoon",
     "location_name": "berry_head",
@@ -260,8 +18,8 @@
     "longitude": -3.481143,
     "vis_score": NaN,
     "vis_rag": "Red",
-    "score_wind": 0.5625,
-    "score_rain": 0.25
+    "score_wind": 0.75,
+    "score_rain": 0.3333333333333333
   },
   {
     "date": "2025-12-08",
@@ -282,8 +40,8 @@
     "longitude": -3.116856,
     "vis_score": NaN,
     "vis_rag": "Red",
-    "score_wind": 0.125,
-    "score_rain": 0.25
+    "score_wind": 0.16666666666666666,
+    "score_rain": 0.3333333333333333
   },
   {
     "date": "2025-12-08",
@@ -304,8 +62,8 @@
     "longitude": -4.560764,
     "vis_score": NaN,
     "vis_rag": "Red",
-    "score_wind": 0.125,
-    "score_rain": 0.2
+    "score_wind": 0.16666666666666666,
+    "score_rain": 0.26666666666666666
   },
   {
     "date": "2025-12-08",
@@ -326,8 +84,8 @@
     "longitude": -4.806776,
     "vis_score": NaN,
     "vis_rag": "Red",
-    "score_wind": 0.1875,
-    "score_rain": 0.5625
+    "score_wind": 0.25,
+    "score_rain": 0.5833333333333334
   },
   {
     "date": "2025-12-08",
@@ -348,8 +106,8 @@
     "longitude": -5.06627,
     "vis_score": NaN,
     "vis_rag": "Red",
-    "score_wind": 0.75,
-    "score_rain": 0.6875
+    "score_wind": 0.8333333333333334,
+    "score_rain": 0.9166666666666666
   },
   {
     "date": "2025-12-08",
@@ -370,8 +128,8 @@
     "longitude": -5.371382,
     "vis_score": NaN,
     "vis_rag": "Red",
-    "score_wind": 0.875,
-    "score_rain": 0.6875
+    "score_wind": 0.8333333333333334,
+    "score_rain": 0.9166666666666666
   },
   {
     "date": "2025-12-08",
@@ -393,7 +151,7 @@
     "vis_score": NaN,
     "vis_rag": "Red",
     "score_wind": 0.25,
-    "score_rain": 0.4375
+    "score_rain": 0.5833333333333334
   },
   {
     "date": "2025-12-08",
@@ -414,8 +172,8 @@
     "longitude": -3.680452,
     "vis_score": NaN,
     "vis_rag": "Red",
-    "score_wind": 0.0625,
-    "score_rain": 0.3875
+    "score_wind": 0.08333333333333333,
+    "score_rain": 0.5166666666666667
   },
   {
     "date": "2025-12-08",
@@ -436,8 +194,8 @@
     "longitude": -3.65076,
     "vis_score": NaN,
     "vis_rag": "Red",
-    "score_wind": 0.625,
-    "score_rain": 0.3875
+    "score_wind": 0.6666666666666666,
+    "score_rain": 0.5166666666666667
   },
   {
     "date": "2025-12-08",
@@ -458,8 +216,8 @@
     "longitude": -3.870057,
     "vis_score": NaN,
     "vis_rag": "Red",
-    "score_wind": 0.1875,
-    "score_rain": 0.25
+    "score_wind": 0.25,
+    "score_rain": 0.3333333333333333
   },
   {
     "date": "2025-12-08",
@@ -480,8 +238,8 @@
     "longitude": -4.984155,
     "vis_score": NaN,
     "vis_rag": "Red",
-    "score_wind": 0.125,
-    "score_rain": 0.8125
+    "score_wind": 0.16666666666666666,
+    "score_rain": 0.9166666666666666
   },
   {
     "date": "2025-12-09",
@@ -489,7 +247,7 @@
     "location_name": "berry_head",
     "latitude": 50.402568,
     "longitude": -3.481143,
-    "vis_score": 0.8356185243475827,
+    "vis_score": NaN,
     "vis_rag": "Red",
     "score_wind": 1.0,
     "score_rain": 0.25
@@ -500,7 +258,7 @@
     "location_name": "berry_head",
     "latitude": 50.402568,
     "longitude": -3.481143,
-    "vis_score": 0.9374454021426611,
+    "vis_score": NaN,
     "vis_rag": "Red",
     "score_wind": 0.9375,
     "score_rain": 0.95
@@ -511,7 +269,7 @@
     "location_name": "branscombe",
     "latitude": 50.683979,
     "longitude": -3.116856,
-    "vis_score": 0.6034781346015706,
+    "vis_score": NaN,
     "vis_rag": "Red",
     "score_wind": 0.3125,
     "score_rain": 0.4375
@@ -522,7 +280,7 @@
     "location_name": "branscombe",
     "latitude": 50.683979,
     "longitude": -3.116856,
-    "vis_score": 0.749843616644066,
+    "vis_score": NaN,
     "vis_rag": "Red",
     "score_wind": 0.375,
     "score_rain": 0.95
@@ -533,7 +291,7 @@
     "location_name": "bude",
     "latitude": 50.817853,
     "longitude": -4.560764,
-    "vis_score": 0.7361344295403851,
+    "vis_score": NaN,
     "vis_rag": "Red",
     "score_wind": 0.75,
     "score_rain": 0.125
@@ -544,7 +302,7 @@
     "location_name": "bude",
     "latitude": 50.817853,
     "longitude": -4.560764,
-    "vis_score": 0.875,
+    "vis_score": NaN,
     "vis_rag": "Red",
     "score_wind": 0.8125,
     "score_rain": 1.0
@@ -555,7 +313,7 @@
     "location_name": "dodman_point",
     "latitude": 50.222568,
     "longitude": -4.806776,
-    "vis_score": 0.8135821482380975,
+    "vis_score": NaN,
     "vis_rag": "Red",
     "score_wind": 0.5625,
     "score_rain": 0.4375
@@ -566,7 +324,7 @@
     "location_name": "dodman_point",
     "latitude": 50.222568,
     "longitude": -4.806776,
-    "vis_score": 0.9721979565078493,
+    "vis_score": NaN,
     "vis_rag": "Red",
     "score_wind": 1.0,
     "score_rain": 0.95
@@ -577,7 +335,7 @@
     "location_name": "falmouth",
     "latitude": 50.152573,
     "longitude": -5.06627,
-    "vis_score": 0.8490154400593214,
+    "vis_score": NaN,
     "vis_rag": "Red",
     "score_wind": 1.0,
     "score_rain": 0.3875
@@ -588,7 +346,7 @@
     "location_name": "falmouth",
     "latitude": 50.152573,
     "longitude": -5.06627,
-    "vis_score": 0.9652474456348118,
+    "vis_score": NaN,
     "vis_rag": "Red",
     "score_wind": 0.9375,
     "score_rain": 1.0
@@ -599,7 +357,7 @@
     "location_name": "fishermans_cove",
     "latitude": 50.238151,
     "longitude": -5.371382,
-    "vis_score": 0.8301452543387147,
+    "vis_score": NaN,
     "vis_rag": "Red",
     "score_wind": 0.75,
     "score_rain": 0.2
@@ -610,7 +368,7 @@
     "location_name": "fishermans_cove",
     "latitude": 50.238151,
     "longitude": -5.371382,
-    "vis_score": 1.0,
+    "vis_score": NaN,
     "vis_rag": "Red",
     "score_wind": 1.0,
     "score_rain": 1.0
@@ -621,7 +379,7 @@
     "location_name": "isle_portland",
     "latitude": 50.521858,
     "longitude": -2.44875,
-    "vis_score": 0.7209547817199992,
+    "vis_score": NaN,
     "vis_rag": "Red",
     "score_wind": 0.625,
     "score_rain": 0.375
@@ -632,7 +390,7 @@
     "location_name": "isle_portland",
     "latitude": 50.521858,
     "longitude": -2.44875,
-    "vis_score": 0.8470651669725435,
+    "vis_score": NaN,
     "vis_rag": "Red",
     "score_wind": 0.5625,
     "score_rain": 0.9375
@@ -643,7 +401,7 @@
     "location_name": "lannacombe",
     "latitude": 50.221171,
     "longitude": -3.680452,
-    "vis_score": 0.5594278926216485,
+    "vis_score": NaN,
     "vis_rag": "Red",
     "score_wind": 0.375,
     "score_rain": 0.2
@@ -654,7 +412,7 @@
     "location_name": "lannacombe",
     "latitude": 50.221171,
     "longitude": -3.680452,
-    "vis_score": 0.749843616644066,
+    "vis_score": NaN,
     "vis_rag": "Red",
     "score_wind": 0.5,
     "score_rain": 0.95
@@ -665,7 +423,7 @@
     "location_name": "start_point",
     "latitude": 50.229288,
     "longitude": -3.65076,
-    "vis_score": 0.8353521654038593,
+    "vis_score": NaN,
     "vis_rag": "Red",
     "score_wind": 1.0,
     "score_rain": 0.2
@@ -676,7 +434,7 @@
     "location_name": "start_point",
     "latitude": 50.229288,
     "longitude": -3.65076,
-    "vis_score": 0.9652474456348118,
+    "vis_score": NaN,
     "vis_rag": "Red",
     "score_wind": 1.0,
     "score_rain": 0.9375
@@ -687,7 +445,7 @@
     "location_name": "thurlestone",
     "latitude": 50.263044,
     "longitude": -3.870057,
-    "vis_score": 0.7054782030183686,
+    "vis_score": NaN,
     "vis_rag": "Red",
     "score_wind": 0.5625,
     "score_rain": 0.2
@@ -698,7 +456,7 @@
     "location_name": "thurlestone",
     "latitude": 50.263044,
     "longitude": -3.870057,
-    "vis_score": 0.8402474456348118,
+    "vis_score": NaN,
     "vis_rag": "Red",
     "score_wind": 0.75,
     "score_rain": 0.9375
@@ -709,7 +467,7 @@
     "location_name": "towan_beach",
     "latitude": 50.157088,
     "longitude": -4.984155,
-    "vis_score": 0.8307977405187053,
+    "vis_score": NaN,
     "vis_rag": "Red",
     "score_wind": 0.8125,
     "score_rain": 0.325
@@ -720,7 +478,7 @@
     "location_name": "towan_beach",
     "latitude": 50.157088,
     "longitude": -4.984155,
-    "vis_score": 0.9652474456348118,
+    "vis_score": NaN,
     "vis_rag": "Red",
     "score_wind": 0.9375,
     "score_rain": 1.0
@@ -731,8 +489,8 @@
     "location_name": "berry_head",
     "latitude": 50.402568,
     "longitude": -3.481143,
-    "vis_score": 0.42745654130172395,
-    "vis_rag": "Red",
+    "vis_score": 0.1265942217161396,
+    "vis_rag": "Amber",
     "score_wind": 0.125,
     "score_rain": 0.0
   },
@@ -742,8 +500,8 @@
     "location_name": "berry_head",
     "latitude": 50.402568,
     "longitude": -3.481143,
-    "vis_score": 0.586822614627846,
-    "vis_rag": "Red",
+    "vis_score": 0.13892461556670346,
+    "vis_rag": "Amber",
     "score_wind": 0.3125,
     "score_rain": 0.0
   },
@@ -753,8 +511,8 @@
     "location_name": "branscombe",
     "latitude": 50.683979,
     "longitude": -3.116856,
-    "vis_score": 0.27984301694094466,
-    "vis_rag": "Amber",
+    "vis_score": 0.09505655305879727,
+    "vis_rag": "Green",
     "score_wind": 0.0,
     "score_rain": 0.0
   },
@@ -764,8 +522,8 @@
     "location_name": "branscombe",
     "latitude": 50.683979,
     "longitude": -3.116856,
-    "vis_score": 0.37766574274849096,
-    "vis_rag": "Red",
+    "vis_score": 0.05569846226681391,
+    "vis_rag": "Green",
     "score_wind": 0.0,
     "score_rain": 0.25
   },
@@ -775,8 +533,8 @@
     "location_name": "bude",
     "latitude": 50.817853,
     "longitude": -4.560764,
-    "vis_score": 0.3848670034846028,
-    "vis_rag": "Red",
+    "vis_score": 0.18130004009688194,
+    "vis_rag": "Amber",
     "score_wind": 0.125,
     "score_rain": 0.0
   },
@@ -786,8 +544,8 @@
     "location_name": "bude",
     "latitude": 50.817853,
     "longitude": -4.560764,
-    "vis_score": 0.5061322621912401,
-    "vis_rag": "Red",
+    "vis_score": 0.22925766309556472,
+    "vis_rag": "Amber",
     "score_wind": 0.25,
     "score_rain": 0.1875
   },
@@ -797,8 +555,8 @@
     "location_name": "dodman_point",
     "latitude": 50.222568,
     "longitude": -4.806776,
-    "vis_score": 0.4162953274546836,
-    "vis_rag": "Red",
+    "vis_score": 0.16974587994069668,
+    "vis_rag": "Amber",
     "score_wind": 0.125,
     "score_rain": 0.0
   },
@@ -808,8 +566,8 @@
     "location_name": "dodman_point",
     "latitude": 50.222568,
     "longitude": -4.806776,
-    "vis_score": 0.5610695803749446,
-    "vis_rag": "Red",
+    "vis_score": 0.22925766309556472,
+    "vis_rag": "Amber",
     "score_wind": 0.25,
     "score_rain": 0.1875
   },
@@ -819,7 +577,7 @@
     "location_name": "falmouth",
     "latitude": 50.152573,
     "longitude": -5.06627,
-    "vis_score": 0.5636793025074087,
+    "vis_score": 0.3149292408911981,
     "vis_rag": "Red",
     "score_wind": 0.25,
     "score_rain": 0.0
@@ -830,7 +588,7 @@
     "location_name": "falmouth",
     "latitude": 50.152573,
     "longitude": -5.06627,
-    "vis_score": 0.7172552301645343,
+    "vis_score": 0.4721507688665931,
     "vis_rag": "Red",
     "score_wind": 0.875,
     "score_rain": 0.0
@@ -841,7 +599,7 @@
     "location_name": "fishermans_cove",
     "latitude": 50.238151,
     "longitude": -5.371382,
-    "vis_score": 0.521054288266358,
+    "vis_score": 0.3488134290715984,
     "vis_rag": "Red",
     "score_wind": 0.5,
     "score_rain": 0.0
@@ -852,7 +610,7 @@
     "location_name": "fishermans_cove",
     "latitude": 50.238151,
     "longitude": -5.371382,
-    "vis_score": 0.6207433336978401,
+    "vis_score": 0.3542576630955647,
     "vis_rag": "Red",
     "score_wind": 0.625,
     "score_rain": 0.1875
@@ -863,8 +621,8 @@
     "location_name": "isle_portland",
     "latitude": 50.521858,
     "longitude": -2.44875,
-    "vis_score": 0.3587600853424922,
-    "vis_rag": "Red",
+    "vis_score": 0.11517027022669081,
+    "vis_rag": "Amber",
     "score_wind": 0.1875,
     "score_rain": 0.0
   },
@@ -874,8 +632,8 @@
     "location_name": "isle_portland",
     "latitude": 50.521858,
     "longitude": -2.44875,
-    "vis_score": 0.4884926439480302,
-    "vis_rag": "Red",
+    "vis_score": 0.125,
+    "vis_rag": "Amber",
     "score_wind": 0.25,
     "score_rain": 0.0
   },
@@ -885,7 +643,7 @@
     "location_name": "lannacombe",
     "latitude": 50.221171,
     "longitude": -3.680452,
-    "vis_score": 0.26868395276585344,
+    "vis_score": 0.10329324079783087,
     "vis_rag": "Amber",
     "score_wind": 0.25,
     "score_rain": 0.0
@@ -896,8 +654,8 @@
     "location_name": "lannacombe",
     "latitude": 50.221171,
     "longitude": -3.680452,
-    "vis_score": 0.35164281386673124,
-    "vis_rag": "Red",
+    "vis_score": 0.07632283006810829,
+    "vis_rag": "Green",
     "score_wind": 0.125,
     "score_rain": 0.0
   },
@@ -907,7 +665,7 @@
     "location_name": "start_point",
     "latitude": 50.229288,
     "longitude": -3.65076,
-    "vis_score": 0.5398752271450151,
+    "vis_score": 0.32403809066150624,
     "vis_rag": "Red",
     "score_wind": 0.375,
     "score_rain": 0.0
@@ -918,7 +676,7 @@
     "location_name": "start_point",
     "latitude": 50.229288,
     "longitude": -3.65076,
-    "vis_score": 0.6760864164572163,
+    "vis_score": 0.4721507688665931,
     "vis_rag": "Red",
     "score_wind": 0.875,
     "score_rain": 0.0
@@ -929,8 +687,8 @@
     "location_name": "thurlestone",
     "latitude": 50.263044,
     "longitude": -3.870057,
-    "vis_score": 0.32253487685810356,
-    "vis_rag": "Red",
+    "vis_score": 0.09450726030019743,
+    "vis_rag": "Green",
     "score_wind": 0.0625,
     "score_rain": 0.0
   },
@@ -940,8 +698,8 @@
     "location_name": "thurlestone",
     "latitude": 50.263044,
     "longitude": -3.870057,
-    "vis_score": 0.44988687866845983,
-    "vis_rag": "Red",
+    "vis_score": 0.125,
+    "vis_rag": "Amber",
     "score_wind": 0.25,
     "score_rain": 0.0
   },
@@ -951,8 +709,8 @@
     "location_name": "towan_beach",
     "latitude": 50.157088,
     "longitude": -4.984155,
-    "vis_score": 0.46742461759209486,
-    "vis_rag": "Red",
+    "vis_score": 0.2450671103343564,
+    "vis_rag": "Amber",
     "score_wind": 0.25,
     "score_rain": 0.0
   },
@@ -962,8 +720,8 @@
     "location_name": "towan_beach",
     "latitude": 50.157088,
     "longitude": -4.984155,
-    "vis_score": 0.5914549351319109,
-    "vis_rag": "Red",
+    "vis_score": 0.24318227866226816,
+    "vis_rag": "Amber",
     "score_wind": 0.5,
     "score_rain": 0.0
   },
@@ -973,7 +731,7 @@
     "location_name": "berry_head",
     "latitude": 50.402568,
     "longitude": -3.481143,
-    "vis_score": 0.2855045289389278,
+    "vis_score": 0.1446500233423332,
     "vis_rag": "Amber",
     "score_wind": 0.5,
     "score_rain": 0.0
@@ -984,8 +742,8 @@
     "location_name": "berry_head",
     "latitude": 50.402568,
     "longitude": -3.481143,
-    "vis_score": 0.32665782490406337,
-    "vis_rag": "Red",
+    "vis_score": 0.1108727713492903,
+    "vis_rag": "Amber",
     "score_wind": 0.25,
     "score_rain": 0.0
   },
@@ -995,8 +753,8 @@
     "location_name": "branscombe",
     "latitude": 50.683979,
     "longitude": -3.116856,
-    "vis_score": 0.16366573519580385,
-    "vis_rag": "Amber",
+    "vis_score": 0.06827350617804387,
+    "vis_rag": "Green",
     "score_wind": 0.25,
     "score_rain": 0.0
   },
@@ -1006,8 +764,8 @@
     "location_name": "branscombe",
     "latitude": 50.683979,
     "longitude": -3.116856,
-    "vis_score": 0.20275042701537546,
-    "vis_rag": "Amber",
+    "vis_score": 0.06181074684773322,
+    "vis_rag": "Green",
     "score_wind": 0.0625,
     "score_rain": 0.0
   },
@@ -1017,8 +775,8 @@
     "location_name": "bude",
     "latitude": 50.817853,
     "longitude": -4.560764,
-    "vis_score": 0.33050165561078715,
-    "vis_rag": "Red",
+    "vis_score": 0.2539639920557482,
+    "vis_rag": "Amber",
     "score_wind": 0.875,
     "score_rain": 0.0
   },
@@ -1028,8 +786,8 @@
     "location_name": "bude",
     "latitude": 50.817853,
     "longitude": -4.560764,
-    "vis_score": 0.3230963418964955,
-    "vis_rag": "Red",
+    "vis_score": 0.18122689906470274,
+    "vis_rag": "Amber",
     "score_wind": 0.625,
     "score_rain": 0.0
   },
@@ -1039,7 +797,7 @@
     "location_name": "dodman_point",
     "latitude": 50.222568,
     "longitude": -4.806776,
-    "vis_score": 0.27954648133190885,
+    "vis_score": 0.1572204498920624,
     "vis_rag": "Amber",
     "score_wind": 0.25,
     "score_rain": 0.4375
@@ -1050,8 +808,8 @@
     "location_name": "dodman_point",
     "latitude": 50.222568,
     "longitude": -4.806776,
-    "vis_score": 0.32073177302882555,
-    "vis_rag": "Red",
+    "vis_score": 0.13610592397258678,
+    "vis_rag": "Amber",
     "score_wind": 0.25,
     "score_rain": 0.0
   },
@@ -1061,8 +819,8 @@
     "location_name": "falmouth",
     "latitude": 50.152573,
     "longitude": -5.06627,
-    "vis_score": 0.35465670026346163,
-    "vis_rag": "Red",
+    "vis_score": 0.1977430214425396,
+    "vis_rag": "Amber",
     "score_wind": 0.25,
     "score_rain": 0.325
   },
@@ -1072,8 +830,8 @@
     "location_name": "falmouth",
     "latitude": 50.152573,
     "longitude": -5.06627,
-    "vis_score": 0.4289966431809691,
-    "vis_rag": "Red",
+    "vis_score": 0.21269274530377036,
+    "vis_rag": "Amber",
     "score_wind": 0.25,
     "score_rain": 0.0
   },
@@ -1083,7 +841,7 @@
     "location_name": "fishermans_cove",
     "latitude": 50.238151,
     "longitude": -5.371382,
-    "vis_score": 0.47213076213520566,
+    "vis_score": 0.40593678512260434,
     "vis_rag": "Red",
     "score_wind": 0.875,
     "score_rain": 0.25
@@ -1094,7 +852,7 @@
     "location_name": "fishermans_cove",
     "latitude": 50.238151,
     "longitude": -5.371382,
-    "vis_score": 0.471908219448194,
+    "vis_score": 0.35319655684250506,
     "vis_rag": "Red",
     "score_wind": 1.0,
     "score_rain": 0.0
@@ -1105,7 +863,7 @@
     "location_name": "isle_portland",
     "latitude": 50.521858,
     "longitude": -2.44875,
-    "vis_score": 0.2536070642092706,
+    "vis_score": 0.1439509998015166,
     "vis_rag": "Amber",
     "score_wind": 0.25,
     "score_rain": 0.5
@@ -1116,7 +874,7 @@
     "location_name": "isle_portland",
     "latitude": 50.521858,
     "longitude": -2.44875,
-    "vis_score": 0.2819213135059626,
+    "vis_score": 0.11139863290274679,
     "vis_rag": "Amber",
     "score_wind": 0.25,
     "score_rain": 0.0
@@ -1127,8 +885,8 @@
     "location_name": "lannacombe",
     "latitude": 50.221171,
     "longitude": -3.680452,
-    "vis_score": 0.16656162948435188,
-    "vis_rag": "Amber",
+    "vis_score": 0.0826347632888792,
+    "vis_rag": "Green",
     "score_wind": 0.25,
     "score_rain": 0.125
   },
@@ -1138,8 +896,8 @@
     "location_name": "lannacombe",
     "latitude": 50.221171,
     "longitude": -3.680452,
-    "vis_score": 0.1940062695745125,
-    "vis_rag": "Amber",
+    "vis_score": 0.06574995205226097,
+    "vis_rag": "Green",
     "score_wind": 0.0,
     "score_rain": 0.0
   },
@@ -1149,7 +907,7 @@
     "location_name": "start_point",
     "latitude": 50.229288,
     "longitude": -3.65076,
-    "vis_score": 0.4500072640958297,
+    "vis_score": 0.35241433272271105,
     "vis_rag": "Red",
     "score_wind": 1.0,
     "score_rain": 0.0
@@ -1160,8 +918,8 @@
     "location_name": "start_point",
     "latitude": 50.229288,
     "longitude": -3.65076,
-    "vis_score": 0.4564978150503879,
-    "vis_rag": "Red",
+    "vis_score": 0.2915384425891785,
+    "vis_rag": "Amber",
     "score_wind": 0.75,
     "score_rain": 0.0
   },
@@ -1171,7 +929,7 @@
     "location_name": "thurlestone",
     "latitude": 50.263044,
     "longitude": -3.870057,
-    "vis_score": 0.22111068970198877,
+    "vis_score": 0.11919583144949016,
     "vis_rag": "Amber",
     "score_wind": 0.4375,
     "score_rain": 0.0
@@ -1182,8 +940,8 @@
     "location_name": "thurlestone",
     "latitude": 50.263044,
     "longitude": -3.870057,
-    "vis_score": 0.24635935853919033,
-    "vis_rag": "Amber",
+    "vis_score": 0.08423699999328964,
+    "vis_rag": "Green",
     "score_wind": 0.25,
     "score_rain": 0.0
   },
@@ -1193,7 +951,7 @@
     "location_name": "towan_beach",
     "latitude": 50.157088,
     "longitude": -4.984155,
-    "vis_score": 0.2941485393871333,
+    "vis_score": 0.16459040292157806,
     "vis_rag": "Amber",
     "score_wind": 0.25,
     "score_rain": 0.2
@@ -1204,8 +962,8 @@
     "location_name": "towan_beach",
     "latitude": 50.157088,
     "longitude": -4.984155,
-    "vis_score": 0.3576737518696843,
-    "vis_rag": "Red",
+    "vis_score": 0.17549060654467494,
+    "vis_rag": "Amber",
     "score_wind": 0.25,
     "score_rain": 0.0
   },
@@ -1215,7 +973,7 @@
     "location_name": "berry_head",
     "latitude": 50.402568,
     "longitude": -3.481143,
-    "vis_score": 0.2480294418197138,
+    "vis_score": 0.19647854717698557,
     "vis_rag": "Amber",
     "score_wind": 0.0,
     "score_rain": 0.0
@@ -1226,8 +984,8 @@
     "location_name": "berry_head",
     "latitude": 50.402568,
     "longitude": -3.481143,
-    "vis_score": 0.30364202542144714,
-    "vis_rag": "Red",
+    "vis_score": 0.22493828422000986,
+    "vis_rag": "Amber",
     "score_wind": 0.25,
     "score_rain": 0.625
   },
@@ -1237,7 +995,7 @@
     "location_name": "branscombe",
     "latitude": 50.683979,
     "longitude": -3.116856,
-    "vis_score": 0.19329189934452157,
+    "vis_score": 0.16798646636191764,
     "vis_rag": "Amber",
     "score_wind": 0.125,
     "score_rain": 0.0
@@ -1248,7 +1006,7 @@
     "location_name": "branscombe",
     "latitude": 50.683979,
     "longitude": -3.116856,
-    "vis_score": 0.18075876952364658,
+    "vis_score": 0.12896968108980486,
     "vis_rag": "Amber",
     "score_wind": 0.4375,
     "score_rain": 0.5
@@ -1259,7 +1017,7 @@
     "location_name": "bude",
     "latitude": 50.817853,
     "longitude": -4.560764,
-    "vis_score": 0.28484700189439494,
+    "vis_score": 0.2562412450861606,
     "vis_rag": "Amber",
     "score_wind": 0.0,
     "score_rain": 0.0
@@ -1270,7 +1028,7 @@
     "location_name": "bude",
     "latitude": 50.817853,
     "longitude": -4.560764,
-    "vis_score": 0.3504174550219879,
+    "vis_score": 0.31256039121882434,
     "vis_rag": "Red",
     "score_wind": 0.1875,
     "score_rain": 0.5
@@ -1281,7 +1039,7 @@
     "location_name": "dodman_point",
     "latitude": 50.222568,
     "longitude": -4.806776,
-    "vis_score": 0.24092387463810722,
+    "vis_score": 0.19701921682611362,
     "vis_rag": "Amber",
     "score_wind": 0.0,
     "score_rain": 0.0
@@ -1292,8 +1050,8 @@
     "location_name": "dodman_point",
     "latitude": 50.222568,
     "longitude": -4.806776,
-    "vis_score": 0.30171267968966786,
-    "vis_rag": "Red",
+    "vis_score": 0.23660138480834705,
+    "vis_rag": "Amber",
     "score_wind": 0.1875,
     "score_rain": 0.4375
   },
@@ -1303,7 +1061,7 @@
     "location_name": "falmouth",
     "latitude": 50.152573,
     "longitude": -5.06627,
-    "vis_score": 0.25541767694871975,
+    "vis_score": 0.1870590897065304,
     "vis_rag": "Amber",
     "score_wind": 0.0,
     "score_rain": 0.0
@@ -1314,8 +1072,8 @@
     "location_name": "falmouth",
     "latitude": 50.152573,
     "longitude": -5.06627,
-    "vis_score": 0.33604353358569744,
-    "vis_rag": "Red",
+    "vis_score": 0.23763800915277006,
+    "vis_rag": "Amber",
     "score_wind": 0.1875,
     "score_rain": 0.25
   },
@@ -1325,7 +1083,7 @@
     "location_name": "fishermans_cove",
     "latitude": 50.238151,
     "longitude": -5.371382,
-    "vis_score": 0.344550176015162,
+    "vis_score": 0.307459861300418,
     "vis_rag": "Red",
     "score_wind": 0.0,
     "score_rain": 0.0
@@ -1336,7 +1094,7 @@
     "location_name": "fishermans_cove",
     "latitude": 50.238151,
     "longitude": -5.371382,
-    "vis_score": 0.44185025146671486,
+    "vis_score": 0.39837724729478946,
     "vis_rag": "Red",
     "score_wind": 0.0,
     "score_rain": 0.25
@@ -1347,7 +1105,7 @@
     "location_name": "isle_portland",
     "latitude": 50.521858,
     "longitude": -2.44875,
-    "vis_score": 0.25207023303932385,
+    "vis_score": 0.21726666584220436,
     "vis_rag": "Amber",
     "score_wind": 0.1875,
     "score_rain": 0.0
@@ -1358,7 +1116,7 @@
     "location_name": "isle_portland",
     "latitude": 50.521858,
     "longitude": -2.44875,
-    "vis_score": 0.27308952468825326,
+    "vis_score": 0.214149804432142,
     "vis_rag": "Amber",
     "score_wind": 0.25,
     "score_rain": 0.3875
@@ -1369,7 +1127,7 @@
     "location_name": "lannacombe",
     "latitude": 50.221171,
     "longitude": -3.680452,
-    "vis_score": 0.16309585806390384,
+    "vis_score": 0.13690574526888388,
     "vis_rag": "Amber",
     "score_wind": 0.0,
     "score_rain": 0.0
@@ -1380,7 +1138,7 @@
     "location_name": "lannacombe",
     "latitude": 50.221171,
     "longitude": -3.680452,
-    "vis_score": 0.1901702748349245,
+    "vis_score": 0.14768581127064423,
     "vis_rag": "Amber",
     "score_wind": 0.1875,
     "score_rain": 0.5
@@ -1391,7 +1149,7 @@
     "location_name": "start_point",
     "latitude": 50.229288,
     "longitude": -3.65076,
-    "vis_score": 0.41476653524477813,
+    "vis_score": 0.37838700920884266,
     "vis_rag": "Red",
     "score_wind": 0.0,
     "score_rain": 0.0
@@ -1402,7 +1160,7 @@
     "location_name": "start_point",
     "latitude": 50.229288,
     "longitude": -3.65076,
-    "vis_score": 0.48689677079532484,
+    "vis_score": 0.43866821637065045,
     "vis_rag": "Red",
     "score_wind": 0.75,
     "score_rain": 0.5
@@ -1413,7 +1171,7 @@
     "location_name": "thurlestone",
     "latitude": 50.263044,
     "longitude": -3.870057,
-    "vis_score": 0.1830035024053036,
+    "vis_score": 0.14625468358016339,
     "vis_rag": "Amber",
     "score_wind": 0.0,
     "score_rain": 0.0
@@ -1424,7 +1182,7 @@
     "location_name": "thurlestone",
     "latitude": 50.263044,
     "longitude": -3.870057,
-    "vis_score": 0.23021684229566217,
+    "vis_score": 0.17403037858595372,
     "vis_rag": "Amber",
     "score_wind": 0.0625,
     "score_rain": 0.5
@@ -1435,7 +1193,7 @@
     "location_name": "towan_beach",
     "latitude": 50.157088,
     "longitude": -4.984155,
-    "vis_score": 0.2162551365090192,
+    "vis_score": 0.16340746256258692,
     "vis_rag": "Amber",
     "score_wind": 0.0,
     "score_rain": 0.0
@@ -1446,7 +1204,7 @@
     "location_name": "towan_beach",
     "latitude": 50.157088,
     "longitude": -4.984155,
-    "vis_score": 0.283678715929672,
+    "vis_score": 0.20566921213690903,
     "vis_rag": "Amber",
     "score_wind": 0.1875,
     "score_rain": 0.25
@@ -1457,7 +1215,7 @@
     "location_name": "berry_head",
     "latitude": 50.402568,
     "longitude": -3.481143,
-    "vis_score": 0.15066490797832827,
+    "vis_score": 0.13830693701586091,
     "vis_rag": "Amber",
     "score_wind": 0.25,
     "score_rain": 0.0
@@ -1468,7 +1226,7 @@
     "location_name": "berry_head",
     "latitude": 50.402568,
     "longitude": -3.481143,
-    "vis_score": 0.1870953659129345,
+    "vis_score": 0.15717175088116248,
     "vis_rag": "Amber",
     "score_wind": 0.0,
     "score_rain": 0.0
@@ -1479,7 +1237,7 @@
     "location_name": "branscombe",
     "latitude": 50.683979,
     "longitude": -3.116856,
-    "vis_score": 0.11824169081119472,
+    "vis_score": 0.11277003858736329,
     "vis_rag": "Amber",
     "score_wind": 0.0,
     "score_rain": 0.0
@@ -1490,7 +1248,7 @@
     "location_name": "branscombe",
     "latitude": 50.683979,
     "longitude": -3.116856,
-    "vis_score": 0.15323367946320549,
+    "vis_score": 0.1389759185705054,
     "vis_rag": "Amber",
     "score_wind": 0.0,
     "score_rain": 0.0
@@ -1501,7 +1259,7 @@
     "location_name": "bude",
     "latitude": 50.817853,
     "longitude": -4.560764,
-    "vis_score": 0.17544711031597854,
+    "vis_score": 0.1683332017784564,
     "vis_rag": "Amber",
     "score_wind": 0.0625,
     "score_rain": 0.0
@@ -1512,7 +1270,7 @@
     "location_name": "bude",
     "latitude": 50.817853,
     "longitude": -4.560764,
-    "vis_score": 0.22244309041571939,
+    "vis_score": 0.20485944938842615,
     "vis_rag": "Amber",
     "score_wind": 0.125,
     "score_rain": 0.0
@@ -1523,7 +1281,7 @@
     "location_name": "dodman_point",
     "latitude": 50.222568,
     "longitude": -4.806776,
-    "vis_score": 0.14604184156536826,
+    "vis_score": 0.13595538406612098,
     "vis_rag": "Amber",
     "score_wind": 0.25,
     "score_rain": 0.0
@@ -1534,7 +1292,7 @@
     "location_name": "dodman_point",
     "latitude": 50.222568,
     "longitude": -4.806776,
-    "vis_score": 0.18132540608146955,
+    "vis_score": 0.1559541459924904,
     "vis_rag": "Amber",
     "score_wind": 0.0,
     "score_rain": 0.0
@@ -1545,7 +1303,7 @@
     "location_name": "falmouth",
     "latitude": 50.152573,
     "longitude": -5.06627,
-    "vis_score": 0.15406079607409012,
+    "vis_score": 0.1363641420470749,
     "vis_rag": "Amber",
     "score_wind": 0.3125,
     "score_rain": 0.0
@@ -1556,7 +1314,7 @@
     "location_name": "falmouth",
     "latitude": 50.152573,
     "longitude": -5.06627,
-    "vis_score": 0.18723781466268818,
+    "vis_score": 0.14665417206274933,
     "vis_rag": "Amber",
     "score_wind": 0.125,
     "score_rain": 0.0
@@ -1567,7 +1325,7 @@
     "location_name": "fishermans_cove",
     "latitude": 50.238151,
     "longitude": -5.371382,
-    "vis_score": 0.21498968357748643,
+    "vis_score": 0.20475420197973543,
     "vis_rag": "Amber",
     "score_wind": 0.5,
     "score_rain": 0.0
@@ -1578,7 +1336,7 @@
     "location_name": "fishermans_cove",
     "latitude": 50.238151,
     "longitude": -5.371382,
-    "vis_score": 0.2590033147137676,
+    "vis_score": 0.23487191009298047,
     "vis_rag": "Amber",
     "score_wind": 0.0,
     "score_rain": 0.0
@@ -1589,7 +1347,7 @@
     "location_name": "isle_portland",
     "latitude": 50.521858,
     "longitude": -2.44875,
-    "vis_score": 0.1524196273811279,
+    "vis_score": 0.14392221011239176,
     "vis_rag": "Amber",
     "score_wind": 0.0625,
     "score_rain": 0.0
@@ -1600,7 +1358,7 @@
     "location_name": "isle_portland",
     "latitude": 50.521858,
     "longitude": -2.44875,
-    "vis_score": 0.19963447192467296,
+    "vis_score": 0.17936001436546362,
     "vis_rag": "Amber",
     "score_wind": 0.0,
     "score_rain": 0.0
@@ -1611,7 +1369,7 @@
     "location_name": "lannacombe",
     "latitude": 50.221171,
     "longitude": -3.680452,
-    "vis_score": 0.09296007406405798,
+    "vis_score": 0.08716408079532717,
     "vis_rag": "Green",
     "score_wind": 0.0,
     "score_rain": 0.0
@@ -1622,7 +1380,7 @@
     "location_name": "lannacombe",
     "latitude": 50.221171,
     "longitude": -3.680452,
-    "vis_score": 0.12526083037466682,
+    "vis_score": 0.11050124436878159,
     "vis_rag": "Amber",
     "score_wind": 0.0,
     "score_rain": 0.0
@@ -1633,7 +1391,7 @@
     "location_name": "start_point",
     "latitude": 50.229288,
     "longitude": -3.65076,
-    "vis_score": 0.2714455863656818,
+    "vis_score": 0.26024329687957526,
     "vis_rag": "Amber",
     "score_wind": 0.5,
     "score_rain": 0.0
@@ -1644,8 +1402,8 @@
     "location_name": "start_point",
     "latitude": 50.229288,
     "longitude": -3.65076,
-    "vis_score": 0.3230490230828764,
-    "vis_rag": "Red",
+    "vis_score": 0.29824539850358345,
+    "vis_rag": "Amber",
     "score_wind": 0.0,
     "score_rain": 0.0
   },
@@ -1655,7 +1413,7 @@
     "location_name": "thurlestone",
     "latitude": 50.263044,
     "longitude": -3.870057,
-    "vis_score": 0.1135601379449951,
+    "vis_score": 0.10592249144931885,
     "vis_rag": "Amber",
     "score_wind": 0.25,
     "score_rain": 0.0
@@ -1666,7 +1424,7 @@
     "location_name": "thurlestone",
     "latitude": 50.263044,
     "longitude": -3.870057,
-    "vis_score": 0.13693450573217103,
+    "vis_score": 0.11639010741483548,
     "vis_rag": "Amber",
     "score_wind": 0.0,
     "score_rain": 0.0
@@ -1677,8 +1435,8 @@
     "location_name": "towan_beach",
     "latitude": 50.157088,
     "longitude": -4.984155,
-    "vis_score": 0.10728772958273419,
-    "vis_rag": "Amber",
+    "vis_score": 0.09458451071634591,
+    "vis_rag": "Green",
     "score_wind": 0.0,
     "score_rain": 0.0
   },
@@ -1688,7 +1446,7 @@
     "location_name": "towan_beach",
     "latitude": 50.157088,
     "longitude": -4.984155,
-    "vis_score": 0.1564715407304938,
+    "vis_score": 0.12615890539242147,
     "vis_rag": "Amber",
     "score_wind": 0.0,
     "score_rain": 0.0
@@ -1699,9 +1457,9 @@
     "location_name": "berry_head",
     "latitude": 50.402568,
     "longitude": -3.481143,
-    "vis_score": 0.12754460300295475,
+    "vis_score": 0.13349911085332317,
     "vis_rag": "Amber",
-    "score_wind": 0.375,
+    "score_wind": 0.5,
     "score_rain": 0.0
   },
   {
@@ -1710,7 +1468,7 @@
     "location_name": "berry_head",
     "latitude": 50.402568,
     "longitude": -3.481143,
-    "vis_score": 0.1333008973516364,
+    "vis_score": 0.13071515684407306,
     "vis_rag": "Amber",
     "score_wind": 0.25,
     "score_rain": 0.0
@@ -1721,7 +1479,7 @@
     "location_name": "branscombe",
     "latitude": 50.683979,
     "longitude": -3.116856,
-    "vis_score": 0.09792459206531504,
+    "vis_score": 0.09796677689683367,
     "vis_rag": "Green",
     "score_wind": 0.25,
     "score_rain": 0.0
@@ -1732,7 +1490,7 @@
     "location_name": "branscombe",
     "latitude": 50.683979,
     "longitude": -3.116856,
-    "vis_score": 0.09960011081521727,
+    "vis_score": 0.09886010283469016,
     "vis_rag": "Green",
     "score_wind": 0.1875,
     "score_rain": 0.0
@@ -1743,10 +1501,10 @@
     "location_name": "bude",
     "latitude": 50.817853,
     "longitude": -4.560764,
-    "vis_score": 0.12437539280591388,
+    "vis_score": 0.11849025730555425,
     "vis_rag": "Amber",
     "score_wind": 0.25,
-    "score_rain": 0.0
+    "score_rain": 0.25
   },
   {
     "date": "2025-12-14",
@@ -1754,10 +1512,10 @@
     "location_name": "bude",
     "latitude": 50.817853,
     "longitude": -4.560764,
-    "vis_score": 0.14027463313244762,
+    "vis_score": 0.13288071915908756,
     "vis_rag": "Amber",
-    "score_wind": 0.0,
-    "score_rain": 0.1875
+    "score_wind": 0.0625,
+    "score_rain": 0.0
   },
   {
     "date": "2025-12-14",
@@ -1765,10 +1523,10 @@
     "location_name": "dodman_point",
     "latitude": 50.222568,
     "longitude": -4.806776,
-    "vis_score": 0.12144951076986073,
+    "vis_score": 0.14872644764959064,
     "vis_rag": "Amber",
-    "score_wind": 0.25,
-    "score_rain": 0.0
+    "score_wind": 0.625,
+    "score_rain": 0.25
   },
   {
     "date": "2025-12-14",
@@ -1776,7 +1534,7 @@
     "location_name": "dodman_point",
     "latitude": 50.222568,
     "longitude": -4.806776,
-    "vis_score": 0.1296276159986113,
+    "vis_score": 0.1277275850311377,
     "vis_rag": "Amber",
     "score_wind": 0.25,
     "score_rain": 0.0
@@ -1787,10 +1545,10 @@
     "location_name": "falmouth",
     "latitude": 50.152573,
     "longitude": -5.06627,
-    "vis_score": 0.12629457076854633,
+    "vis_score": 0.14107262915929963,
     "vis_rag": "Amber",
-    "score_wind": 0.25,
-    "score_rain": 0.0
+    "score_wind": 0.375,
+    "score_rain": 0.25
   },
   {
     "date": "2025-12-14",
@@ -1798,7 +1556,7 @@
     "location_name": "falmouth",
     "latitude": 50.152573,
     "longitude": -5.06627,
-    "vis_score": 0.13669716892057668,
+    "vis_score": 0.13210234749086663,
     "vis_rag": "Amber",
     "score_wind": 0.25,
     "score_rain": 0.0
@@ -1809,10 +1567,10 @@
     "location_name": "fishermans_cove",
     "latitude": 50.238151,
     "longitude": -5.371382,
-    "vis_score": 0.2640994344045278,
+    "vis_score": 0.27980565691383635,
     "vis_rag": "Amber",
     "score_wind": 1.0,
-    "score_rain": 0.0
+    "score_rain": 0.45
   },
   {
     "date": "2025-12-14",
@@ -1820,7 +1578,7 @@
     "location_name": "fishermans_cove",
     "latitude": 50.238151,
     "longitude": -5.371382,
-    "vis_score": 0.22243094367198216,
+    "vis_score": 0.22043512525371095,
     "vis_rag": "Amber",
     "score_wind": 0.875,
     "score_rain": 0.0
@@ -1831,7 +1589,7 @@
     "location_name": "isle_portland",
     "latitude": 50.521858,
     "longitude": -2.44875,
-    "vis_score": 0.12187857195511881,
+    "vis_score": 0.12184199873824911,
     "vis_rag": "Amber",
     "score_wind": 0.25,
     "score_rain": 0.0
@@ -1842,7 +1600,7 @@
     "location_name": "isle_portland",
     "latitude": 50.521858,
     "longitude": -2.44875,
-    "vis_score": 0.13133417025381683,
+    "vis_score": 0.12976055583834595,
     "vis_rag": "Amber",
     "score_wind": 0.25,
     "score_rain": 0.0
@@ -1853,7 +1611,7 @@
     "location_name": "lannacombe",
     "latitude": 50.221171,
     "longitude": -3.680452,
-    "vis_score": 0.06172443496983035,
+    "vis_score": 0.061663852599540936,
     "vis_rag": "Green",
     "score_wind": 0.25,
     "score_rain": 0.0
@@ -1864,7 +1622,7 @@
     "location_name": "lannacombe",
     "latitude": 50.221171,
     "longitude": -3.680452,
-    "vis_score": 0.06690815293233482,
+    "vis_score": 0.06584840097503934,
     "vis_rag": "Green",
     "score_wind": 0.0,
     "score_rain": 0.0
@@ -1875,7 +1633,7 @@
     "location_name": "start_point",
     "latitude": 50.229288,
     "longitude": -3.65076,
-    "vis_score": 0.26595738107875166,
+    "vis_score": 0.26572922167349705,
     "vis_rag": "Amber",
     "score_wind": 1.0,
     "score_rain": 0.0
@@ -1886,7 +1644,7 @@
     "location_name": "start_point",
     "latitude": 50.229288,
     "longitude": -3.65076,
-    "vis_score": 0.24856679966069237,
+    "vis_score": 0.2458799422578454,
     "vis_rag": "Amber",
     "score_wind": 0.5,
     "score_rain": 0.0
@@ -1897,7 +1655,7 @@
     "location_name": "thurlestone",
     "latitude": 50.263044,
     "longitude": -3.870057,
-    "vis_score": 0.10673095621759107,
+    "vis_score": 0.10670890341210365,
     "vis_rag": "Amber",
     "score_wind": 0.25,
     "score_rain": 0.0
@@ -1908,7 +1666,7 @@
     "location_name": "thurlestone",
     "latitude": 50.263044,
     "longitude": -3.870057,
-    "vis_score": 0.10712031631826585,
+    "vis_score": 0.10599212971152241,
     "vis_rag": "Amber",
     "score_wind": 0.25,
     "score_rain": 0.0
@@ -1919,10 +1677,10 @@
     "location_name": "towan_beach",
     "latitude": 50.157088,
     "longitude": -4.984155,
-    "vis_score": 0.07738530628453336,
+    "vis_score": 0.08333025743950064,
     "vis_rag": "Green",
     "score_wind": 0.25,
-    "score_rain": 0.0
+    "score_rain": 0.25
   },
   {
     "date": "2025-12-14",
@@ -1930,7 +1688,7 @@
     "location_name": "towan_beach",
     "latitude": 50.157088,
     "longitude": -4.984155,
-    "vis_score": 0.07920143177741025,
+    "vis_score": 0.076454802493898,
     "vis_rag": "Green",
     "score_wind": 0.1875,
     "score_rain": 0.0
@@ -1941,10 +1699,10 @@
     "location_name": "berry_head",
     "latitude": 50.402568,
     "longitude": -3.481143,
-    "vis_score": 0.20165065575148275,
-    "vis_rag": "Amber",
-    "score_wind": 0.375,
-    "score_rain": 0.825
+    "vis_score": 0.31839845465367833,
+    "vis_rag": "Red",
+    "score_wind": 0.25,
+    "score_rain": 1.0
   },
   {
     "date": "2025-12-15",
@@ -1952,10 +1710,10 @@
     "location_name": "berry_head",
     "latitude": 50.402568,
     "longitude": -3.481143,
-    "vis_score": 0.13623839454883171,
+    "vis_score": 0.22564932867143556,
     "vis_rag": "Amber",
-    "score_wind": 0.25,
-    "score_rain": 0.1875
+    "score_wind": 0.5,
+    "score_rain": 1.0
   },
   {
     "date": "2025-12-15",
@@ -1963,10 +1721,10 @@
     "location_name": "branscombe",
     "latitude": 50.683979,
     "longitude": -3.116856,
-    "vis_score": 0.14702240202155895,
+    "vis_score": 0.22319205495600203,
     "vis_rag": "Amber",
-    "score_wind": 0.125,
-    "score_rain": 0.8125
+    "score_wind": 0.1875,
+    "score_rain": 0.9375
   },
   {
     "date": "2025-12-15",
@@ -1974,31 +1732,31 @@
     "location_name": "branscombe",
     "latitude": 50.683979,
     "longitude": -3.116856,
-    "vis_score": 0.09928574719965136,
-    "vis_rag": "Green",
-    "score_wind": 0.25,
-    "score_rain": 0.0
-  },
-  {
-    "date": "2025-12-15",
-    "period": "afternoon",
-    "location_name": "bude",
-    "latitude": 50.817853,
-    "longitude": -4.560764,
-    "vis_score": 0.2603122708485137,
+    "vis_score": 0.13581478076081416,
     "vis_rag": "Amber",
-    "score_wind": 0.0,
+    "score_wind": 0.25,
     "score_rain": 0.75
   },
   {
     "date": "2025-12-15",
+    "period": "afternoon",
+    "location_name": "bude",
+    "latitude": 50.817853,
+    "longitude": -4.560764,
+    "vis_score": 0.2536377735447782,
+    "vis_rag": "Amber",
+    "score_wind": 0.1875,
+    "score_rain": 0.8875
+  },
+  {
+    "date": "2025-12-15",
     "period": "morning",
     "location_name": "bude",
     "latitude": 50.817853,
     "longitude": -4.560764,
-    "vis_score": 0.19455103420886785,
+    "vis_score": 0.183225750440122,
     "vis_rag": "Amber",
-    "score_wind": 0.4375,
+    "score_wind": 0.125,
     "score_rain": 1.0
   },
   {
@@ -2007,43 +1765,43 @@
     "location_name": "dodman_point",
     "latitude": 50.222568,
     "longitude": -4.806776,
-    "vis_score": 0.24205325985251008,
-    "vis_rag": "Amber",
-    "score_wind": 0.375,
-    "score_rain": 0.7
-  },
-  {
-    "date": "2025-12-15",
-    "period": "morning",
-    "location_name": "dodman_point",
-    "latitude": 50.222568,
-    "longitude": -4.806776,
-    "vis_score": 0.15366859008928782,
-    "vis_rag": "Amber",
-    "score_wind": 0.25,
-    "score_rain": 0.75
-  },
-  {
-    "date": "2025-12-15",
-    "period": "afternoon",
-    "location_name": "falmouth",
-    "latitude": 50.152573,
-    "longitude": -5.06627,
-    "vis_score": 0.2955222018220253,
-    "vis_rag": "Amber",
-    "score_wind": 0.5,
+    "vis_score": 0.36209832992071916,
+    "vis_rag": "Red",
+    "score_wind": 0.4375,
     "score_rain": 0.6875
   },
   {
     "date": "2025-12-15",
     "period": "morning",
+    "location_name": "dodman_point",
+    "latitude": 50.222568,
+    "longitude": -4.806776,
+    "vis_score": 0.2619509160629426,
+    "vis_rag": "Amber",
+    "score_wind": 0.625,
+    "score_rain": 1.0
+  },
+  {
+    "date": "2025-12-15",
+    "period": "afternoon",
     "location_name": "falmouth",
     "latitude": 50.152573,
     "longitude": -5.06627,
-    "vis_score": 0.18187682598197324,
+    "vis_score": 0.33956419527484155,
+    "vis_rag": "Red",
+    "score_wind": 0.5,
+    "score_rain": 0.875
+  },
+  {
+    "date": "2025-12-15",
+    "period": "morning",
+    "location_name": "falmouth",
+    "latitude": 50.152573,
+    "longitude": -5.06627,
+    "vis_score": 0.22384765603196966,
     "vis_rag": "Amber",
     "score_wind": 0.4375,
-    "score_rain": 0.9375
+    "score_rain": 1.0
   },
   {
     "date": "2025-12-15",
@@ -2051,10 +1809,10 @@
     "location_name": "fishermans_cove",
     "latitude": 50.238151,
     "longitude": -5.371382,
-    "vis_score": 0.44999007680940994,
+    "vis_score": 0.4560198591052521,
     "vis_rag": "Red",
-    "score_wind": 0.125,
-    "score_rain": 0.75
+    "score_wind": 0.0,
+    "score_rain": 0.875
   },
   {
     "date": "2025-12-15",
@@ -2062,9 +1820,9 @@
     "location_name": "fishermans_cove",
     "latitude": 50.238151,
     "longitude": -5.371382,
-    "vis_score": 0.37046344189886793,
+    "vis_score": 0.40454139583787385,
     "vis_rag": "Red",
-    "score_wind": 0.875,
+    "score_wind": 0.625,
     "score_rain": 1.0
   },
   {
@@ -2073,7 +1831,7 @@
     "location_name": "isle_portland",
     "latitude": 50.521858,
     "longitude": -2.44875,
-    "vis_score": 0.13512292542352006,
+    "vis_score": 0.130570872058487,
     "vis_rag": "Amber",
     "score_wind": 0.25,
     "score_rain": 0.5
@@ -2095,10 +1853,10 @@
     "location_name": "lannacombe",
     "latitude": 50.221171,
     "longitude": -3.680452,
-    "vis_score": 0.15866288824686986,
+    "vis_score": 0.21905067774430026,
     "vis_rag": "Amber",
     "score_wind": 0.125,
-    "score_rain": 0.8125
+    "score_rain": 0.9375
   },
   {
     "date": "2025-12-15",
@@ -2106,10 +1864,10 @@
     "location_name": "lannacombe",
     "latitude": 50.221171,
     "longitude": -3.680452,
-    "vis_score": 0.08221650573451314,
-    "vis_rag": "Green",
-    "score_wind": 0.25,
-    "score_rain": 0.375
+    "vis_score": 0.12776775757136524,
+    "vis_rag": "Amber",
+    "score_wind": 0.1875,
+    "score_rain": 1.0
   },
   {
     "date": "2025-12-15",
@@ -2117,10 +1875,10 @@
     "location_name": "start_point",
     "latitude": 50.229288,
     "longitude": -3.65076,
-    "vis_score": 0.42313309696820345,
+    "vis_score": 0.4790271970970239,
     "vis_rag": "Red",
-    "score_wind": 0.625,
-    "score_rain": 0.8125
+    "score_wind": 0.75,
+    "score_rain": 0.9375
   },
   {
     "date": "2025-12-15",
@@ -2128,10 +1886,10 @@
     "location_name": "start_point",
     "latitude": 50.229288,
     "longitude": -3.65076,
-    "vis_score": 0.32066300904937156,
+    "vis_score": 0.3646898706423212,
     "vis_rag": "Red",
-    "score_wind": 1.0,
-    "score_rain": 0.375
+    "score_wind": 0.875,
+    "score_rain": 1.0
   },
   {
     "date": "2025-12-15",
@@ -2139,7 +1897,7 @@
     "location_name": "thurlestone",
     "latitude": 50.263044,
     "longitude": -3.870057,
-    "vis_score": 0.2010921401968424,
+    "vis_score": 0.25839619431512806,
     "vis_rag": "Amber",
     "score_wind": 0.125,
     "score_rain": 0.9375
@@ -2150,10 +1908,10 @@
     "location_name": "thurlestone",
     "latitude": 50.263044,
     "longitude": -3.870057,
-    "vis_score": 0.12189377514088792,
+    "vis_score": 0.16896941722164247,
     "vis_rag": "Amber",
     "score_wind": 0.25,
-    "score_rain": 0.375
+    "score_rain": 1.0
   },
   {
     "date": "2025-12-15",
@@ -2161,10 +1919,10 @@
     "location_name": "towan_beach",
     "latitude": 50.157088,
     "longitude": -4.984155,
-    "vis_score": 0.247548042241386,
+    "vis_score": 0.2776759677484977,
     "vis_rag": "Amber",
     "score_wind": 0.5,
-    "score_rain": 0.75
+    "score_rain": 0.875
   },
   {
     "date": "2025-12-15",
@@ -2172,10 +1930,10 @@
     "location_name": "towan_beach",
     "latitude": 50.157088,
     "longitude": -4.984155,
-    "vis_score": 0.13621369479969966,
+    "vis_score": 0.16638831678050023,
     "vis_rag": "Amber",
     "score_wind": 0.25,
-    "score_rain": 0.9375
+    "score_rain": 1.0
   },
   {
     "date": "2025-12-16",
@@ -2183,7 +1941,7 @@
     "location_name": "berry_head",
     "latitude": 50.402568,
     "longitude": -3.481143,
-    "vis_score": 0.22821769561980954,
+    "vis_score": 0.2974284942368418,
     "vis_rag": "Amber",
     "score_wind": 0.0,
     "score_rain": 0.0
@@ -2194,64 +1952,64 @@
     "location_name": "berry_head",
     "latitude": 50.402568,
     "longitude": -3.481143,
-    "vis_score": 0.2550984625788603,
-    "vis_rag": "Amber",
+    "vis_score": 0.34359430591016266,
+    "vis_rag": "Red",
     "score_wind": 0.0625,
-    "score_rain": 0.375
-  },
-  {
-    "date": "2025-12-16",
-    "period": "afternoon",
-    "location_name": "branscombe",
-    "latitude": 50.683979,
-    "longitude": -3.116856,
-    "vis_score": 0.2520059091917294,
-    "vis_rag": "Amber",
-    "score_wind": 0.25,
-    "score_rain": 0.0
-  },
-  {
-    "date": "2025-12-16",
-    "period": "morning",
-    "location_name": "branscombe",
-    "latitude": 50.683979,
-    "longitude": -3.116856,
-    "vis_score": 0.2257554798297947,
-    "vis_rag": "Amber",
-    "score_wind": 0.5,
-    "score_rain": 0.5625
-  },
-  {
-    "date": "2025-12-16",
-    "period": "afternoon",
-    "location_name": "bude",
-    "latitude": 50.817853,
-    "longitude": -4.560764,
-    "vis_score": 0.21895630441488267,
-    "vis_rag": "Amber",
-    "score_wind": 0.0,
-    "score_rain": 0.0
-  },
-  {
-    "date": "2025-12-16",
-    "period": "morning",
-    "location_name": "bude",
-    "latitude": 50.817853,
-    "longitude": -4.560764,
-    "vis_score": 0.25587591082686834,
-    "vis_rag": "Amber",
-    "score_wind": 0.0,
     "score_rain": 0.125
   },
   {
     "date": "2025-12-16",
     "period": "afternoon",
+    "location_name": "branscombe",
+    "latitude": 50.683979,
+    "longitude": -3.116856,
+    "vis_score": 0.2713566722334544,
+    "vis_rag": "Amber",
+    "score_wind": 0.0,
+    "score_rain": 0.0
+  },
+  {
+    "date": "2025-12-16",
+    "period": "morning",
+    "location_name": "branscombe",
+    "latitude": 50.683979,
+    "longitude": -3.116856,
+    "vis_score": 0.2878578444653976,
+    "vis_rag": "Amber",
+    "score_wind": 0.5,
+    "score_rain": 0.1875
+  },
+  {
+    "date": "2025-12-16",
+    "period": "afternoon",
+    "location_name": "bude",
+    "latitude": 50.817853,
+    "longitude": -4.560764,
+    "vis_score": 0.22431455857612514,
+    "vis_rag": "Amber",
+    "score_wind": 0.0,
+    "score_rain": 0.0
+  },
+  {
+    "date": "2025-12-16",
+    "period": "morning",
+    "location_name": "bude",
+    "latitude": 50.817853,
+    "longitude": -4.560764,
+    "vis_score": 0.26027896674900824,
+    "vis_rag": "Amber",
+    "score_wind": 0.0,
+    "score_rain": 0.0
+  },
+  {
+    "date": "2025-12-16",
+    "period": "afternoon",
     "location_name": "dodman_point",
     "latitude": 50.222568,
     "longitude": -4.806776,
-    "vis_score": 0.26980509645013706,
-    "vis_rag": "Amber",
-    "score_wind": 0.125,
+    "vis_score": 0.33807807902162273,
+    "vis_rag": "Red",
+    "score_wind": 0.0,
     "score_rain": 0.0
   },
   {
@@ -2260,9 +2018,9 @@
     "location_name": "dodman_point",
     "latitude": 50.222568,
     "longitude": -4.806776,
-    "vis_score": 0.27538275410801777,
-    "vis_rag": "Amber",
-    "score_wind": 0.5,
+    "vis_score": 0.38047036533512124,
+    "vis_rag": "Red",
+    "score_wind": 0.375,
     "score_rain": 0.0
   },
   {
@@ -2271,9 +2029,9 @@
     "location_name": "falmouth",
     "latitude": 50.152573,
     "longitude": -5.06627,
-    "vis_score": 0.3133575428258639,
+    "vis_score": 0.3358289532374184,
     "vis_rag": "Red",
-    "score_wind": 0.125,
+    "score_wind": 0.0,
     "score_rain": 0.0
   },
   {
@@ -2282,9 +2040,9 @@
     "location_name": "falmouth",
     "latitude": 50.152573,
     "longitude": -5.06627,
-    "vis_score": 0.32514149961029887,
+    "vis_score": 0.3753674927828204,
     "vis_rag": "Red",
-    "score_wind": 0.5,
+    "score_wind": 0.375,
     "score_rain": 0.0
   },
   {
@@ -2293,7 +2051,7 @@
     "location_name": "fishermans_cove",
     "latitude": 50.238151,
     "longitude": -5.371382,
-    "vis_score": 0.344053940641003,
+    "vis_score": 0.391337864716638,
     "vis_rag": "Red",
     "score_wind": 0.0,
     "score_rain": 0.0
@@ -2304,76 +2062,76 @@
     "location_name": "fishermans_cove",
     "latitude": 50.238151,
     "longitude": -5.371382,
-    "vis_score": 0.40953022017508867,
+    "vis_score": 0.4374085209985572,
+    "vis_rag": "Red",
+    "score_wind": 0.0,
+    "score_rain": 0.375
+  },
+  {
+    "date": "2025-12-16",
+    "period": "afternoon",
+    "location_name": "isle_portland",
+    "latitude": 50.521858,
+    "longitude": -2.44875,
+    "vis_score": 0.23349846928241388,
+    "vis_rag": "Amber",
+    "score_wind": 0.5,
+    "score_rain": 0.0
+  },
+  {
+    "date": "2025-12-16",
+    "period": "morning",
+    "location_name": "isle_portland",
+    "latitude": 50.521858,
+    "longitude": -2.44875,
+    "vis_score": 0.20219200478196017,
+    "vis_rag": "Amber",
+    "score_wind": 0.6875,
+    "score_rain": 0.1875
+  },
+  {
+    "date": "2025-12-16",
+    "period": "afternoon",
+    "location_name": "lannacombe",
+    "latitude": 50.221171,
+    "longitude": -3.680452,
+    "vis_score": 0.21356091108477368,
+    "vis_rag": "Amber",
+    "score_wind": 0.0,
+    "score_rain": 0.0
+  },
+  {
+    "date": "2025-12-16",
+    "period": "morning",
+    "location_name": "lannacombe",
+    "latitude": 50.221171,
+    "longitude": -3.680452,
+    "vis_score": 0.24289774893135152,
+    "vis_rag": "Amber",
+    "score_wind": 0.125,
+    "score_rain": 0.0
+  },
+  {
+    "date": "2025-12-16",
+    "period": "afternoon",
+    "location_name": "start_point",
+    "latitude": 50.229288,
+    "longitude": -3.65076,
+    "vis_score": 0.4233483685359122,
     "vis_rag": "Red",
     "score_wind": 0.0,
     "score_rain": 0.0
   },
   {
     "date": "2025-12-16",
-    "period": "afternoon",
-    "location_name": "isle_portland",
-    "latitude": 50.521858,
-    "longitude": -2.44875,
-    "vis_score": 0.25768409826614097,
-    "vis_rag": "Amber",
-    "score_wind": 0.625,
-    "score_rain": 0.0
-  },
-  {
-    "date": "2025-12-16",
-    "period": "morning",
-    "location_name": "isle_portland",
-    "latitude": 50.521858,
-    "longitude": -2.44875,
-    "vis_score": 0.19593362866619632,
-    "vis_rag": "Amber",
-    "score_wind": 0.5,
-    "score_rain": 0.5
-  },
-  {
-    "date": "2025-12-16",
-    "period": "afternoon",
-    "location_name": "lannacombe",
-    "latitude": 50.221171,
-    "longitude": -3.680452,
-    "vis_score": 0.24111186710593183,
-    "vis_rag": "Amber",
-    "score_wind": 0.25,
-    "score_rain": 0.0
-  },
-  {
-    "date": "2025-12-16",
-    "period": "morning",
-    "location_name": "lannacombe",
-    "latitude": 50.221171,
-    "longitude": -3.680452,
-    "vis_score": 0.2206339679418179,
-    "vis_rag": "Amber",
-    "score_wind": 0.375,
-    "score_rain": 0.375
-  },
-  {
-    "date": "2025-12-16",
-    "period": "afternoon",
-    "location_name": "start_point",
-    "latitude": 50.229288,
-    "longitude": -3.65076,
-    "vis_score": 0.4442897973935511,
-    "vis_rag": "Red",
-    "score_wind": 0.25,
-    "score_rain": 0.0
-  },
-  {
-    "date": "2025-12-16",
     "period": "morning",
     "location_name": "start_point",
     "latitude": 50.229288,
     "longitude": -3.65076,
-    "vis_score": 0.4665699750947806,
+    "vis_score": 0.4922571272597906,
     "vis_rag": "Red",
-    "score_wind": 0.5,
-    "score_rain": 0.375
+    "score_wind": 0.25,
+    "score_rain": 0.0
   },
   {
     "date": "2025-12-16",
@@ -2381,9 +2139,9 @@
     "location_name": "thurlestone",
     "latitude": 50.263044,
     "longitude": -3.870057,
-    "vis_score": 0.27203643541599865,
+    "vis_score": 0.2505390796968109,
     "vis_rag": "Amber",
-    "score_wind": 0.25,
+    "score_wind": 0.0,
     "score_rain": 0.0
   },
   {
@@ -2392,10 +2150,10 @@
     "location_name": "thurlestone",
     "latitude": 50.263044,
     "longitude": -3.870057,
-    "vis_score": 0.25907779543397574,
+    "vis_score": 0.2843843946528821,
     "vis_rag": "Amber",
-    "score_wind": 0.375,
-    "score_rain": 0.375
+    "score_wind": 0.25,
+    "score_rain": 0.0
   },
   {
     "date": "2025-12-16",
@@ -2403,9 +2161,9 @@
     "location_name": "towan_beach",
     "latitude": 50.157088,
     "longitude": -4.984155,
-    "vis_score": 0.29597819651290286,
+    "vis_score": 0.28406284615613053,
     "vis_rag": "Amber",
-    "score_wind": 0.25,
+    "score_wind": 0.0,
     "score_rain": 0.0
   },
   {
@@ -2414,9 +2172,9 @@
     "location_name": "towan_beach",
     "latitude": 50.157088,
     "longitude": -4.984155,
-    "vis_score": 0.2894639132114216,
-    "vis_rag": "Amber",
-    "score_wind": 0.5,
+    "vis_score": 0.31815311239962774,
+    "vis_rag": "Red",
+    "score_wind": 0.25,
     "score_rain": 0.0
   },
   {
@@ -2425,10 +2183,10 @@
     "location_name": "berry_head",
     "latitude": 50.402568,
     "longitude": -3.481143,
-    "vis_score": 0.21304921312183261,
+    "vis_score": 0.2693753121464701,
     "vis_rag": "Amber",
     "score_wind": 0.25,
-    "score_rain": 0.5625
+    "score_rain": 0.75
   },
   {
     "date": "2025-12-17",
@@ -2436,7 +2194,7 @@
     "location_name": "berry_head",
     "latitude": 50.402568,
     "longitude": -3.481143,
-    "vis_score": 0.2026660706115243,
+    "vis_score": 0.25662043877324237,
     "vis_rag": "Amber",
     "score_wind": 0.1875,
     "score_rain": 0.0
@@ -2447,29 +2205,7 @@
     "location_name": "branscombe",
     "latitude": 50.683979,
     "longitude": -3.116856,
-    "vis_score": 0.2350122676885752,
-    "vis_rag": "Amber",
-    "score_wind": 0.25,
-    "score_rain": 0.5625
-  },
-  {
-    "date": "2025-12-17",
-    "period": "morning",
-    "location_name": "branscombe",
-    "latitude": 50.683979,
-    "longitude": -3.116856,
-    "vis_score": 0.2246240207032719,
-    "vis_rag": "Amber",
-    "score_wind": 0.0625,
-    "score_rain": 0.0
-  },
-  {
-    "date": "2025-12-17",
-    "period": "afternoon",
-    "location_name": "bude",
-    "latitude": 50.817853,
-    "longitude": -4.560764,
-    "vis_score": 0.20509202616709843,
+    "vis_score": 0.25376636476576653,
     "vis_rag": "Amber",
     "score_wind": 0.25,
     "score_rain": 0.75
@@ -2477,10 +2213,10 @@
   {
     "date": "2025-12-17",
     "period": "morning",
-    "location_name": "bude",
-    "latitude": 50.817853,
-    "longitude": -4.560764,
-    "vis_score": 0.18133240411215365,
+    "location_name": "branscombe",
+    "latitude": 50.683979,
+    "longitude": -3.116856,
+    "vis_score": 0.23270676616659314,
     "vis_rag": "Amber",
     "score_wind": 0.0625,
     "score_rain": 0.0
@@ -2488,10 +2224,10 @@
   {
     "date": "2025-12-17",
     "period": "afternoon",
-    "location_name": "dodman_point",
-    "latitude": 50.222568,
-    "longitude": -4.806776,
-    "vis_score": 0.2575128780508122,
+    "location_name": "bude",
+    "latitude": 50.817853,
+    "longitude": -4.560764,
+    "vis_score": 0.24536764626351004,
     "vis_rag": "Amber",
     "score_wind": 0.25,
     "score_rain": 0.875
@@ -2499,331 +2235,353 @@
   {
     "date": "2025-12-17",
     "period": "morning",
-    "location_name": "dodman_point",
-    "latitude": 50.222568,
-    "longitude": -4.806776,
-    "vis_score": 0.23036027249097002,
-    "vis_rag": "Amber",
-    "score_wind": 0.0625,
-    "score_rain": 0.0
-  },
-  {
-    "date": "2025-12-17",
-    "period": "afternoon",
-    "location_name": "falmouth",
-    "latitude": 50.152573,
-    "longitude": -5.06627,
-    "vis_score": 0.29278892156719916,
-    "vis_rag": "Amber",
-    "score_wind": 0.625,
-    "score_rain": 0.8125
-  },
-  {
-    "date": "2025-12-17",
-    "period": "morning",
-    "location_name": "falmouth",
-    "latitude": 50.152573,
-    "longitude": -5.06627,
-    "vis_score": 0.26549759372384074,
-    "vis_rag": "Amber",
-    "score_wind": 0.0625,
-    "score_rain": 0.0
-  },
-  {
-    "date": "2025-12-17",
-    "period": "afternoon",
-    "location_name": "fishermans_cove",
-    "latitude": 50.238151,
-    "longitude": -5.371382,
-    "vis_score": 0.35990101238159256,
-    "vis_rag": "Red",
-    "score_wind": 0.875,
-    "score_rain": 0.875
-  },
-  {
-    "date": "2025-12-17",
-    "period": "morning",
-    "location_name": "fishermans_cove",
-    "latitude": 50.238151,
-    "longitude": -5.371382,
-    "vis_score": 0.29477854296029543,
-    "vis_rag": "Amber",
-    "score_wind": 0.5,
-    "score_rain": 0.0
-  },
-  {
-    "date": "2025-12-17",
-    "period": "afternoon",
-    "location_name": "isle_portland",
-    "latitude": 50.521858,
-    "longitude": -2.44875,
-    "vis_score": 0.28384389304614627,
-    "vis_rag": "Amber",
-    "score_wind": 0.5,
-    "score_rain": 0.5625
-  },
-  {
-    "date": "2025-12-17",
-    "period": "morning",
-    "location_name": "isle_portland",
-    "latitude": 50.521858,
-    "longitude": -2.44875,
-    "vis_score": 0.25888875357273783,
+    "location_name": "bude",
+    "latitude": 50.817853,
+    "longitude": -4.560764,
+    "vis_score": 0.20087708567255058,
     "vis_rag": "Amber",
     "score_wind": 0.1875,
-    "score_rain": 0.0
+    "score_rain": 0.1875
   },
   {
     "date": "2025-12-17",
     "period": "afternoon",
-    "location_name": "lannacombe",
-    "latitude": 50.221171,
-    "longitude": -3.680452,
-    "vis_score": 0.23609979657642038,
-    "vis_rag": "Amber",
-    "score_wind": 0.25,
-    "score_rain": 0.75
-  },
-  {
-    "date": "2025-12-17",
-    "period": "morning",
-    "location_name": "lannacombe",
-    "latitude": 50.221171,
-    "longitude": -3.680452,
-    "vis_score": 0.21588004174195824,
-    "vis_rag": "Amber",
-    "score_wind": 0.0625,
-    "score_rain": 0.0
-  },
-  {
-    "date": "2025-12-17",
-    "period": "afternoon",
-    "location_name": "start_point",
-    "latitude": 50.229288,
-    "longitude": -3.65076,
-    "vis_score": 0.42845173313219,
-    "vis_rag": "Red",
-    "score_wind": 1.0,
-    "score_rain": 0.75
-  },
-  {
-    "date": "2025-12-17",
-    "period": "morning",
-    "location_name": "start_point",
-    "latitude": 50.229288,
-    "longitude": -3.65076,
-    "vis_score": 0.38626598651207983,
-    "vis_rag": "Red",
-    "score_wind": 0.375,
-    "score_rain": 0.0
-  },
-  {
-    "date": "2025-12-17",
-    "period": "afternoon",
-    "location_name": "thurlestone",
-    "latitude": 50.263044,
-    "longitude": -3.870057,
-    "vis_score": 0.25132804874277354,
-    "vis_rag": "Amber",
-    "score_wind": 0.25,
-    "score_rain": 0.75
-  },
-  {
-    "date": "2025-12-17",
-    "period": "morning",
-    "location_name": "thurlestone",
-    "latitude": 50.263044,
-    "longitude": -3.870057,
-    "vis_score": 0.23881389907488382,
-    "vis_rag": "Amber",
-    "score_wind": 0.0625,
-    "score_rain": 0.0
-  },
-  {
-    "date": "2025-12-17",
-    "period": "afternoon",
-    "location_name": "towan_beach",
-    "latitude": 50.157088,
-    "longitude": -4.984155,
-    "vis_score": 0.2790648939345469,
-    "vis_rag": "Amber",
-    "score_wind": 0.25,
-    "score_rain": 0.8125
-  },
-  {
-    "date": "2025-12-17",
-    "period": "morning",
-    "location_name": "towan_beach",
-    "latitude": 50.157088,
-    "longitude": -4.984155,
-    "vis_score": 0.2592225327499247,
-    "vis_rag": "Amber",
-    "score_wind": 0.0625,
-    "score_rain": 0.0
-  },
-  {
-    "date": "2025-12-18",
-    "period": "afternoon",
-    "location_name": "berry_head",
-    "latitude": 50.402568,
-    "longitude": -3.481143,
-    "vis_score": 0.3539019264615039,
-    "vis_rag": "Red",
-    "score_wind": 0.625,
-    "score_rain": 0.875
-  },
-  {
-    "date": "2025-12-18",
-    "period": "morning",
-    "location_name": "berry_head",
-    "latitude": 50.402568,
-    "longitude": -3.481143,
-    "vis_score": 0.27174684723922604,
-    "vis_rag": "Amber",
-    "score_wind": 0.25,
-    "score_rain": 0.875
-  },
-  {
-    "date": "2025-12-18",
-    "period": "afternoon",
-    "location_name": "branscombe",
-    "latitude": 50.683979,
-    "longitude": -3.116856,
-    "vis_score": 0.36346548466611567,
+    "location_name": "dodman_point",
+    "latitude": 50.222568,
+    "longitude": -4.806776,
+    "vis_score": 0.30184193054675473,
     "vis_rag": "Red",
     "score_wind": 0.25,
-    "score_rain": 0.9375
+    "score_rain": 0.7625
   },
   {
-    "date": "2025-12-18",
+    "date": "2025-12-17",
     "period": "morning",
-    "location_name": "branscombe",
-    "latitude": 50.683979,
-    "longitude": -3.116856,
-    "vis_score": 0.2942591992078549,
+    "location_name": "dodman_point",
+    "latitude": 50.222568,
+    "longitude": -4.806776,
+    "vis_score": 0.28738020776857626,
     "vis_rag": "Amber",
-    "score_wind": 0.25,
-    "score_rain": 0.875
+    "score_wind": 0.125,
+    "score_rain": 0.125
   },
   {
-    "date": "2025-12-18",
+    "date": "2025-12-17",
     "period": "afternoon",
-    "location_name": "bude",
-    "latitude": 50.817853,
-    "longitude": -4.560764,
-    "vis_score": 0.3309528643495779,
+    "location_name": "falmouth",
+    "latitude": 50.152573,
+    "longitude": -5.06627,
+    "vis_score": 0.31091231363516464,
     "vis_rag": "Red",
     "score_wind": 0.25,
     "score_rain": 0.825
   },
   {
-    "date": "2025-12-18",
+    "date": "2025-12-17",
     "period": "morning",
-    "location_name": "bude",
-    "latitude": 50.817853,
-    "longitude": -4.560764,
-    "vis_score": 0.2631220172740338,
+    "location_name": "falmouth",
+    "latitude": 50.152573,
+    "longitude": -5.06627,
+    "vis_score": 0.2885606625179109,
+    "vis_rag": "Amber",
+    "score_wind": 0.125,
+    "score_rain": 0.1875
+  },
+  {
+    "date": "2025-12-17",
+    "period": "afternoon",
+    "location_name": "fishermans_cove",
+    "latitude": 50.238151,
+    "longitude": -5.371382,
+    "vis_score": 0.4134870930313117,
+    "vis_rag": "Red",
+    "score_wind": 1.0,
+    "score_rain": 0.875
+  },
+  {
+    "date": "2025-12-17",
+    "period": "morning",
+    "location_name": "fishermans_cove",
+    "latitude": 50.238151,
+    "longitude": -5.371382,
+    "vis_score": 0.34142611690303737,
+    "vis_rag": "Red",
+    "score_wind": 0.5,
+    "score_rain": 0.1875
+  },
+  {
+    "date": "2025-12-17",
+    "period": "afternoon",
+    "location_name": "isle_portland",
+    "latitude": 50.521858,
+    "longitude": -2.44875,
+    "vis_score": 0.2661695206251514,
+    "vis_rag": "Amber",
+    "score_wind": 0.625,
+    "score_rain": 0.6875
+  },
+  {
+    "date": "2025-12-17",
+    "period": "morning",
+    "location_name": "isle_portland",
+    "latitude": 50.521858,
+    "longitude": -2.44875,
+    "vis_score": 0.223505667264004,
+    "vis_rag": "Amber",
+    "score_wind": 0.0625,
+    "score_rain": 0.0
+  },
+  {
+    "date": "2025-12-17",
+    "period": "afternoon",
+    "location_name": "lannacombe",
+    "latitude": 50.221171,
+    "longitude": -3.680452,
+    "vis_score": 0.2111997524002717,
     "vis_rag": "Amber",
     "score_wind": 0.25,
-    "score_rain": 0.875
+    "score_rain": 0.825
   },
   {
-    "date": "2025-12-18",
-    "period": "afternoon",
-    "location_name": "dodman_point",
-    "latitude": 50.222568,
-    "longitude": -4.806776,
-    "vis_score": 0.36956326436290415,
-    "vis_rag": "Red",
-    "score_wind": 0.25,
-    "score_rain": 0.6875
-  },
-  {
-    "date": "2025-12-18",
+    "date": "2025-12-17",
     "period": "morning",
-    "location_name": "dodman_point",
-    "latitude": 50.222568,
-    "longitude": -4.806776,
-    "vis_score": 0.31365058195452655,
-    "vis_rag": "Red",
-    "score_wind": 0.25,
-    "score_rain": 0.875
+    "location_name": "lannacombe",
+    "latitude": 50.221171,
+    "longitude": -3.680452,
+    "vis_score": 0.18128930253427247,
+    "vis_rag": "Amber",
+    "score_wind": 0.0625,
+    "score_rain": 0.0
   },
   {
-    "date": "2025-12-18",
+    "date": "2025-12-17",
     "period": "afternoon",
-    "location_name": "falmouth",
-    "latitude": 50.152573,
-    "longitude": -5.06627,
-    "vis_score": 0.4602162976397221,
+    "location_name": "start_point",
+    "latitude": 50.229288,
+    "longitude": -3.65076,
+    "vis_score": 0.4094199247215875,
     "vis_rag": "Red",
     "score_wind": 1.0,
-    "score_rain": 0.6875
+    "score_rain": 0.825
   },
   {
-    "date": "2025-12-18",
+    "date": "2025-12-17",
     "period": "morning",
-    "location_name": "falmouth",
-    "latitude": 50.152573,
-    "longitude": -5.06627,
-    "vis_score": 0.3660831624338976,
+    "location_name": "start_point",
+    "latitude": 50.229288,
+    "longitude": -3.65076,
+    "vis_score": 0.3580782984607338,
     "vis_rag": "Red",
+    "score_wind": 0.375,
+    "score_rain": 0.0
+  },
+  {
+    "date": "2025-12-17",
+    "period": "afternoon",
+    "location_name": "thurlestone",
+    "latitude": 50.263044,
+    "longitude": -3.870057,
+    "vis_score": 0.2315646596317513,
+    "vis_rag": "Amber",
     "score_wind": 0.25,
-    "score_rain": 0.9375
+    "score_rain": 0.825
+  },
+  {
+    "date": "2025-12-17",
+    "period": "morning",
+    "location_name": "thurlestone",
+    "latitude": 50.263044,
+    "longitude": -3.870057,
+    "vis_score": 0.20994932824112228,
+    "vis_rag": "Amber",
+    "score_wind": 0.0625,
+    "score_rain": 0.0
+  },
+  {
+    "date": "2025-12-17",
+    "period": "afternoon",
+    "location_name": "towan_beach",
+    "latitude": 50.157088,
+    "longitude": -4.984155,
+    "vis_score": 0.27544320643672393,
+    "vis_rag": "Amber",
+    "score_wind": 0.25,
+    "score_rain": 0.8125
+  },
+  {
+    "date": "2025-12-17",
+    "period": "morning",
+    "location_name": "towan_beach",
+    "latitude": 50.157088,
+    "longitude": -4.984155,
+    "vis_score": 0.2470289445315981,
+    "vis_rag": "Amber",
+    "score_wind": 0.125,
+    "score_rain": 0.125
   },
   {
     "date": "2025-12-18",
     "period": "afternoon",
-    "location_name": "fishermans_cove",
-    "latitude": 50.238151,
-    "longitude": -5.371382,
-    "vis_score": 0.5375155478137601,
-    "vis_rag": "Red",
-    "score_wind": 1.0,
-    "score_rain": 0.6875
-  },
-  {
-    "date": "2025-12-18",
-    "period": "morning",
-    "location_name": "fishermans_cove",
-    "latitude": 50.238151,
-    "longitude": -5.371382,
-    "vis_score": 0.4337982990042064,
+    "location_name": "berry_head",
+    "latitude": 50.402568,
+    "longitude": -3.481143,
+    "vis_score": 0.41651550363127526,
     "vis_rag": "Red",
     "score_wind": 0.75,
     "score_rain": 0.875
   },
   {
     "date": "2025-12-18",
-    "period": "afternoon",
-    "location_name": "isle_portland",
-    "latitude": 50.521858,
-    "longitude": -2.44875,
-    "vis_score": 0.4438940698964725,
+    "period": "morning",
+    "location_name": "berry_head",
+    "latitude": 50.402568,
+    "longitude": -3.481143,
+    "vis_score": 0.3261342758063283,
     "vis_rag": "Red",
-    "score_wind": 0.5,
-    "score_rain": 0.875
+    "score_wind": 0.375,
+    "score_rain": 1.0
   },
   {
     "date": "2025-12-18",
-    "period": "morning",
-    "location_name": "isle_portland",
-    "latitude": 50.521858,
-    "longitude": -2.44875,
-    "vis_score": 0.35257726158373137,
+    "period": "afternoon",
+    "location_name": "branscombe",
+    "latitude": 50.683979,
+    "longitude": -3.116856,
+    "vis_score": 0.38470526840583824,
     "vis_rag": "Red",
     "score_wind": 0.375,
     "score_rain": 0.875
   },
   {
     "date": "2025-12-18",
+    "period": "morning",
+    "location_name": "branscombe",
+    "latitude": 50.683979,
+    "longitude": -3.116856,
+    "vis_score": 0.3107153999735286,
+    "vis_rag": "Red",
+    "score_wind": 0.25,
+    "score_rain": 0.9375
+  },
+  {
+    "date": "2025-12-18",
+    "period": "afternoon",
+    "location_name": "bude",
+    "latitude": 50.817853,
+    "longitude": -4.560764,
+    "vis_score": 0.3839928684715354,
+    "vis_rag": "Red",
+    "score_wind": 0.25,
+    "score_rain": 0.8125
+  },
+  {
+    "date": "2025-12-18",
+    "period": "morning",
+    "location_name": "bude",
+    "latitude": 50.817853,
+    "longitude": -4.560764,
+    "vis_score": 0.31111750254944087,
+    "vis_rag": "Red",
+    "score_wind": 0.3125,
+    "score_rain": 0.95
+  },
+  {
+    "date": "2025-12-18",
+    "period": "afternoon",
+    "location_name": "dodman_point",
+    "latitude": 50.222568,
+    "longitude": -4.806776,
+    "vis_score": 0.39069106152696886,
+    "vis_rag": "Red",
+    "score_wind": 0.1875,
+    "score_rain": 0.6875
+  },
+  {
+    "date": "2025-12-18",
+    "period": "morning",
+    "location_name": "dodman_point",
+    "latitude": 50.222568,
+    "longitude": -4.806776,
+    "vis_score": 0.34859365511283225,
+    "vis_rag": "Red",
+    "score_wind": 0.25,
+    "score_rain": 1.0
+  },
+  {
+    "date": "2025-12-18",
+    "period": "afternoon",
+    "location_name": "falmouth",
+    "latitude": 50.152573,
+    "longitude": -5.06627,
+    "vis_score": 0.4373697638600215,
+    "vis_rag": "Red",
+    "score_wind": 0.875,
+    "score_rain": 0.6875
+  },
+  {
+    "date": "2025-12-18",
+    "period": "morning",
+    "location_name": "falmouth",
+    "latitude": 50.152573,
+    "longitude": -5.06627,
+    "vis_score": 0.35534698392379505,
+    "vis_rag": "Red",
+    "score_wind": 0.125,
+    "score_rain": 1.0
+  },
+  {
+    "date": "2025-12-18",
+    "period": "afternoon",
+    "location_name": "fishermans_cove",
+    "latitude": 50.238151,
+    "longitude": -5.371382,
+    "vis_score": 0.592171990134005,
+    "vis_rag": "Red",
+    "score_wind": 0.75,
+    "score_rain": 0.875
+  },
+  {
+    "date": "2025-12-18",
+    "period": "morning",
+    "location_name": "fishermans_cove",
+    "latitude": 50.238151,
+    "longitude": -5.371382,
+    "vis_score": 0.5079221393732898,
+    "vis_rag": "Red",
+    "score_wind": 0.75,
+    "score_rain": 1.0
+  },
+  {
+    "date": "2025-12-18",
+    "period": "afternoon",
+    "location_name": "isle_portland",
+    "latitude": 50.521858,
+    "longitude": -2.44875,
+    "vis_score": 0.48624376311226697,
+    "vis_rag": "Red",
+    "score_wind": 0.5,
+    "score_rain": 0.9375
+  },
+  {
+    "date": "2025-12-18",
+    "period": "morning",
+    "location_name": "isle_portland",
+    "latitude": 50.521858,
+    "longitude": -2.44875,
+    "vis_score": 0.3792555346754003,
+    "vis_rag": "Red",
+    "score_wind": 0.75,
+    "score_rain": 0.9375
+  },
+  {
+    "date": "2025-12-18",
     "period": "afternoon",
     "location_name": "lannacombe",
     "latitude": 50.221171,
     "longitude": -3.680452,
-    "vis_score": 0.3852078165666639,
+    "vis_score": 0.35832452770418216,
     "vis_rag": "Red",
-    "score_wind": 0.25,
+    "score_wind": 0.1875,
     "score_rain": 0.9375
   },
   {
@@ -2832,8 +2590,8 @@
     "location_name": "lannacombe",
     "latitude": 50.221171,
     "longitude": -3.680452,
-    "vis_score": 0.31536109087004505,
-    "vis_rag": "Red",
+    "vis_score": 0.2871432954210565,
+    "vis_rag": "Amber",
     "score_wind": 0.25,
     "score_rain": 1.0
   },
@@ -2843,7 +2601,7 @@
     "location_name": "start_point",
     "latitude": 50.229288,
     "longitude": -3.65076,
-    "vis_score": 0.6381405342192072,
+    "vis_score": 0.6168316438818643,
     "vis_rag": "Red",
     "score_wind": 1.0,
     "score_rain": 0.9375
@@ -2854,7 +2612,7 @@
     "location_name": "start_point",
     "latitude": 50.229288,
     "longitude": -3.65076,
-    "vis_score": 0.537586201839213,
+    "vis_score": 0.5144258388380917,
     "vis_rag": "Red",
     "score_wind": 1.0,
     "score_rain": 1.0
@@ -2865,7 +2623,7 @@
     "location_name": "thurlestone",
     "latitude": 50.263044,
     "longitude": -3.870057,
-    "vis_score": 0.38994242784625166,
+    "vis_score": 0.36800574193166496,
     "vis_rag": "Red",
     "score_wind": 0.25,
     "score_rain": 0.9375
@@ -2876,7 +2634,7 @@
     "location_name": "thurlestone",
     "latitude": 50.263044,
     "longitude": -3.870057,
-    "vis_score": 0.3243118632251526,
+    "vis_score": 0.3004368338217869,
     "vis_rag": "Red",
     "score_wind": 0.25,
     "score_rain": 1.0
@@ -2887,9 +2645,9 @@
     "location_name": "towan_beach",
     "latitude": 50.157088,
     "longitude": -4.984155,
-    "vis_score": 0.3937670692345786,
+    "vis_score": 0.39892723364285676,
     "vis_rag": "Red",
-    "score_wind": 0.625,
+    "score_wind": 0.5,
     "score_rain": 0.6875
   },
   {
@@ -2898,10 +2656,10 @@
     "location_name": "towan_beach",
     "latitude": 50.157088,
     "longitude": -4.984155,
-    "vis_score": 0.3293895288698862,
+    "vis_score": 0.3367502950127142,
     "vis_rag": "Red",
     "score_wind": 0.25,
-    "score_rain": 0.875
+    "score_rain": 1.0
   },
   {
     "date": "2025-12-19",
@@ -2909,9 +2667,9 @@
     "location_name": "berry_head",
     "latitude": 50.402568,
     "longitude": -3.481143,
-    "vis_score": 0.40410056976895636,
+    "vis_score": 0.4535560495720961,
     "vis_rag": "Red",
-    "score_wind": 0.5,
+    "score_wind": 0.5625,
     "score_rain": 0.0
   },
   {
@@ -2920,7 +2678,7 @@
     "location_name": "berry_head",
     "latitude": 50.402568,
     "longitude": -3.481143,
-    "vis_score": 0.4132738537903088,
+    "vis_score": 0.4627280129769202,
     "vis_rag": "Red",
     "score_wind": 0.75,
     "score_rain": 0.0
@@ -2931,7 +2689,7 @@
     "location_name": "branscombe",
     "latitude": 50.683979,
     "longitude": -3.116856,
-    "vis_score": 0.2911869805147806,
+    "vis_score": 0.2957888433268264,
     "vis_rag": "Amber",
     "score_wind": 0.0,
     "score_rain": 0.0
@@ -2942,9 +2700,9 @@
     "location_name": "branscombe",
     "latitude": 50.683979,
     "longitude": -3.116856,
-    "vis_score": 0.3535848416692563,
+    "vis_score": 0.36099303083413015,
     "vis_rag": "Red",
-    "score_wind": 0.0625,
+    "score_wind": 0.0,
     "score_rain": 0.0
   },
   {
@@ -2953,10 +2711,10 @@
     "location_name": "bude",
     "latitude": 50.817853,
     "longitude": -4.560764,
-    "vis_score": 0.28414375025435934,
-    "vis_rag": "Amber",
-    "score_wind": 0.0625,
-    "score_rain": 0.0
+    "vis_score": 0.33714344811724173,
+    "vis_rag": "Red",
+    "score_wind": 0.125,
+    "score_rain": 0.125
   },
   {
     "date": "2025-12-19",
@@ -2964,7 +2722,7 @@
     "location_name": "bude",
     "latitude": 50.817853,
     "longitude": -4.560764,
-    "vis_score": 0.32753961933239883,
+    "vis_score": 0.37262269965017614,
     "vis_rag": "Red",
     "score_wind": 0.1875,
     "score_rain": 0.0
@@ -2975,7 +2733,7 @@
     "location_name": "dodman_point",
     "latitude": 50.222568,
     "longitude": -4.806776,
-    "vis_score": 0.2764960163017858,
+    "vis_score": 0.27218562102497623,
     "vis_rag": "Amber",
     "score_wind": 0.0,
     "score_rain": 0.0
@@ -2986,9 +2744,9 @@
     "location_name": "dodman_point",
     "latitude": 50.222568,
     "longitude": -4.806776,
-    "vis_score": 0.3395620321031326,
+    "vis_score": 0.3400604252214303,
     "vis_rag": "Red",
-    "score_wind": 0.0625,
+    "score_wind": 0.0,
     "score_rain": 0.0
   },
   {
@@ -2997,7 +2755,7 @@
     "location_name": "falmouth",
     "latitude": 50.152573,
     "longitude": -5.06627,
-    "vis_score": 0.44231885312143554,
+    "vis_score": 0.4109318535899184,
     "vis_rag": "Red",
     "score_wind": 0.5,
     "score_rain": 0.0
@@ -3008,7 +2766,7 @@
     "location_name": "falmouth",
     "latitude": 50.152573,
     "longitude": -5.06627,
-    "vis_score": 0.471174591212287,
+    "vis_score": 0.43771236063393965,
     "vis_rag": "Red",
     "score_wind": 0.5,
     "score_rain": 0.0
@@ -3019,7 +2777,7 @@
     "location_name": "fishermans_cove",
     "latitude": 50.238151,
     "longitude": -5.371382,
-    "vis_score": 0.5125198425036678,
+    "vis_score": 0.5321994113336512,
     "vis_rag": "Red",
     "score_wind": 0.5,
     "score_rain": 0.0
@@ -3030,9 +2788,9 @@
     "location_name": "fishermans_cove",
     "latitude": 50.238151,
     "longitude": -5.371382,
-    "vis_score": 0.5502212334582234,
+    "vis_score": 0.5800909268119414,
     "vis_rag": "Red",
-    "score_wind": 0.625,
+    "score_wind": 0.5,
     "score_rain": 0.0
   },
   {
@@ -3041,7 +2799,7 @@
     "location_name": "isle_portland",
     "latitude": 50.521858,
     "longitude": -2.44875,
-    "vis_score": 0.3846283421239026,
+    "vis_score": 0.4264460935946281,
     "vis_rag": "Red",
     "score_wind": 0.25,
     "score_rain": 0.0
@@ -3052,7 +2810,7 @@
     "location_name": "isle_portland",
     "latitude": 50.521858,
     "longitude": -2.44875,
-    "vis_score": 0.4346102177214529,
+    "vis_score": 0.4795149499710294,
     "vis_rag": "Red",
     "score_wind": 0.25,
     "score_rain": 0.0
@@ -3063,8 +2821,8 @@
     "location_name": "lannacombe",
     "latitude": 50.221171,
     "longitude": -3.680452,
-    "vis_score": 0.30816073024739277,
-    "vis_rag": "Red",
+    "vis_score": 0.29432289537908196,
+    "vis_rag": "Amber",
     "score_wind": 0.0,
     "score_rain": 0.0
   },
@@ -3074,9 +2832,9 @@
     "location_name": "lannacombe",
     "latitude": 50.221171,
     "longitude": -3.680452,
-    "vis_score": 0.37324773243705484,
+    "vis_score": 0.3466934820604475,
     "vis_rag": "Red",
-    "score_wind": 0.0625,
+    "score_wind": 0.125,
     "score_rain": 0.0
   },
   {
@@ -3085,7 +2843,7 @@
     "location_name": "start_point",
     "latitude": 50.229288,
     "longitude": -3.65076,
-    "vis_score": 0.5882760043777279,
+    "vis_score": 0.5642356646021128,
     "vis_rag": "Red",
     "score_wind": 0.5,
     "score_rain": 0.0
@@ -3096,9 +2854,9 @@
     "location_name": "start_point",
     "latitude": 50.229288,
     "longitude": -3.65076,
-    "vis_score": 0.6479718431680075,
+    "vis_score": 0.6182320034798616,
     "vis_rag": "Red",
-    "score_wind": 0.625,
+    "score_wind": 0.5,
     "score_rain": 0.0
   },
   {
@@ -3107,76 +2865,76 @@
     "location_name": "thurlestone",
     "latitude": 50.263044,
     "longitude": -3.870057,
-    "vis_score": 0.3151215529398075,
+    "vis_score": 0.3041017466729126,
     "vis_rag": "Red",
+    "score_wind": 0.125,
+    "score_rain": 0.0
+  },
+  {
+    "date": "2025-12-19",
+    "period": "morning",
+    "location_name": "thurlestone",
+    "latitude": 50.263044,
+    "longitude": -3.870057,
+    "vis_score": 0.35755356137853495,
+    "vis_rag": "Red",
+    "score_wind": 0.0625,
+    "score_rain": 0.0
+  },
+  {
+    "date": "2025-12-19",
+    "period": "afternoon",
+    "location_name": "towan_beach",
+    "latitude": 50.157088,
+    "longitude": -4.984155,
+    "vis_score": 0.37149141508846506,
+    "vis_rag": "Red",
+    "score_wind": 0.25,
+    "score_rain": 0.0
+  },
+  {
+    "date": "2025-12-19",
+    "period": "morning",
+    "location_name": "towan_beach",
+    "latitude": 50.157088,
+    "longitude": -4.984155,
+    "vis_score": 0.40114306119846277,
+    "vis_rag": "Red",
+    "score_wind": 0.5,
+    "score_rain": 0.0
+  },
+  {
+    "date": "2025-12-20",
+    "period": "afternoon",
+    "location_name": "berry_head",
+    "latitude": 50.402568,
+    "longitude": -3.481143,
+    "vis_score": 0.43604416751945013,
+    "vis_rag": "Red",
+    "score_wind": 0.625,
+    "score_rain": 0.0
+  },
+  {
+    "date": "2025-12-20",
+    "period": "morning",
+    "location_name": "berry_head",
+    "latitude": 50.402568,
+    "longitude": -3.481143,
+    "vis_score": 0.4259702342861932,
+    "vis_rag": "Red",
+    "score_wind": 0.4375,
+    "score_rain": 0.375
+  },
+  {
+    "date": "2025-12-20",
+    "period": "afternoon",
+    "location_name": "branscombe",
+    "latitude": 50.683979,
+    "longitude": -3.116856,
+    "vis_score": 0.26560156904949617,
+    "vis_rag": "Amber",
     "score_wind": 0.0,
-    "score_rain": 0.0
-  },
-  {
-    "date": "2025-12-19",
-    "period": "morning",
-    "location_name": "thurlestone",
-    "latitude": 50.263044,
-    "longitude": -3.870057,
-    "vis_score": 0.3802047740979188,
-    "vis_rag": "Red",
-    "score_wind": 0.125,
-    "score_rain": 0.0
-  },
-  {
-    "date": "2025-12-19",
-    "period": "afternoon",
-    "location_name": "towan_beach",
-    "latitude": 50.157088,
-    "longitude": -4.984155,
-    "vis_score": 0.3925355668454178,
-    "vis_rag": "Red",
-    "score_wind": 0.375,
-    "score_rain": 0.0
-  },
-  {
-    "date": "2025-12-19",
-    "period": "morning",
-    "location_name": "towan_beach",
-    "latitude": 50.157088,
-    "longitude": -4.984155,
-    "vis_score": 0.4174022463824284,
-    "vis_rag": "Red",
-    "score_wind": 0.625,
-    "score_rain": 0.0
-  },
-  {
-    "date": "2025-12-20",
-    "period": "afternoon",
-    "location_name": "berry_head",
-    "latitude": 50.402568,
-    "longitude": -3.481143,
-    "vis_score": 0.3088867907433394,
-    "vis_rag": "Red",
-    "score_wind": 0.125,
-    "score_rain": 0.0
-  },
-  {
-    "date": "2025-12-20",
-    "period": "morning",
-    "location_name": "berry_head",
-    "latitude": 50.402568,
-    "longitude": -3.481143,
-    "vis_score": 0.3616615461291773,
-    "vis_rag": "Red",
-    "score_wind": 0.125,
-    "score_rain": 0.0
-  },
-  {
-    "date": "2025-12-20",
-    "period": "afternoon",
-    "location_name": "branscombe",
-    "latitude": 50.683979,
-    "longitude": -3.116856,
-    "vis_score": 0.18193598001866307,
-    "vis_rag": "Amber",
-    "score_wind": 0.0625,
-    "score_rain": 0.0
+    "score_rain": 0.375
   },
   {
     "date": "2025-12-20",
@@ -3184,10 +2942,10 @@
     "location_name": "branscombe",
     "latitude": 50.683979,
     "longitude": -3.116856,
-    "vis_score": 0.22986072190665086,
+    "vis_score": 0.2612204861102296,
     "vis_rag": "Amber",
-    "score_wind": 0.0625,
-    "score_rain": 0.0
+    "score_wind": 0.25,
+    "score_rain": 0.375
   },
   {
     "date": "2025-12-20",
@@ -3195,73 +2953,139 @@
     "location_name": "bude",
     "latitude": 50.817853,
     "longitude": -4.560764,
-    "vis_score": 0.211629020195799,
+    "vis_score": 0.3131633147117784,
+    "vis_rag": "Red",
+    "score_wind": 0.0,
+    "score_rain": 0.625
+  },
+  {
+    "date": "2025-12-20",
+    "period": "morning",
+    "location_name": "bude",
+    "latitude": 50.817853,
+    "longitude": -4.560764,
+    "vis_score": 0.30855380848338565,
+    "vis_rag": "Red",
+    "score_wind": 0.1875,
+    "score_rain": 0.4375
+  },
+  {
+    "date": "2025-12-20",
+    "period": "afternoon",
+    "location_name": "dodman_point",
+    "latitude": 50.222568,
+    "longitude": -4.806776,
+    "vis_score": 0.227688672348555,
     "vis_rag": "Amber",
-    "score_wind": 0.0625,
+    "score_wind": 0.0,
+    "score_rain": 0.0
+  },
+  {
+    "date": "2025-12-20",
+    "period": "morning",
+    "location_name": "dodman_point",
+    "latitude": 50.222568,
+    "longitude": -4.806776,
+    "vis_score": 0.2505036320359878,
+    "vis_rag": "Amber",
+    "score_wind": 0.1875,
     "score_rain": 0.5625
   },
   {
     "date": "2025-12-20",
-    "period": "morning",
-    "location_name": "bude",
-    "latitude": 50.817853,
-    "longitude": -4.560764,
-    "vis_score": 0.23045854696296642,
-    "vis_rag": "Amber",
-    "score_wind": 0.0,
+    "period": "afternoon",
+    "location_name": "falmouth",
+    "latitude": 50.152573,
+    "longitude": -5.06627,
+    "vis_score": 0.42929866389709515,
+    "vis_rag": "Red",
+    "score_wind": 0.5,
     "score_rain": 0.0
   },
   {
     "date": "2025-12-20",
+    "period": "morning",
+    "location_name": "falmouth",
+    "latitude": 50.152573,
+    "longitude": -5.06627,
+    "vis_score": 0.4284358888367269,
+    "vis_rag": "Red",
+    "score_wind": 0.75,
+    "score_rain": 0.5
+  },
+  {
+    "date": "2025-12-20",
     "period": "afternoon",
-    "location_name": "dodman_point",
-    "latitude": 50.222568,
-    "longitude": -4.806776,
-    "vis_score": 0.192036306959842,
-    "vis_rag": "Amber",
-    "score_wind": 0.0625,
+    "location_name": "fishermans_cove",
+    "latitude": 50.238151,
+    "longitude": -5.371382,
+    "vis_score": 0.5430105145688863,
+    "vis_rag": "Red",
+    "score_wind": 0.5,
     "score_rain": 0.5
   },
   {
     "date": "2025-12-20",
     "period": "morning",
-    "location_name": "dodman_point",
-    "latitude": 50.222568,
-    "longitude": -4.806776,
-    "vis_score": 0.21561471471895846,
-    "vis_rag": "Amber",
-    "score_wind": 0.0,
-    "score_rain": 0.0
+    "location_name": "fishermans_cove",
+    "latitude": 50.238151,
+    "longitude": -5.371382,
+    "vis_score": 0.532330860085431,
+    "vis_rag": "Red",
+    "score_wind": 0.875,
+    "score_rain": 0.5
   },
   {
     "date": "2025-12-20",
     "period": "afternoon",
-    "location_name": "falmouth",
-    "latitude": 50.152573,
-    "longitude": -5.06627,
-    "vis_score": 0.3374673682117775,
+    "location_name": "isle_portland",
+    "latitude": 50.521858,
+    "longitude": -2.44875,
+    "vis_score": 0.38251637268799504,
     "vis_rag": "Red",
-    "score_wind": 0.25,
-    "score_rain": 0.5625
+    "score_wind": 0.125,
+    "score_rain": 0.375
   },
   {
     "date": "2025-12-20",
     "period": "morning",
-    "location_name": "falmouth",
-    "latitude": 50.152573,
-    "longitude": -5.06627,
-    "vis_score": 0.38050281490039367,
+    "location_name": "isle_portland",
+    "latitude": 50.521858,
+    "longitude": -2.44875,
+    "vis_score": 0.3899829295452747,
     "vis_rag": "Red",
-    "score_wind": 0.0,
-    "score_rain": 0.0
+    "score_wind": 0.25,
+    "score_rain": 0.5
   },
   {
     "date": "2025-12-20",
     "period": "afternoon",
-    "location_name": "fishermans_cove",
-    "latitude": 50.238151,
-    "longitude": -5.371382,
-    "vis_score": 0.4443868070635428,
+    "location_name": "lannacombe",
+    "latitude": 50.221171,
+    "longitude": -3.680452,
+    "vis_score": 0.283708759089279,
+    "vis_rag": "Amber",
+    "score_wind": 0.0,
+    "score_rain": 0.375
+  },
+  {
+    "date": "2025-12-20",
+    "period": "morning",
+    "location_name": "lannacombe",
+    "latitude": 50.221171,
+    "longitude": -3.680452,
+    "vis_score": 0.27720927303803344,
+    "vis_rag": "Amber",
+    "score_wind": 0.1875,
+    "score_rain": 0.5625
+  },
+  {
+    "date": "2025-12-20",
+    "period": "afternoon",
+    "location_name": "start_point",
+    "latitude": 50.229288,
+    "longitude": -3.65076,
+    "vis_score": 0.5737677404189628,
     "vis_rag": "Red",
     "score_wind": 0.5,
     "score_rain": 0.375
@@ -3269,79 +3093,13 @@
   {
     "date": "2025-12-20",
     "period": "morning",
-    "location_name": "fishermans_cove",
-    "latitude": 50.238151,
-    "longitude": -5.371382,
-    "vis_score": 0.4713116675540606,
-    "vis_rag": "Red",
-    "score_wind": 0.5,
-    "score_rain": 0.0
-  },
-  {
-    "date": "2025-12-20",
-    "period": "afternoon",
-    "location_name": "isle_portland",
-    "latitude": 50.521858,
-    "longitude": -2.44875,
-    "vis_score": 0.27813049273418,
-    "vis_rag": "Amber",
-    "score_wind": 0.25,
-    "score_rain": 0.0
-  },
-  {
-    "date": "2025-12-20",
-    "period": "morning",
-    "location_name": "isle_portland",
-    "latitude": 50.521858,
-    "longitude": -2.44875,
-    "vis_score": 0.3307196185521699,
-    "vis_rag": "Red",
-    "score_wind": 0.25,
-    "score_rain": 0.0
-  },
-  {
-    "date": "2025-12-20",
-    "period": "afternoon",
-    "location_name": "lannacombe",
-    "latitude": 50.221171,
-    "longitude": -3.680452,
-    "vis_score": 0.1814048429316492,
-    "vis_rag": "Amber",
-    "score_wind": 0.0,
-    "score_rain": 0.0
-  },
-  {
-    "date": "2025-12-20",
-    "period": "morning",
-    "location_name": "lannacombe",
-    "latitude": 50.221171,
-    "longitude": -3.680452,
-    "vis_score": 0.242698471479441,
-    "vis_rag": "Amber",
-    "score_wind": 0.0,
-    "score_rain": 0.0
-  },
-  {
-    "date": "2025-12-20",
-    "period": "afternoon",
     "location_name": "start_point",
     "latitude": 50.229288,
     "longitude": -3.65076,
-    "vis_score": 0.46367123275068556,
+    "vis_score": 0.5635453794299273,
     "vis_rag": "Red",
-    "score_wind": 0.5,
-    "score_rain": 0.0
-  },
-  {
-    "date": "2025-12-20",
-    "period": "morning",
-    "location_name": "start_point",
-    "latitude": 50.229288,
-    "longitude": -3.65076,
-    "vis_score": 0.5258070118393781,
-    "vis_rag": "Red",
-    "score_wind": 0.5,
-    "score_rain": 0.0
+    "score_wind": 0.875,
+    "score_rain": 0.5625
   },
   {
     "date": "2025-12-20",
@@ -3349,10 +3107,10 @@
     "location_name": "thurlestone",
     "latitude": 50.263044,
     "longitude": -3.870057,
-    "vis_score": 0.1861526452874037,
+    "vis_score": 0.2999603097322678,
     "vis_rag": "Amber",
     "score_wind": 0.0,
-    "score_rain": 0.0
+    "score_rain": 0.375
   },
   {
     "date": "2025-12-20",
@@ -3360,10 +3118,10 @@
     "location_name": "thurlestone",
     "latitude": 50.263044,
     "longitude": -3.870057,
-    "vis_score": 0.2484018444223542,
+    "vis_score": 0.2908892154896152,
     "vis_rag": "Amber",
-    "score_wind": 0.0,
-    "score_rain": 0.0
+    "score_wind": 0.25,
+    "score_rain": 0.5625
   },
   {
     "date": "2025-12-20",
@@ -3371,20 +3129,31 @@
     "location_name": "towan_beach",
     "latitude": 50.157088,
     "longitude": -4.984155,
-    "vis_score": 0.29207838916322987,
-    "vis_rag": "Amber",
-    "score_wind": 0.0625,
+    "vis_score": 0.3468125240595984,
+    "vis_rag": "Red",
+    "score_wind": 0.5,
+    "score_rain": 0.0
+  },
+  {
+    "date": "2025-12-20",
+    "period": "morning",
+    "location_name": "towan_beach",
+    "latitude": 50.157088,
+    "longitude": -4.984155,
+    "vis_score": 0.3451632499968348,
+    "vis_rag": "Red",
+    "score_wind": 0.3125,
     "score_rain": 0.5
   },
   {
-    "date": "2025-12-20",
-    "period": "morning",
-    "location_name": "towan_beach",
-    "latitude": 50.157088,
-    "longitude": -4.984155,
-    "vis_score": 0.330043125561578,
+    "date": "2025-12-21",
+    "period": "afternoon",
+    "location_name": "berry_head",
+    "latitude": 50.402568,
+    "longitude": -3.481143,
+    "vis_score": 0.32052408387639253,
     "vis_rag": "Red",
-    "score_wind": 0.0,
+    "score_wind": 0.0625,
     "score_rain": 0.0
   },
   {
@@ -3393,7 +3162,18 @@
     "location_name": "berry_head",
     "latitude": 50.402568,
     "longitude": -3.481143,
-    "vis_score": 0.27873155656816656,
+    "vis_score": 0.3976272874248228,
+    "vis_rag": "Red",
+    "score_wind": 0.375,
+    "score_rain": 0.0
+  },
+  {
+    "date": "2025-12-21",
+    "period": "afternoon",
+    "location_name": "branscombe",
+    "latitude": 50.683979,
+    "longitude": -3.116856,
+    "vis_score": 0.19949890842042647,
     "vis_rag": "Amber",
     "score_wind": 0.5,
     "score_rain": 0.0
@@ -3404,7 +3184,18 @@
     "location_name": "branscombe",
     "latitude": 50.683979,
     "longitude": -3.116856,
-    "vis_score": 0.1483424434991678,
+    "vis_score": 0.215493657840625,
+    "vis_rag": "Amber",
+    "score_wind": 0.125,
+    "score_rain": 0.0
+  },
+  {
+    "date": "2025-12-21",
+    "period": "afternoon",
+    "location_name": "bude",
+    "latitude": 50.817853,
+    "longitude": -4.560764,
+    "vis_score": 0.22498115904200333,
     "vis_rag": "Amber",
     "score_wind": 0.0,
     "score_rain": 0.0
@@ -3415,9 +3206,20 @@
     "location_name": "bude",
     "latitude": 50.817853,
     "longitude": -4.560764,
-    "vis_score": 0.2064741448813254,
+    "vis_score": 0.288288021137466,
     "vis_rag": "Amber",
     "score_wind": 0.0,
+    "score_rain": 0.25
+  },
+  {
+    "date": "2025-12-21",
+    "period": "afternoon",
+    "location_name": "dodman_point",
+    "latitude": 50.222568,
+    "longitude": -4.806776,
+    "vis_score": 0.15314861353261927,
+    "vis_rag": "Amber",
+    "score_wind": 0.5,
     "score_rain": 0.0
   },
   {
@@ -3426,9 +3228,20 @@
     "location_name": "dodman_point",
     "latitude": 50.222568,
     "longitude": -4.806776,
-    "vis_score": 0.18235186614550902,
+    "vis_score": 0.17339209333344704,
     "vis_rag": "Amber",
     "score_wind": 0.0,
+    "score_rain": 0.0
+  },
+  {
+    "date": "2025-12-21",
+    "period": "afternoon",
+    "location_name": "falmouth",
+    "latitude": 50.152573,
+    "longitude": -5.06627,
+    "vis_score": 0.3602731203030562,
+    "vis_rag": "Red",
+    "score_wind": 0.5,
     "score_rain": 0.0
   },
   {
@@ -3437,10 +3250,21 @@
     "location_name": "falmouth",
     "latitude": 50.152573,
     "longitude": -5.06627,
-    "vis_score": 0.3428273979362016,
+    "vis_score": 0.3965159597303303,
     "vis_rag": "Red",
     "score_wind": 0.5,
     "score_rain": 0.0
+  },
+  {
+    "date": "2025-12-21",
+    "period": "afternoon",
+    "location_name": "fishermans_cove",
+    "latitude": 50.238151,
+    "longitude": -5.371382,
+    "vis_score": 0.49552419351020716,
+    "vis_rag": "Red",
+    "score_wind": 0.5,
+    "score_rain": 0.25
   },
   {
     "date": "2025-12-21",
@@ -3448,10 +3272,21 @@
     "location_name": "fishermans_cove",
     "latitude": 50.238151,
     "longitude": -5.371382,
-    "vis_score": 0.44432743285710186,
+    "vis_score": 0.5250072028561129,
     "vis_rag": "Red",
     "score_wind": 0.5,
-    "score_rain": 0.5
+    "score_rain": 0.375
+  },
+  {
+    "date": "2025-12-21",
+    "period": "afternoon",
+    "location_name": "isle_portland",
+    "latitude": 50.521858,
+    "longitude": -2.44875,
+    "vis_score": 0.23154092633070641,
+    "vis_rag": "Amber",
+    "score_wind": 0.125,
+    "score_rain": 0.0
   },
   {
     "date": "2025-12-21",
@@ -3459,9 +3294,20 @@
     "location_name": "isle_portland",
     "latitude": 50.521858,
     "longitude": -2.44875,
-    "vis_score": 0.2415257467795843,
-    "vis_rag": "Amber",
+    "vis_score": 0.3048012970444528,
+    "vis_rag": "Red",
     "score_wind": 0.0,
+    "score_rain": 0.0
+  },
+  {
+    "date": "2025-12-21",
+    "period": "afternoon",
+    "location_name": "lannacombe",
+    "latitude": 50.221171,
+    "longitude": -3.680452,
+    "vis_score": 0.2130849501930297,
+    "vis_rag": "Amber",
+    "score_wind": 0.5,
     "score_rain": 0.0
   },
   {
@@ -3470,9 +3316,20 @@
     "location_name": "lannacombe",
     "latitude": 50.221171,
     "longitude": -3.680452,
-    "vis_score": 0.1458622426391908,
+    "vis_score": 0.23219572945930167,
     "vis_rag": "Amber",
-    "score_wind": 0.0,
+    "score_wind": 0.125,
+    "score_rain": 0.0
+  },
+  {
+    "date": "2025-12-21",
+    "period": "afternoon",
+    "location_name": "start_point",
+    "latitude": 50.229288,
+    "longitude": -3.65076,
+    "vis_score": 0.4350881872326209,
+    "vis_rag": "Red",
+    "score_wind": 0.5,
     "score_rain": 0.0
   },
   {
@@ -3481,8 +3338,19 @@
     "location_name": "start_point",
     "latitude": 50.229288,
     "longitude": -3.65076,
-    "vis_score": 0.42541576942777737,
+    "vis_score": 0.5017552260396116,
     "vis_rag": "Red",
+    "score_wind": 0.375,
+    "score_rain": 0.0
+  },
+  {
+    "date": "2025-12-21",
+    "period": "afternoon",
+    "location_name": "thurlestone",
+    "latitude": 50.263044,
+    "longitude": -3.870057,
+    "vis_score": 0.21291396197798254,
+    "vis_rag": "Amber",
     "score_wind": 0.5,
     "score_rain": 0.0
   },
@@ -3492,9 +3360,20 @@
     "location_name": "thurlestone",
     "latitude": 50.263044,
     "longitude": -3.870057,
-    "vis_score": 0.15007774090859655,
+    "vis_score": 0.2433404204710674,
     "vis_rag": "Amber",
     "score_wind": 0.0,
+    "score_rain": 0.0
+  },
+  {
+    "date": "2025-12-21",
+    "period": "afternoon",
+    "location_name": "towan_beach",
+    "latitude": 50.157088,
+    "longitude": -4.984155,
+    "vis_score": 0.30147914354945937,
+    "vis_rag": "Red",
+    "score_wind": 0.5,
     "score_rain": 0.0
   },
   {
@@ -3503,9 +3382,130 @@
     "location_name": "towan_beach",
     "latitude": 50.157088,
     "longitude": -4.984155,
-    "vis_score": 0.27192032689784507,
+    "vis_score": 0.3249685932004345,
+    "vis_rag": "Red",
+    "score_wind": 0.5,
+    "score_rain": 0.0
+  },
+  {
+    "date": "2025-12-22",
+    "period": "morning",
+    "location_name": "berry_head",
+    "latitude": 50.402568,
+    "longitude": -3.481143,
+    "vis_score": 0.2773263046124261,
+    "vis_rag": "Amber",
+    "score_wind": 0.25,
+    "score_rain": 0.0
+  },
+  {
+    "date": "2025-12-22",
+    "period": "morning",
+    "location_name": "branscombe",
+    "latitude": 50.683979,
+    "longitude": -3.116856,
+    "vis_score": 0.1970485418675984,
+    "vis_rag": "Amber",
+    "score_wind": 0.5,
+    "score_rain": 0.0
+  },
+  {
+    "date": "2025-12-22",
+    "period": "morning",
+    "location_name": "bude",
+    "latitude": 50.817853,
+    "longitude": -4.560764,
+    "vis_score": 0.18553629985347417,
     "vis_rag": "Amber",
     "score_wind": 0.0,
+    "score_rain": 0.0
+  },
+  {
+    "date": "2025-12-22",
+    "period": "morning",
+    "location_name": "dodman_point",
+    "latitude": 50.222568,
+    "longitude": -4.806776,
+    "vis_score": 0.15476723350867244,
+    "vis_rag": "Amber",
+    "score_wind": 0.5,
+    "score_rain": 0.0
+  },
+  {
+    "date": "2025-12-22",
+    "period": "morning",
+    "location_name": "falmouth",
+    "latitude": 50.152573,
+    "longitude": -5.06627,
+    "vis_score": 0.33781992412352563,
+    "vis_rag": "Red",
+    "score_wind": 0.5,
+    "score_rain": 0.0
+  },
+  {
+    "date": "2025-12-22",
+    "period": "morning",
+    "location_name": "fishermans_cove",
+    "latitude": 50.238151,
+    "longitude": -5.371382,
+    "vis_score": 0.4601300559229383,
+    "vis_rag": "Red",
+    "score_wind": 0.5,
+    "score_rain": 0.0
+  },
+  {
+    "date": "2025-12-22",
+    "period": "morning",
+    "location_name": "isle_portland",
+    "latitude": 50.521858,
+    "longitude": -2.44875,
+    "vis_score": 0.21614643212392992,
+    "vis_rag": "Amber",
+    "score_wind": 1.0,
+    "score_rain": 0.0
+  },
+  {
+    "date": "2025-12-22",
+    "period": "morning",
+    "location_name": "lannacombe",
+    "latitude": 50.221171,
+    "longitude": -3.680452,
+    "vis_score": 0.20856405337961864,
+    "vis_rag": "Amber",
+    "score_wind": 0.5,
+    "score_rain": 0.0
+  },
+  {
+    "date": "2025-12-22",
+    "period": "morning",
+    "location_name": "start_point",
+    "latitude": 50.229288,
+    "longitude": -3.65076,
+    "vis_score": 0.3833322412439333,
+    "vis_rag": "Red",
+    "score_wind": 0.0,
+    "score_rain": 0.0
+  },
+  {
+    "date": "2025-12-22",
+    "period": "morning",
+    "location_name": "thurlestone",
+    "latitude": 50.263044,
+    "longitude": -3.870057,
+    "vis_score": 0.2071291551079409,
+    "vis_rag": "Amber",
+    "score_wind": 0.5,
+    "score_rain": 0.0
+  },
+  {
+    "date": "2025-12-22",
+    "period": "morning",
+    "location_name": "towan_beach",
+    "latitude": 50.157088,
+    "longitude": -4.984155,
+    "vis_score": 0.28753046830560525,
+    "vis_rag": "Amber",
+    "score_wind": 0.5,
     "score_rain": 0.0
   }
 ]
